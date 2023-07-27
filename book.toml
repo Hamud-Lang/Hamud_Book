@@ -1,0 +1,6 @@
+[book]
+authors = ["PJ568"]
+language = "zh"
+multilingual = false
+src = "src"
+title = "Hamud 语言之书"

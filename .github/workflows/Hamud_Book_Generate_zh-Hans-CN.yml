@@ -1,0 +1,72 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - '**'
+      - '!gh-pages'
+
+jobs:
+  build:
+    name: Build, Test and Deploy
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # To push a branch 
+      pull-requests: write  # To create a PR from that branch
+    steps:
+      - name: Build and Test
+      - uses: actions/checkout@v3
+        with:
+          ref: zh-Hans-CN
+      - uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+      - run: (test -x $HOME/.cargo/bin/mdbook || cargo install --vers "^0.4" mdbook)
+      - run: mdbook build && mdbook test
+      - run: |
+          echo '创建 tree/：'
+          mkdir /home/runner/tree
+          echo '复制 ./book/ 到 /home/runner/tree/zh-Hans-CN：'
+          cp -v -u -r ./zh-Hans-CN/book/ /home/runner/tree/zh-Hans-CN
+          echo '检查 tree/zh-Hans-CN：'
+          ls /home/runner/tree/zh-Hans-CN
+
+      - name: Merge
+      - uses: actions/checkout@v3
+        with:
+          ref: gh-pages
+        run: |
+          echo '如果存在则删除 ./zh-Hans-CN：'
+          if [ -d "./zh-Hans-CN/" ];then
+          rm -r ./zh-Hans-CN/
+          else
+          echo "文件夹不存在。"
+          fi;
+          echo '复制 /home/runner/tree/zh-Hans-CN/ 到 ./zh-Hans-CN/：'
+          cp -v -u -r /home/runner/tree/zh-Hans-CN/ ./zh-Hans-CN/
+          
+      - name: HTML/CSS/JS Minifier
+        uses: docker://devatherock/minify-js:2.0.0
+        with:
+          add_suffix: false     # Optional
+
+#      - name: Generate the sitemap
+#        id: sitemap
+#        uses: cicirello/generate-sitemap@v1
+#        with:
+#          base-url-path: https://***/
+
+#      - name: Output sitemap stats
+#        run: |
+#          echo "sitemap-path = ${{ steps.sitemap.outputs.sitemap-path }}"
+#          echo "url-count = ${{ steps.sitemap.outputs.url-count }}"
+#          echo "excluded-count = ${{ steps.sitemap.outputs.excluded-count }}"
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.7
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: . # The folder the action should deploy.
+
+#      - name: Ping Google
+#        run: curl https://www.google.com/ping?sitemap=https://***/sitemap.xml

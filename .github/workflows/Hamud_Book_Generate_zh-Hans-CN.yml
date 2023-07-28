@@ -26,7 +26,7 @@ jobs:
           echo '创建 tree/：'
           mkdir /home/runner/tree
           echo '复制 ./book/ 到 /home/runner/tree/zh-Hans-CN：'
-          cp -v -u -r ./zh-Hans-CN/book/ /home/runner/tree/zh-Hans-CN
+          cp -v -u -r ./book/ /home/runner/tree/zh-Hans-CN
           echo '检查 tree/zh-Hans-CN：'
           ls /home/runner/tree/zh-Hans-CN
 

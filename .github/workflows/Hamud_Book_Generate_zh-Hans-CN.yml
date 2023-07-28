@@ -31,11 +31,11 @@ jobs:
           echo '检查 tree/zh-Hans-CN：'
           ls /home/runner/tree/zh-Hans-CN
 
-      - name: Merge
+      - name: Run merge zh-Hans-CN and gh-pages
       - uses: actions/checkout@v3
         with:
           ref: gh-pages
-        run: |
+      - run: |
           echo '如果存在则删除 ./zh-Hans-CN：'
           if [ -d "./zh-Hans-CN/" ];then
           rm -r ./zh-Hans-CN/

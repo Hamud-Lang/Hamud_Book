@@ -11,6 +11,10 @@ site-url = "/zh-Hans-CN/"
 git-repository-url = "https://github.com/Hamud-Lang/Hamud_Book/tree/zh-Hans-CN"
 edit-url-template = "https://github.com/Hamud-Lang/Hamud_Book/edit/zh-Hans-CN/{path}"
 
+[output.html.fold]
+enable = true
+level = 0
+
 [preprocessor.index]
 
 [preprocessor.links]

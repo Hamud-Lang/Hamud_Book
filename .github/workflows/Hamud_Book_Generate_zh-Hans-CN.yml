@@ -17,6 +17,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: zh-Hans-CN
+          submodules: recursive
       - uses: actions-rs/toolchain@v1
         with:
           toolchain: stable

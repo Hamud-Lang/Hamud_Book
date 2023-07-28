@@ -35,6 +35,7 @@
 
 ---
 
+[关于《【人造语言】我用《哈姆》创造了一种语言…》视频](First_Video.md)
 [关于 Hamood Habibi 视频](Hamood_Habibi.md)
 
 ---

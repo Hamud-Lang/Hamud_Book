@@ -11,4 +11,4 @@
 穆罕默德·加勒姆
 （Muhammad Ghalum）
 * 事件
-    * 2007年3月4日：用户 `Tahloube S` 在油管（Youtube）网站上传了一个阿拉伯语儿歌动画视频 *[Hamood Habibi](Hamood_Habibi.md)* ，“ Hamood Habibi ”意为“我心爱的人”。（可在本站查看[原视频留档](https://)）
+    * 2007年3月4日：用户 `Tahloube S` 在油管（Youtube）网站上传了一个阿拉伯语儿歌动画视频 *[Hamood Habibi](Hamood_Habibi.md)* ，“ Hamood Habibi ”意为“我心爱的人”。

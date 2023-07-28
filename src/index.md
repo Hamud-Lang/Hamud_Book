@@ -1,6 +1,6 @@
 # 关于 Hamud
 
-哈姆语是一门起源于网络流行哽，语法基于道本语、词汇基于阿拉伯词源的人造语言。
+哈姆语是一门起源于网络流行哏，语法基于道本语、词汇基于阿拉伯词源的人造语言。
 
 哈姆语有趋于完善的语法和词汇，其背后拥有一套独特的世界观。
 
@@ -20,5 +20,4 @@
 ## 观看视频
 
 * [*Hamood Habibi* 原视频留档](Hamood_Habibi.md)
-* 《【人造语言】我用《哈姆》创造了一种语言…》
-<iframe src="//player.bilibili.com/player.html?aid=474480073&bvid=BV1XK411D7yY&cid=872394788&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+* [《【人造语言】我用《哈姆》创造了一种语言…》](First_Video.md)

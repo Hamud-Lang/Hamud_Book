@@ -4,6 +4,8 @@
 
 <iframe src="//player.bilibili.com/player.html?aid=474480073&bvid=BV1XK411D7yY&cid=872394788&page=1" width="100%" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
+- [原视频地址](https://www.bilibili.com/video/BV1XK411D7yY)
+
 ## 相关信息
 
 * 作者：

@@ -8,13 +8,12 @@ on:
 
 jobs:
   build:
-    name: Build, Test and Deploy
     runs-on: ubuntu-latest
-#    permissions:
-#      contents: write  # To push a branch 
-#      pull-requests: write  # To create a PR from that branch
+    permissions:
+      contents: write  # To push a branch 
+      pull-requests: write  # To create a PR from that branch
     steps:
-      - name: Build and Test
+      # Check
       - uses: actions/checkout@v3
         with:
           ref: zh-Hans-CN
@@ -31,7 +30,7 @@ jobs:
           echo '检查 tree/zh-Hans-CN：'
           ls /home/runner/tree/zh-Hans-CN
 
-      - name: Run merge zh-Hans-CN and gh-pages
+      # Run merge zh-Hans-CN and gh-pages
       - uses: actions/checkout@v3
         with:
           ref: gh-pages
@@ -45,8 +44,8 @@ jobs:
           echo '复制 /home/runner/tree/zh-Hans-CN/ 到 ./zh-Hans-CN/：'
           cp -v -u -r /home/runner/tree/zh-Hans-CN/ ./zh-Hans-CN/
           
-      - name: HTML/CSS/JS Minifier
-        uses: docker://devatherock/minify-js:2.0.0
+      # HTML/CSS/JS Minifier
+      - uses: docker://devatherock/minify-js:2.0.0
         with:
           add_suffix: false     # Optional
 
@@ -62,8 +61,8 @@ jobs:
 #          echo "url-count = ${{ steps.sitemap.outputs.url-count }}"
 #          echo "excluded-count = ${{ steps.sitemap.outputs.excluded-count }}"
 
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@4.1.7
+      # Deploy
+      - uses: JamesIves/github-pages-deploy-action@4.1.7
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: . # The folder the action should deploy.

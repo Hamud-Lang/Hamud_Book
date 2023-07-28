@@ -4,3 +4,16 @@ language = "zh"
 multilingual = false
 src = "src"
 title = "Hamud 语言之书"
+description = "Hamud 语言之书旨在为哈姆语言者提供标准范本。为学习哈姆语的人提供参考资料。"
+
+[output.html]
+site-url = "/zh-Hans-CN/"
+git-repository-url = "https://github.com/Hamud-Lang/Hamud_Book/tree/zh-Hans-CN"
+edit-url-template = "https://github.com/Hamud-Lang/Hamud_Book/edit/zh-Hans-CN/{path}"
+
+[preprocessor.index]
+
+[preprocessor.links]
+
+[output.html.search]
+limit-results = 15

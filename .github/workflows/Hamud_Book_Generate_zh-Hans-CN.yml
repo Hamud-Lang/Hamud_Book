@@ -1,4 +1,4 @@
-name: CI
+name: zh-Hans-CN_CI
 
 on:
   push:
@@ -27,6 +27,7 @@ jobs:
           echo '创建 tree/：'
           mkdir /home/runner/tree
           echo '复制 ./book/ 到 /home/runner/tree/zh-Hans-CN：'
+          ls ./book/
           cp -v -u -r ./book/ /home/runner/tree/zh-Hans-CN
           echo '检查 tree/zh-Hans-CN：'
           ls /home/runner/tree/zh-Hans-CN
@@ -44,6 +45,7 @@ jobs:
           fi;
           echo '复制 /home/runner/tree/zh-Hans-CN/ 到 ./zh-Hans-CN/：'
           cp -v -u -r /home/runner/tree/zh-Hans-CN/ ./zh-Hans-CN/
+          ls ./zh-Hans-CN/
           
       # HTML/CSS/JS Minifier
       - uses: docker://devatherock/minify-js:2.0.0

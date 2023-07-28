@@ -32,25 +32,26 @@ jobs:
           echo '检查 tree/zh-Hans-CN：'
           ls /home/runner/tree/zh-Hans-CN
 
+      # HTML/CSS/JS Minifier
+      - run: cd /home/runner/tree/zh-Hans-CN
+      - uses: docker://devatherock/minify-js:2.0.0
+        with:
+          add_suffix: false     # Optional
+
       # Run merge zh-Hans-CN and gh-pages
       - uses: actions/checkout@v3
         with:
           ref: gh-pages
       - run: |
-          echo '如果存在则删除 ./zh-Hans-CN：'
-          if [ -d "./zh-Hans-CN/" ];then
+          # echo '如果存在则删除 ./zh-Hans-CN：'
+          # if [ -d "./zh-Hans-CN/" ];then
           rm -r ./zh-Hans-CN/
-          else
-          echo "文件夹不存在。"
-          fi;
+          # else
+          # echo "文件夹不存在。"
+          # fi;
           echo '复制 /home/runner/tree/zh-Hans-CN/ 到 ./zh-Hans-CN/：'
           cp -v -u -r /home/runner/tree/zh-Hans-CN/ ./zh-Hans-CN/
           ls ./zh-Hans-CN/
-          
-      # HTML/CSS/JS Minifier
-      - uses: docker://devatherock/minify-js:2.0.0
-        with:
-          add_suffix: false     # Optional
 
 #      - name: Generate the sitemap
 #        id: sitemap

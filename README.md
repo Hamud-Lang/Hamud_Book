@@ -1,16 +1,16 @@
 <p align="center">
-    <img height="256" src='//Hamud.PJ568.eu.org/zh-Hans-CN/favicon.svg'/>
+    <img height="256" src='https://Hamud.PJ568.eu.org/zh-Hans-CN/favicon.svg'/>
 </p>
 
 > 🌏简体中文 | [English](./blob/en-US/README.md)
 
 > 🗃️[Github](https://github.com/Hamud-Lang/Hamud_Book/) | [Gitee]()
 
-# <img height="30" style="margin: -3px 5px;" src="//Hamud.PJ568.eu.org/zh-Hans-CN/favicon.svg"/>Hamud 语言之书
+# <img height="30" style="margin: -3px 5px;" src="https://Hamud.PJ568.eu.org/zh-Hans-CN/favicon.svg"/>Hamud 语言之书
 
 
 * 本项目旨在为哈姆语言者提供标准范本。为学习哈姆语的人提供参考资料。
-* [点击访问](//Hamud.PJ568.eu.org/index.html)
+* [点击访问](https://Hamud.PJ568.eu.org/index.html)
 
 ## 🪴项目活动
 

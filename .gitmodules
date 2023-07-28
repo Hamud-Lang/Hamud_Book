@@ -1,0 +1,4 @@
+[submodule "theme"]
+	path = theme
+	url = https://github.com/Hamud-Lang/Hamud_Book.git
+	branch = theme

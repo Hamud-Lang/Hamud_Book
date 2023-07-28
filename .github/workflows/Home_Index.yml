@@ -25,6 +25,12 @@ jobs:
           echo '检查 temp/：'
           ls /home/runner/temp/
 
+      - run: cd /home/runner/temp/
+      # HTML/CSS/JS Minifier
+      - uses: docker://devatherock/minify-js:2.0.0
+        with:
+          add_suffix: false     # Optional
+
       # Run merge home and gh-pages
       - uses: actions/checkout@v3
         with:
@@ -57,11 +63,6 @@ jobs:
           echo '复制 /home/runner/temp/404.html 到 ./404.html：'
           cp -v -u -r /home/runner/temp/404.html ./404.html
           
-      # HTML/CSS/JS Minifier
-      - uses: docker://devatherock/minify-js:2.0.0
-        with:
-          add_suffix: false     # Optional
-
 #      - name: Generate the sitemap
 #        id: sitemap
 #        uses: cicirello/generate-sitemap@v1

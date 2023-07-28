@@ -2,9 +2,9 @@
     <img height="256" src='https://Hamud.PJ568.eu.org/zh-Hans-CN/favicon.svg'/>
 </p>
 
-> 🌏简体中文 | [English](./blob/en-US/README.md)
+> 🌏简体中文 | [English](../en-US/About_Book.md)
 
-> 🗃️[Github](https://github.com/Hamud-Lang/Hamud_Book/)
+> 🗃️[Github](https://github.com/Hamud-Lang/Hamud_Book/) | [Gitee]()
 
 # <img height="30" style="margin: -3px 5px;" src="https://Hamud.PJ568.eu.org/zh-Hans-CN/favicon.svg"/>Hamud 语言之书
 

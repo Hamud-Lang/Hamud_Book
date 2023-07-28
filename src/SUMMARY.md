@@ -1,7 +1,7 @@
 # Summary
 
 [关于 Hamud](index.md)
-[关于 Hamud 语言之书]()
+[关于 Hamud 语言之书](About_Book.md)
 [关于 Hamud 论坛]()
 
 ---

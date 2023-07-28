@@ -1,0 +1,84 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - '**'
+      - '!gh-pages'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # To push a branch 
+      pull-requests: write  # To create a PR from that branch
+    steps:
+      # Check
+      - uses: actions/checkout@v3
+        with:
+          ref: home
+      - run: |
+          echo '创建 temp/：'
+          mkdir /home/runner/temp
+          echo '复制 ./* 到 /home/runner/temp/*：'
+          cp -v -u -r ./* /home/runner/temp/
+          echo '检查 temp/：'
+          ls /home/runner/temp/
+
+      # Run merge home and gh-pages
+      - uses: actions/checkout@v3
+        with:
+          ref: gh-pages
+      - run: |
+          echo '如果存在则删除 ./css：'
+          if [ -d "./css/" ];then
+          rm -r ./css/
+          else
+          echo "文件夹不存在。"
+          fi;
+          echo '复制 /home/runner/temp/css/ 到 ./css/：'
+          cp -v -u -r /home/runner/temp/css/ ./css/
+      - run: |
+          echo '如果存在则删除 ./index.html：'
+          if [ ! -f "./index.html" ];then
+          echo "文件不存在"
+          else
+          rm -d ./index.html
+          fi
+          echo '复制 /home/runner/temp/index.html 到 ./index.html：'
+          cp -v -u -r /home/runner/temp/index.html ./index.html
+      - run: |
+          echo '如果存在则删除 ./404.html：'
+          if [ ! -f "./404.html" ];then
+          echo "文件不存在"
+          else
+          rm -d ./404.html
+          fi
+          echo '复制 /home/runner/temp/404.html 到 ./404.html：'
+          cp -v -u -r /home/runner/temp/404.html ./404.html
+          
+      # HTML/CSS/JS Minifier
+      - uses: docker://devatherock/minify-js:2.0.0
+        with:
+          add_suffix: false     # Optional
+
+#      - name: Generate the sitemap
+#        id: sitemap
+#        uses: cicirello/generate-sitemap@v1
+#        with:
+#          base-url-path: https://***/
+
+#      - name: Output sitemap stats
+#        run: |
+#          echo "sitemap-path = ${{ steps.sitemap.outputs.sitemap-path }}"
+#          echo "url-count = ${{ steps.sitemap.outputs.url-count }}"
+#          echo "excluded-count = ${{ steps.sitemap.outputs.excluded-count }}"
+
+      # Deploy
+      - uses: JamesIves/github-pages-deploy-action@4.1.7
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: . # The folder the action should deploy.
+
+#      - name: Ping Google
+#        run: curl https://www.google.com/ping?sitemap=https://***/sitemap.xml

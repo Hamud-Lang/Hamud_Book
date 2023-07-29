@@ -1,5 +1,9 @@
 # 诗篇
 
+> 为尊重原作，此处不作任何翻译，完全保留原文。
+
+## 哈姆语版
+
 6:1 hamud? hamud. hamud!
 
 6:2 hamud habibi hamud, hamud habibi.

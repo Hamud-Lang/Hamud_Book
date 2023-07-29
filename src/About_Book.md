@@ -9,7 +9,7 @@
 # <img height="30" style="margin: -3px 5px;" src="https://Hamud.PJ568.eu.org/zh-Hans-CN/favicon.svg"/>Hamud 语言之书
 
 
-* 本项目旨在为哈姆语言提供标准范本。为学习哈姆语的人提供参考资料。
+* 本项目旨在为哈姆语提供标准范本。为学习哈姆语的人提供参考资料。
 * [点击访问](https://Hamud.PJ568.eu.org/index.html)
 
 ## 🪴项目活动

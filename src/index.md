@@ -14,7 +14,7 @@
 >
 > 不知道…先是给我永久封号…再是把我最新发的三个视频下架了😭去找客服问原因他们也说的模棱两可😭
 
-* 2022年10月26日：原哔哩哔哩网站用户 `@希腊火Onerio` 使用 [@烯烯Onerio](https://space.bilibili.com/3461580048042619) 用户名补档视频[《【人造语言】我用《哈姆》创造了一种语言…》](./First_Video.md)。
+* 2022年10月26日：原哔哩哔哩网站用户 `@希腊火Onerio` 使用 [@烯烯Onerio](https://space.bilibili.com/3461580048042619) 用户名补档视频[《【人造语言】我用《哈姆》创造了一种语言…》](./lib/First_Video.md)。
 * 后来：[@烯烯Onerio](https://space.bilibili.com/3461580048042619) 更名为 [@希腊火Onerio](https://space.bilibili.com/3461580048042619) 并活跃于 Hamud 社区。
 
 ## 观看视频

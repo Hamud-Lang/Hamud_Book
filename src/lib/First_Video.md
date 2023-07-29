@@ -2,7 +2,9 @@
 
 ## 原视频
 
-<iframe src="//player.bilibili.com/player.html?aid=474480073&bvid=BV1XK411D7yY&cid=872394788&page=1" width="100%" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<video controls height='100%' width='100%' src="//Test.PJ568.eu.org/video/First_Video.mp4"></video>
+
+<a href="//Test.PJ568.eu.org/video/First_Video.mp4" download="【人造语言】我用《哈姆》创造了一种语言….mp4">下载视频</a>
 
 - [原视频地址](https://www.bilibili.com/video/BV1XK411D7yY)
 

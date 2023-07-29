@@ -6,7 +6,7 @@
 
 ## 起源和发展
 
-* 2007年3月4日：用户 `Tahloube S` 在油管（Youtube）网站上传了一个阿拉伯语儿歌动画视频 *Hamood Habibi* ，“ Hamood Habibi ”意为“我心爱的人”。（可在本站查看[原视频留档](./Hamood_Habibi.md)）
+* 2007年3月4日：用户 `Tahloube S` 在油管（Youtube）网站上传了一个阿拉伯语儿歌动画视频 *Hamood Habibi* ，“ Hamood Habibi ”意为“我心爱的人”。（可在本站查看[原视频留档](./lib/Hamood_Habibi.md)）
 * 2022年10月13日：哔哩哔哩用户 `@希腊火Onerio` 在哔哩哔哩网站上传了第一个哈姆语视频，一周之内突破了 10 万播放量。
 * 2022年10月？日：哔哩哔哩网站用户 `@希腊火Onerio` 被（疑似）误封禁并自动下架了最新发布的三个视频。
 
@@ -19,5 +19,5 @@
 
 ## 观看视频
 
-* [*Hamood Habibi* 原视频留档](./Hamood_Habibi.md)
-* [《【人造语言】我用《哈姆》创造了一种语言…》](./First_Video.md)
+* [*Hamood Habibi* 原视频留档](./lib/Hamood_Habibi.md)
+* [《【人造语言】我用《哈姆》创造了一种语言…》](./lib/First_Video.md)

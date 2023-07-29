@@ -40,8 +40,9 @@
 
 # 文献
 
-- [资料]()
+- [资料](./Materials/index.md)
   - [《新标准哈姆语》](./Materials/New_Standard_Hamud.md)
+- [《哈经·姆约》]()
 
 ---
 

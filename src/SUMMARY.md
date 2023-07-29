@@ -1,8 +1,8 @@
 # Summary
 
-[关于 Hamud](./index.md)
-[关于 Hamud 语言之书](./About_Book.md)
-[关于 Hamud 论坛]()
+[关于哈姆语](./index.md)
+[关于哈姆语言之书](./About_Book.md)
+[关于哈姆语论坛]()
 
 ---
 
@@ -42,7 +42,7 @@
 ---
 
 [关于《【人造语言】我用《哈姆》创造了一种语言…》视频](./First_Video.md)
-[关于 Hamood Habibi 视频](./Hamood_Habibi.md)
+[关于 *Hamood Habibi* 视频](./Hamood_Habibi.md)
 
 ---
 

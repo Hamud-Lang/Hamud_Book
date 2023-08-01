@@ -69,4 +69,4 @@
 
 ---
 
-[贡献者名单](./contributors.md)
+[贡献者名单](./Contributors.md)

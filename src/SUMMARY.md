@@ -61,6 +61,9 @@
   - [姆约·木凌虚记](./Materials/Bible_Hamud/Record_murinsu.md)
   - [姆约·卡莫里卡记](./Materials/Bible_Hamud/Record_gamurig.md)
   - [姆约·佩帕罗尼记](./Materials/Bible_Hamud/Record_bebaron.md)
+  - [姆约· Trigonometry 记]()
+  <!-- - [姆约· PJ568 记](./Materials/Bible_Hamud/Record_PJ568.md) -->
+  - [姆约· PJ568 记]()
 
 ---
 

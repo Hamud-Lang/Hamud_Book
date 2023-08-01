@@ -10,6 +10,7 @@
 
 
 * 本项目旨在为哈姆语提供标准范本。为学习哈姆语的人提供参考资料。
+* 假若您对本项目感到满意，请在您的指尖星空[绘制一颗新的星🌟](https://github.com/Hamud-Lang/Hamud_Book)，指引我们继续砥砺前行。
 * [点击访问](https://Hamud.PJ568.eu.org/index.html)
 
 ## 🪴项目活动

@@ -62,7 +62,16 @@ jobs:
           fi
           echo '复制 /home/runner/temp/404.html 到 ./404.html：'
           cp -v -u -r /home/runner/temp/404.html ./404.html
-          
+      - run: |
+          echo '如果存在则删除 ./Community.html：'
+          if [ ! -f "./Community.html" ];then
+          echo "文件不存在"
+          else
+          rm -d ./Community.html
+          fi
+          echo '复制 /home/runner/temp/Community.html 到 ./Community.html：'
+          cp -v -u -r /home/runner/temp/Community.html ./Community.html
+
 #      - name: Generate the sitemap
 #        id: sitemap
 #        uses: cicirello/generate-sitemap@v1

@@ -2,7 +2,7 @@
 
 [关于哈姆语](./index.md)
 [关于哈姆语言之书](./About_Book.md)
-[关于哈姆语论坛](../Community.html)
+[关于哈姆论坛](./Community.md)
 
 ---
 

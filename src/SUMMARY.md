@@ -2,7 +2,7 @@
 
 [关于哈姆语](./index.md)
 [关于哈姆语言之书](./About_Book.md)
-[关于哈姆语论坛]()
+[关于哈姆语论坛](../Community.html)
 
 ---
 
@@ -63,7 +63,7 @@
   - [姆约·佩帕罗尼记](./Materials/Bible_Hamud/Record_bebaron.md)
   - [姆约· Trigonometry 记]()
   <!-- - [姆约· PJ568 记](./Materials/Bible_Hamud/Record_PJ568.md) -->
-  - [姆约· PJ568 记]()
+  <!-- - [姆约· PJ568 记]() -->
 
 ---
 

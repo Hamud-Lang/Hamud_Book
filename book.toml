@@ -8,6 +8,7 @@ description = "Hamud 语言之书旨在为哈姆语言者提供标准范本。�
 
 [output.html]
 site-url = "/zh-Hans-CN/"
+additional-js = ["assets/giscus.js"]
 git-repository-url = "https://github.com/Hamud-Lang/Hamud_Book/tree/zh-Hans-CN"
 edit-url-template = "https://github.com/Hamud-Lang/Hamud_Book/edit/zh-Hans-CN/{path}"
 

@@ -25,10 +25,10 @@ jobs:
           echo '检查 temp/：'
           ls /home/runner/temp/
 
-      - run: cd /home/runner/temp/
+      # - run: cd /home/runner/temp/
       # HTML/CSS/JS Minifier
-      - uses: docker://devatherock/minify-js:2.0.0
-        with:
+      # - uses: docker://devatherock/minify-js:2.0.0
+      #   with:
           add_suffix: false     # Optional
 
       # Run merge home and gh-pages

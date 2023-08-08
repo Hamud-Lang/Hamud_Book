@@ -12,4 +12,10 @@
 
 ## 哈姆语版
 
-*待补充*
+9:1 Bebaron HAMUD yarimasune-no HABIBI Hamud, GOMEGADMENENOAMA Bebaron HAMUD hamud a.
+
+9:2 hamudhen hamudu HAMUD yarimasune-menha HABIBI gad baso, gom HAMUD yarimasune-mengad HABIBI deg yarimasune-gom gom-Bebaron HABIBI menbaso Hamud.
+
+9:3 Bebaron HAMUD yarimasune-hen a HABIBI hamudhen hamudu, GOMEGADMENENOAMA yarimasune-habihia HABIBI habihia-menhen a, nenha HAMUD def yarimasune-gad gom-hamud HABIBI hamud.
+
+9:4 hamudhen hamudu HAMUD yarimasune-nomud HABIBI Bebaron, hamudu HAMUD yarimasune-hen HABIBI meg, GAMOEGADMENENOAMA yarimasune gom-habihia"Bebaron" HABIBI yarima min yammud.

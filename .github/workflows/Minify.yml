@@ -1,0 +1,46 @@
+name: Minify
+
+on:
+  push:
+    branches:
+      - 'gh-pages'
+
+jobs:
+  Release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # To push a branch 
+      pull-requests: write  # To create a PR from that branch
+    steps:
+      - name: Checkout gh-pages branch
+        uses: actions/checkout@v3
+        with:
+          ref: gh-pages
+          
+      - name: HTML/CSS/JS Minifier
+        uses: docker://devatherock/minify-js:2.0.0
+        with:
+          add_suffix: false     # Optional
+
+      # - name: Generate the sitemap
+      #   id: sitemap
+      #   uses: cicirello/generate-sitemap@v1
+      #   with:
+      #     base-url-path: https://***/
+
+      # - name: Output sitemap stats
+      #   run: |
+      #     echo "sitemap-path = ${{ steps.sitemap.outputs.sitemap-path }}"
+      #     echo "url-count = ${{ steps.sitemap.outputs.url-count }}"
+      #     echo "excluded-count = ${{ steps.sitemap.outputs.excluded-count }}"
+
+      - name: Push
+        run: |
+          git config --global user.name "PJ569-bot"
+          git config --global user.email "LiuTian-PJ568@PJ568.eu.org"
+          git add -A
+          git commit -m '自动 Release'
+          git push
+
+      # - name: Ping Google
+      #   run: curl https://www.google.com/ping?sitemap=https://***/sitemap.xml

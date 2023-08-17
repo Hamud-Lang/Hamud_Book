@@ -23,7 +23,7 @@
     - [数字与疑问](./Grammar/Words/Num&Query.md)
     - [语气词](./Grammar/Words/Exclamations.md)
     - [外来语哈姆化](./Grammar/Words/Extern.md)
-- [词语强化学习](./Words_Learning/index.md)
+- [强化学习](./Words_Learning/index.md)
   - [常用词表](./Words_Learning/List.md)
   - [词语练习题]()
 - [阅读理解]()
@@ -43,6 +43,9 @@
   - [由来]()
   - [对比]()
 - [希哈语]()
+  - [由来]()
+  - [对比]()
+- [德哈语]()
   - [由来]()
   - [对比]()
 

@@ -107,6 +107,15 @@
                             <li role="none"><button role="menuitem" class="theme" id="navy">海魂 - Navy</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="ayu">阿黑 - Ayu</button></li>
                         </ul>
+                        <button onclick="notGood()" class="icon-button" type="button" title="更改语言 - Change language" aria-label="Change language" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-globe"></i>
+                        </button>
+                        <script>
+                            function notGood()
+                            {
+                                alert("抱歉，此功能正在完善。\nSorry, the function is under construction.");
+                            }
+                        </script>
                         <button id="search-toggle" class="icon-button" type="button" title="搜索 - Search [S]" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
                             <i class="fa fa-search"></i>
                         </button>
@@ -115,7 +124,9 @@
                     <h1 class="menu-title">哈姆语言之书</h1>
 
                     <div class="right-buttons">
-                        <a href="/" title="返回主页 - Back home">🏠</a>
+                        <a href="/" title="返回主页 - Back home">
+                            <i class="fa fa-home"></i>
+                        </a>
                         <a href="../../print.html" title="打印本书 - Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
                         </a>

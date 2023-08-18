@@ -17,7 +17,6 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: home
-          submodules: recursive
       - run: |
           echo '创建 temp/：'
           mkdir /home/runner/temp
@@ -25,12 +24,6 @@ jobs:
           cp -v -u -r ./* /home/runner/temp/
           echo '检查 temp/：'
           ls /home/runner/temp/
-
-      # - run: cd /home/runner/temp/
-      # HTML/CSS/JS Minifier
-      # - uses: docker://devatherock/minify-js:2.0.0
-      #   with:
-          add_suffix: false     # Optional
 
       # Run merge home and gh-pages
       - uses: actions/checkout@v3

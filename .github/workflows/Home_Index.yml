@@ -71,6 +71,15 @@ jobs:
           fi
           echo '复制 /home/runner/temp/Community.html 到 ./Community.html：'
           cp -v -u -r /home/runner/temp/Community.html ./Community.html
+      - run: |
+          echo '如果存在则删除 ./Lang.html：'
+          if [ ! -f "./Lang.html" ];then
+          echo "文件不存在"
+          else
+          rm -d ./Lang.html
+          fi
+          echo '复制 /home/runner/temp/Lang.html 到 ./Lang.html：'
+          cp -v -u -r /home/runner/temp/Lang.html ./Lang.html
 
 #      - name: Generate the sitemap
 #        id: sitemap

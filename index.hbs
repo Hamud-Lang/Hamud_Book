@@ -130,8 +130,34 @@
                             <li role="none"><button role="menuitem" class="theme" id="navy">海魂 - Navy</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="ayu">阿黑 - Ayu</button></li>
                         </ul>
-                        <button onclick="window.location.href='/Lang.html'" class="icon-button" type="button" title="更改语言 - Change language" aria-label="Change language" aria-haspopup="true" aria-expanded="false">
+                        {{!-- <button onclick="window.location.href='/Lang.html'" class="icon-button" type="button" title="更改语言 - Change language" aria-label="Change language" aria-haspopup="true" aria-expanded="false">
                             <i class="fa fa-globe"></i>
+                        </button> --}}
+                        <script src="https://res.zvo.cn/translate/translate.js"></script>
+                        <script>
+                            try{
+                                translate.listener.start();
+                                translate.language.setLocal('chinese_simplified');
+                                translate.setAutoDiscriminateLocalLanguage();
+                                translate.language.setUrlParamControl();
+                            }
+                            catch(e){console.log(e);}
+                            translate.setUseVersion2();
+                            translate.execute();
+                        </script>
+                        <style>
+                            .translateSelectLanguage{
+                                z-index:10;
+                                width:100%;
+                                height:100%;
+                                opacity:0;
+                                cursor:pointer;
+                                position:absolute;
+                                left:0;
+                            }
+                        </style>
+                        <button class="icon-button" type="button" title="更改语言 - Change language" aria-label="Change language" aria-haspopup="true" aria-expanded="false">
+                            <i id="translate" class="fa fa-globe"></i>
                         </button>
                         {{#if search_enabled}}
                         <button id="search-toggle" class="icon-button" type="button" title="搜索 - Search [S]" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">

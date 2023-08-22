@@ -54,6 +54,15 @@
 
 本项目遵循 [Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) 许可协议。如果想了解完整许可信息，请查阅 `LICENSE` 文件。
 
+### 🗃️附属许可证
+
+* mdBook：[MPL-2.0 license](https://www.mozilla.org/en-US/MPL/2.0/)；
+  * [Github](https://github.com/rust-lang/mdBook/blob/master/LICENSE)；
+* translate：[Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)；
+  * [Github](https://github.com/xnx3/translate/blob/master/LICENSE)、[Gitee](https://gitee.com/mail_osc/translate/blob/master/LICENSE)；
+* giscus：[MIT license](https://mit-license.org/)；
+  * [Github](https://github.com/giscus/giscus/blob/main/LICENSE)。
+
 ## ⭐Star 历史
 
 ![Star History Chart](https://api.star-history.com/svg?repos=Hamud-Lang/Hamud_Book&type=Date)

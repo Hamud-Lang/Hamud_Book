@@ -171,10 +171,10 @@
 - `hamud HAMUD yarimasunebido yam-hamud HABIBI hamud.`
   - 哈姆用哈姆打哈姆。/哈姆和哈姆一起打哈姆。
 
-- `hamud HAMUD yarimasunegad nen-nenha HABIBI hamud`
+- `hamud HAMUD yarimasunegad nen-nenha HABIBI hamud.`
   - 哈姆曾经有一个哈姆。
 
-- `hamud HAMUD yarimasunehabiso no-Hamud`
+- `hamud HAMUD yarimasunehabiso no-Hamud.`
   - 哈姆在哈姆（地名）吃饭。
 
 ## 词性

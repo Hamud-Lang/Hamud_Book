@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Page not found - 哈姆语言之书</title>
+        <title class="notTranslate">Page not found - 哈姆语言之书</title>
         <base href="/zh-Hans-CN/">
 
 
@@ -118,6 +118,7 @@
                             }
                             catch(e){console.log(e);}
                             translate.setUseVersion2();
+                            translate.ignore.class.push('notTranslate');
                             translate.execute();
                         </script>
                         <style>
@@ -139,7 +140,7 @@
                         </button>
                     </div>
 
-                    <h1 class="menu-title">哈姆语言之书</h1>
+                    <h1 class="menu-title notTranslate">哈姆语言之书</h1>
 
                     <div class="right-buttons">
                         <a href="/" title="返回主页 - Back home">

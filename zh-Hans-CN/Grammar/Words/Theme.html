@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>主题 - 哈姆语言之书</title>
+        <title class="notTranslate">主题 - 哈姆语言之书</title>
 
 
         <!-- Custom HTML head -->
@@ -117,6 +117,7 @@
                             }
                             catch(e){console.log(e);}
                             translate.setUseVersion2();
+                            translate.ignore.class.push('notTranslate');
                             translate.execute();
                         </script>
                         <style>
@@ -138,7 +139,7 @@
                         </button>
                     </div>
 
-                    <h1 class="menu-title">哈姆语言之书</h1>
+                    <h1 class="menu-title notTranslate">哈姆语言之书</h1>
 
                     <div class="right-buttons">
                         <a href="/" title="返回主页 - Back home">

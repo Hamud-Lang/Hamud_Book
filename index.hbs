@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>{{ title }}</title>
+        <title class="notTranslate">{{ title }}</title>
         {{#if is_print }}
         <meta name="robots" content="noindex" />
         {{/if}}
@@ -143,6 +143,7 @@
                             }
                             catch(e){console.log(e);}
                             translate.setUseVersion2();
+                            translate.ignore.class.push('notTranslate');
                             translate.execute();
                         </script>
                         <style>
@@ -166,7 +167,7 @@
                         {{/if}}
                     </div>
 
-                    <h1 class="menu-title">{{ book_title }}</h1>
+                    <h1 class="menu-title notTranslate">{{ book_title }}</h1>
 
                     <div class="right-buttons">
                         <a href="/" title="返回主页 - Back home">

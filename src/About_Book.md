@@ -58,9 +58,13 @@
 
 * mdBook：[MPL-2.0 license](https://www.mozilla.org/en-US/MPL/2.0/)；
   * [Github](https://github.com/rust-lang/mdBook/blob/master/LICENSE)；
+* hack：[MIT license](https://mit-license.org)；
+  * [Github](https://github.com/egoist/hack/blob/master/LICENSE)；
+* Character_substitution：[Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)；
+  * [Github](https://github.com/Hamud-Lang/Character_substitution/LICENSE)、[Gitee](https://gitee.com/Hamud-Lang/Character_substitution/LICENSE)；
 * translate：[Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)；
   * [Github](https://github.com/xnx3/translate/blob/master/LICENSE)、[Gitee](https://gitee.com/mail_osc/translate/blob/master/LICENSE)；
-* giscus：[MIT license](https://mit-license.org/)；
+* giscus：[MIT license](https://mit-license.org)；
   * [Github](https://github.com/giscus/giscus/blob/main/LICENSE)。
 
 ## ⭐Star 历史

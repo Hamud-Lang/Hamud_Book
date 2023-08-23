@@ -1,0 +1,3 @@
+[submodule "Character_substitution"]
+	path = Character_substitution
+	url = https://github.com/Hamud-Lang/Character_substitution.git

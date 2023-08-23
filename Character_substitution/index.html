@@ -30,12 +30,12 @@
 			translate.execute();
 		</script>
 		<style>
-			#translate>.translateSelectLanguage {position:absolute;left:2rem;top:2rem;font-size:1rem;padding:0.3rem;padding-left:0.5rem;padding-right:0.5rem;border:1px solid #C9C9C9;background-color:#fff;color:#555}
+			#translate>.translateSelectLanguage {cursor:pointer;position:absolute;left:2rem;top:2rem;font-size:1rem;padding:0.3rem;padding-left:0.5rem;padding-right:0.5rem;border:1px solid #C9C9C9;background-color:#fff;color:#555}
 		</style>
 
 		<h1>字符替换</h1>
 		<fieldset class="form-group form-primary">
-			<label for="inputText">字符</label>
+			<label for="inputText">拉丁字母或符号</label>
 			<input id="inputText" type="text" placeholder="Hamud" class="form-control">
 			<div class="help-block">请输入拉丁字母或符号。</div>
 		</fieldset>
@@ -47,18 +47,23 @@
 				<th>Tri 式哈拉伯符号</th>
 			</tr>
 			<tr>
-				<td>输出</td>
-				<td id="onerioOutput">N/A</td>
-				<td id="triOutput">N/A</td>
+				<td>输出/输入</td>
+				<td contenteditable='true' id="onerioOutput">حامود</td>
+				<td contenteditable='true' id="triOutput">حامود</td>
 			</tr>
 		</table>
 
-		<button onclick="replaceChars()" class="btn btn-primary btn-ghost">替换</button>
-		<button onclick="copyContent('onerioOutput')" class="btn btn-error btn-ghost">复制 Onerio 式<font class="notTranslate">哈拉伯</font>符号</button>
-		<button onclick="copyContent('triOutput')" class="btn btn-error btn-ghost">复制 Tri 式<font class="notTranslate">哈拉伯</font>符号</button>
+		<button onclick="replaceChars()" class="btn btn-ghost btn-primary">拉丁字母 → <font class="notTranslate">哈拉伯</font>符号</button>
+		<button onclick="reverseonerioChars()" class="btn btn-ghost btn-primary"><font class="notTranslate">Onerio 式哈拉伯</font>符号 → 拉丁字母</button>
+		<button onclick="reversetriChars()" class="btn btn-ghost btn-default"><font class="notTranslate">Tri 式哈拉伯</font>符号 → 拉丁字母</button>
 		<br>
-		<button onclick="window.location.href='/'" class="btn btn-success btn-ghost"><font class="notTranslate">گاومحا اواراو نااونااون نااونحا</font> - 回到主页</button>
-		<button onclick="javascript:history.back(-1);" class="btn btn-success btn-ghost"><font class="notTranslate">گاومحا اواراو نااونااون نااونحا</font> - 返回</button>
+		<button onclick="copy('inputText')" class="btn btn-ghost btn-error">复制拉丁字母和符号</button>
+		<button onclick="copyContent('onerioOutput')" class="btn btn-ghost btn-error">复制 Onerio 式<font class="notTranslate">哈拉伯</font>符号</button>
+		<button onclick="copyContent('triOutput')" class="btn btn-ghost btn-error">复制 Tri 式<font class="notTranslate">哈拉伯</font>符号</button>
+		<button onclick="clearContent()" class="btn btn-ghost btn-error">清空</button>
+		<br>
+		<button onclick="window.location.href='/'" class="btn btn-ghost btn-success"><font class="notTranslate">گاومحا اواراو نااونااون نااونحا</font> - 回到主页</button>
+		<button onclick="javascript:history.back(-1);" class="btn btn-ghost btn-success"><font class="notTranslate">گاومحا اواراو نااونااون نااونحا</font> - 返回</button>
 
 		<table class="notTranslate">
 			<tr>
@@ -164,13 +169,14 @@
 			async>
 		</script>
 		
-		<button onclick="window.location.href='/'" class="btn btn-success btn-ghost"><font class="notTranslate">گاومحا اواراو نااونااون نااونحا</font> - 回到主页</button>
-		<button onclick="window.location.href='#'" class="btn btn-success btn-ghost"><font class="notTranslate">گاومحا اواراو نااونااون نااونحا</font> - 返回页顶</button>
-		<button onclick="javascript:history.back(-1);" class="btn btn-success btn-ghost"><font class="notTranslate">گاومحا اواراو نااونااون نااونحا</font> - 返回</button>
+		<button onclick="window.location.href='/'" class="btn btn-ghost btn-success"><font class="notTranslate">گاومحا اواراو نااونااون نااونحا</font> - 回到主页</button>
+		<button onclick="window.location.href='#'" class="btn btn-ghost btn-success"><font class="notTranslate">گاومحا اواراو نااونااون نااونحا</font> - 返回页顶</button>
+		<button onclick="javascript:history.back(-1);" class="btn btn-ghost btn-success"><font class="notTranslate">گاومحا اواراو نااونااون نااونحا</font> - 返回</button>
 
 		<footer class="footer"><a href="https://icp.gov.moe/?keyword=20230986" target="_blank">萌 ICP 备 20230986 号</a></footer>
 	</div>
 	<script>
+		function AA() {alert("请输入内容。\n請輸入內容。\nInput something please.\n:-)");}
 		function replaceChars() {
 			var inputText = document.getElementById("inputText").value.toLowerCase();
 			var outputOnerio = "";
@@ -221,7 +227,7 @@
 						if (inputText.charAt(i + 1) === "y") {
 							outputOnerio += "لو";
 							outputTri += "وٰ";
-							i++; // 跳过下一个字符
+							i++;
 						} else if (inputText.charAt(i + 1) === "w") {
 							outputOnerio += "لي";
 							outputTri += "يٰ";
@@ -231,8 +237,8 @@
 							outputTri += "ا";
 						}
 						break;
-					case "w":
 					case "u":
+					case "w":
 						outputOnerio += "و";
 						outputTri += "و";
 						break;
@@ -249,6 +255,15 @@
 						outputOnerio += "اي";
 						outputTri += "يٰ";
 						break;
+					case "<":
+						for (var num = 0; num < 200; num++) {
+							i++;
+							if (inputText.charAt(i) === ">") {
+								i++;
+								continue;
+							}
+						}
+						break;
 					default:
 						outputOnerio += char;
 						outputTri += char;
@@ -256,14 +271,28 @@
 					}
 				}
 				if (outputOnerio == "") {
-					alert("请输入内容。\n請輸入內容。\nInput something please.\n:-)")
+					AA();
 				} else {
 					document.getElementById("onerioOutput").innerHTML = outputOnerio;
 					document.getElementById("triOutput").innerHTML = outputTri;
 				}
 			}
 
-		function copyContent(id) {
+			function copy(id) {
+			// 获取输入函数的元素内容
+			var inputContent = document.getElementById(id).value;
+		
+			// 复制内容到剪贴板
+			navigator.clipboard.writeText(inputContent)
+			.then(function() {
+				console.log("内容已复制到剪贴板");
+			})
+			.catch(function(err) {
+				console.error("无法复制内容：", err);
+			});
+		}
+
+			function copyContent(id) {
 			// 获取输入函数的元素内容
 			var inputContent = document.getElementById(id).innerHTML;
 		
@@ -276,7 +305,174 @@
 				console.error("无法复制内容：", err);
 			});
 		}
+
+		function reverseonerioChars() {
+			var onerioText = document.getElementById("onerioOutput").innerHTML;
+			var outputText = "";
+
+			// 将Onerio转换回字母或符号
+			for (var i = 0; i < onerioText.length; i++) {
+				var char = onerioText.charAt(i);
+
+				switch (char) {
+					case "ح":
+						outputText += "h";
+						break;
+					case "م":
+						outputText += "m";
+						break;
+					case "د":
+						outputText += "d";
+						break;
+					case "خ":
+						outputText += "*";
+						break;
+					case "ب":
+						outputText += "b";
+						break;
+					case "گ":
+						outputText += "g";
+						break;
+					case "ن":
+						outputText += "n";
+						break;
+					case "ر":
+						outputText += "r";
+						break;
+					case "س":
+						outputText += "s";
+						break;
+					case "ا":
+						if (onerioText.charAt(i + 1) === "و") {
+							outputText += "o";
+							i++;
+						} else if (onerioText.charAt(i + 1) === "ي") {
+							outputText += "e";
+							i++;
+						} else {
+							outputText += "a";
+						}
+						break;
+					case "و":
+						outputText += "u";
+						break;
+					case "ي":
+						outputText += "i";
+						break;
+					case "ل":
+						if (onerioText.charAt(i + 1) === "و") {
+							outputText += "a";
+							outputText += "y";
+							i++;
+						} else if (onerioText.charAt(i + 1) === "ي") {
+							outputText += "a";
+							outputText += "w";
+							i++;
+						} else {
+							outputText += "[出错]";
+						}
+						break;
+					case "<":
+						for (var num = 0; num < 200; num++) {
+							i++;
+							if (onerioText.charAt(i) === ">") {
+								i++;
+								continue;
+							}
+						}
+						break;
+					default:
+						outputText += char;
+						break;
+				}
+			}
+			if (outputText == "<br>" || outputText == "") {
+				AA();
+			} else {
+			document.getElementById("inputText").value = outputText;
+			}
+		}
+
+		function reversetriChars() {
+			var triText = document.getElementById("triOutput").innerHTML;
+			var outputText = "";
+			alert("不可抗因素导致本功能有些许异常，请谨慎使用。\n不可抗因素導致本功能有些許異常，請謹慎使用。\nPlease notice that this feature is buggy.\n:-(");
+
+			// 将Tri转换回字母或符号
+			for (var i = 0; i < triText.length; i++) {
+				var char = triText.charAt(i);
+
+				switch (char) {
+					case "وٰ":
+						outputText += "o";
+						break;
+					case "يٰ":
+						outputText += "e";
+						break;
+					case "يٰ":
+						outputText += "ay";
+						break;
+					case "يٰ":
+						outputText += "ao";
+						break;
+					case "ح":
+						outputText += "h";
+						break;
+					case "م":
+						outputText += "m";
+						break;
+					case "د":
+						outputText += "d";
+						break;
+					case "چ":
+						outputText += "*";
+						break;
+					case "ب":
+						outputText += "b";
+						break;
+					case "ق":
+						outputText += "g";
+						break;
+					case "ن":
+						outputText += "n";
+						break;
+					case "ر":
+						outputText += "r";
+						break;
+					case "س":
+						outputText += "s";
+						break;
+					case "ا":
+						outputText += "a";
+						break;
+					case "و":
+						outputText += "u";
+						break;
+					case "ي":
+						outputText += "i";
+						break;
+					case "<":
+						for (var num = 0; num < 200; num++) {
+							i++;
+							if (triText.charAt(i) === ">") {
+								i++;
+								continue;
+							}
+						}
+						break;
+					default:
+						outputText += char;
+						break;
+				}
+			}
+			if (outputText == "<br>" || outputText == "") {
+				AA();
+			} else {
+			document.getElementById("inputText").value = outputText;
+			}
+		}
+
+		function clearContent() {document.getElementById("inputText").value = "";document.getElementById("triOutput").innerHTML = "";document.getElementById("onerioOutput").innerHTML = "";}
 	</script>
-		
 </body>
 </html>

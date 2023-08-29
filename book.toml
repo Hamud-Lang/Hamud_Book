@@ -4,7 +4,7 @@ language = "zh"
 multilingual = false
 src = "src"
 title = "哈姆语言之书"
-description = "Hamud 语言之书旨在为哈姆语言者提供标准范本。为学习哈姆语的人提供参考资料。"
+description = "哈姆语言之书旨在为哈姆语言者提供标准范本。为学习哈姆语的人提供参考资料。"
 
 [output.html]
 site-url = "/zh-Hans-CN/"

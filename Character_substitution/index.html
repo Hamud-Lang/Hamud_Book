@@ -30,7 +30,8 @@
 			translate.execute();
 		</script>
 		<style>
-			#translate>.translateSelectLanguage {cursor:pointer;position:absolute;left:2rem;top:2rem;font-size:1rem;padding:0.3rem;padding-left:0.5rem;padding-right:0.5rem;border:1px solid #C9C9C9;background-color:#fff;color:#555}
+			@media screen and (max-width: 980px){#translate>.translateSelectLanguage {cursor:pointer;position:absolute;left:1rem;top:1rem;font-size:.9rem;padding:0.3rem;padding-left:0.5rem;padding-right:0.5rem;border:1px solid #C9C9C9;background-color:#fff;color:#555;width:6rem}}
+			@media screen and (min-width: 980px){#translate>.translateSelectLanguage {cursor:pointer;position:absolute;left:2rem;top:2rem;font-size:1rem;padding:0.3rem;padding-left:0.5rem;padding-right:0.5rem;border:1px solid #C9C9C9;background-color:#fff;color:#555}}
 		</style>
 
 		<h1>字符替换</h1>
@@ -53,17 +54,23 @@
 			</tr>
 		</table>
 
-		<button onclick="replaceChars()" class="btn btn-ghost btn-primary">拉丁字母 → <font class="notTranslate">哈拉伯</font>符号</button>
-		<button onclick="reverseonerioChars()" class="btn btn-ghost btn-primary"><font class="notTranslate">Onerio 式哈拉伯</font>符号 → 拉丁字母</button>
-		<button onclick="reversetriChars()" class="btn btn-ghost btn-default"><font class="notTranslate">Tri 式哈拉伯</font>符号 → 拉丁字母</button>
-		<br>
-		<button onclick="copy('inputText')" class="btn btn-ghost btn-error">复制拉丁字母和符号</button>
-		<button onclick="copyContent('onerioOutput')" class="btn btn-ghost btn-error">复制 Onerio 式<font class="notTranslate">哈拉伯</font>符号</button>
-		<button onclick="copyContent('triOutput')" class="btn btn-ghost btn-error">复制 Tri 式<font class="notTranslate">哈拉伯</font>符号</button>
-		<button onclick="clearContent()" class="btn btn-ghost btn-error">清空</button>
-		<br>
-		<button onclick="window.location.href='/'" class="btn btn-ghost btn-success"><font class="notTranslate">حامود حامود ياريماسونايناينحا حابيبي ناين-ناينحا</font> - 回到主页</button>
-		<button onclick="javascript:history.back(-1);" class="btn btn-ghost btn-success"><font class="notTranslate">حامود حامود ياريماسونايناينحا حابيبي ناين-ناينحا</font> - 返回</button>
+		<div class="btn-group">
+			<button onclick="replaceChars()" class="btn btn-ghost btn-primary">拉丁字母 → <font class="notTranslate">哈拉伯</font>符号</button>
+			<button onclick="reverseonerioChars()" class="btn btn-ghost btn-primary"><font class="notTranslate">Onerio 式哈拉伯</font>符号 → 拉丁字母</button>
+			<button onclick="reversetriChars()" class="btn btn-ghost btn-default"><font class="notTranslate">Tri 式哈拉伯</font>符号 → 拉丁字母</button>
+		</div>
+		<br/>
+		<div class="btn-group">
+			<button onclick="copy('inputText')" class="btn btn-ghost btn-error">复制拉丁字母和符号</button>
+			<button onclick="copyContent('onerioOutput')" class="btn btn-ghost btn-error">复制 Onerio 式<font class="notTranslate">哈拉伯</font>符号</button>
+			<button onclick="copyContent('triOutput')" class="btn btn-ghost btn-error">复制 Tri 式<font class="notTranslate">哈拉伯</font>符号</button>
+			<button onclick="clearContent()" class="btn btn-ghost btn-error">清空</button>
+		</div>
+		<br/>
+		<div class="btn-group">
+			<button onclick="window.location.href='/'" class="btn btn-ghost btn-success"><font class="notTranslate">حامود حامود ياريماسونايناينحا حابيبي ناين-ناينحا</font> - 回到主页</button>
+			<button onclick="javascript:history.back(-1);" class="btn btn-ghost btn-success"><font class="notTranslate">حامود حامود ياريماسونايناينحا حابيبي ناين-ناينحا</font> - 返回</button>
+		</div>
 
 		<table class="notTranslate">
 			<tr>
@@ -168,10 +175,12 @@
 			crossorigin="anonymous"
 			async>
 		</script>
-		
-		<button onclick="window.location.href='/'" class="btn btn-ghost btn-success"><font class="notTranslate">حامود حامود ياريماسونايناينحا حابيبي ناين-ناينحا</font> - 回到主页</button>
-		<button onclick="window.location.href='#'" class="btn btn-ghost btn-success"><font class="notTranslate">حامود حامود ياريماسونايناينحا حابيبي ناين-ناينحا</font> - 返回页顶</button>
-		<button onclick="javascript:history.back(-1);" class="btn btn-ghost btn-success"><font class="notTranslate">حامود حامود ياريماسونايناينحا حابيبي ناين-ناينحا</font> - 返回</button>
+
+		<div class="btn-group">
+			<button onclick="window.location.href='/'" class="btn btn-ghost btn-success"><font class="notTranslate">حامود حامود ياريماسونايناينحا حابيبي ناين-ناينحا</font> - 回到主页</button>
+			<button onclick="window.location.href='#'" class="btn btn-ghost btn-success"><font class="notTranslate">حامود حامود ياريماسونايناينحا حابيبي ناين-ناينحا</font> - 返回页顶</button>
+			<button onclick="javascript:history.back(-1);" class="btn btn-ghost btn-success"><font class="notTranslate">حامود حامود ياريماسونايناينحا حابيبي ناين-ناينحا</font> - 返回</button>
+		</div>
 
 		<footer class="footer"><a href="https://icp.gov.moe/?keyword=20230986" target="_blank">萌 ICP 备 20230986 号</a></footer>
 	</div>

@@ -28,7 +28,8 @@
 			translate.execute();
 		</script>
 		<style>
-			#translate>.translateSelectLanguage {cursor:pointer;position:absolute;left:2rem;top:2rem;font-size:1rem;padding:0.3rem;padding-left:0.5rem;padding-right:0.5rem;border:1px solid #C9C9C9;background-color:#fff;color:#555}
+			@media screen and (max-width: 980px){#translate>.translateSelectLanguage {cursor:pointer;position:absolute;left:1rem;top:1rem;font-size:.9rem;padding:0.3rem;padding-left:0.5rem;padding-right:0.5rem;border:1px solid #C9C9C9;background-color:#fff;color:#555;width:6rem}}
+			@media screen and (min-width: 980px){#translate>.translateSelectLanguage {cursor:pointer;position:absolute;left:2rem;top:2rem;font-size:1rem;padding:0.3rem;padding-left:0.5rem;padding-right:0.5rem;border:1px solid #C9C9C9;background-color:#fff;color:#555}}
 		</style>
 
 		<a href="/"><p align="center"><img alt="Hamud language" src="./zh-Hans-CN/favicon.svg" width="40%" style="max-width:256px"></p></a>
@@ -50,11 +51,13 @@
 
 		<h2><font class="notTranslate">حامود ياريماسونايحابيحيا دايگ گاوممود حامود ياريماسونايحاين حبيبي حامود</font> - <font class="notTranslate">哈姆</font>应用程序</h2>
 		<p>点击可下载对应应用程序。</p>
-		<button onclick="window.location.href='//github.com/Hamud-Lang/Hamud_Book/releases/download/v0.0.0.0/Hamud_language_x64.msi'" class="btn btn-success btn-ghost notTranslate">Windows x86_64 .msi</button>
-		<button onclick="window.location.href='//github.com/Hamud-Lang/Hamud_Book/releases/download/v0.0.0.0/Hamud_language.dmg'" class="btn btn-success btn-ghost notTranslate">MacOS .dmg</button>
-		<button onclick="window.location.href='//github.com/Hamud-Lang/Hamud_Book/releases/download/v0.0.0.0/Hamud_language_x86_64.AppImage'" class="btn btn-success btn-ghost notTranslate">Linux x86_64 .AppImage</button>
-		<button onclick="window.location.href='//github.com/Hamud-Lang/Hamud_Book/releases/download/v0.0.0.0/Hamud_language_x86_64.deb'" class="btn btn-success btn-ghost notTranslate">Linux x86_64 .deb</button>
-		<button onclick="window.location.href='//github.com/Hamud-Lang/Hamud_Book/releases/download/v0.0.0.0/Hamud_First_Release.apk'" class="btn btn-success btn-ghost">安卓<font class="notTranslate"> .apk</font></button>
+		<div class="btn-group">
+			<button onclick="window.location.href='//github.com/Hamud-Lang/Hamud_Book/releases/download/v0.0.0.0/Hamud_language_x64.msi'" class="btn btn-success btn-ghost notTranslate">Windows x86_64 .msi</button>
+			<button onclick="window.location.href='//github.com/Hamud-Lang/Hamud_Book/releases/download/v0.0.0.0/Hamud_language.dmg'" class="btn btn-success btn-ghost notTranslate">MacOS .dmg</button>
+			<button onclick="window.location.href='//github.com/Hamud-Lang/Hamud_Book/releases/download/v0.0.0.0/Hamud_language_x86_64.AppImage'" class="btn btn-success btn-ghost notTranslate">Linux x86_64 .AppImage</button>
+			<button onclick="window.location.href='//github.com/Hamud-Lang/Hamud_Book/releases/download/v0.0.0.0/Hamud_language_x86_64.deb'" class="btn btn-success btn-ghost notTranslate">Linux x86_64 .deb</button>
+			<button onclick="window.location.href='//github.com/Hamud-Lang/Hamud_Book/releases/download/v0.0.0.0/Hamud_First_Release.apk'" class="btn btn-success btn-ghost">安卓<font class="notTranslate"> .apk</font></button>
+		</div>
 
 		<br></br>
 		<div class="alert alert-info">网站正在建设中，期待<a href="https://github.com/Hamud-Lang/Hamud_Book">您的贡献</a>。</div>

@@ -28,7 +28,8 @@
 			translate.execute();
 		</script>
 		<style>
-			#translate>.translateSelectLanguage {cursor:pointer;position:absolute;left:2rem;top:2rem;font-size:1rem;padding:0.3rem;padding-left:0.5rem;padding-right:0.5rem;border:1px solid #C9C9C9;background-color:#fff;color:#555}
+			@media screen and (max-width: 980px){#translate>.translateSelectLanguage {cursor:pointer;position:absolute;left:1rem;top:1rem;font-size:.9rem;padding:0.3rem;padding-left:0.5rem;padding-right:0.5rem;border:1px solid #C9C9C9;background-color:#fff;color:#555;width:6rem}}
+			@media screen and (min-width: 980px){#translate>.translateSelectLanguage {cursor:pointer;position:absolute;left:2rem;top:2rem;font-size:1rem;padding:0.3rem;padding-left:0.5rem;padding-right:0.5rem;border:1px solid #C9C9C9;background-color:#fff;color:#555}}
 		</style>
 		<a href="/"><p align="center"><img alt="Hamud language" src="/zh-Hans-CN/favicon.svg" width="40%" style="max-width:256px"></p></a>
 
@@ -36,8 +37,10 @@
 		<p>未找到相应信息，或许您应该尝试搜索。</p>
 		<p class="notTranslate">Not found. You should try to search.</p>
 
-		<button onclick="window.location.href='/'" class="btn btn-success btn-ghost"><font class="notTranslate">حامود حامود ياريماسونايناينحا حابيبي ناين-ناينحا</font> - 回到主页</button>
-		<button onclick="javascript:history.back(-1);" class="btn btn-success btn-ghost"><font class="notTranslate">حامود حامود ياريماسونايناينحا حابيبي ناين-ناينحا</font> - 返回</button>
+		<div class="btn-group">
+			<button onclick="window.location.href='/'" class="btn btn-success btn-ghost"><font class="notTranslate">حامود حامود ياريماسونايناينحا حابيبي ناين-ناينحا</font> - 回到主页</button>
+			<button onclick="javascript:history.back(-1);" class="btn btn-success btn-ghost"><font class="notTranslate">حامود حامود ياريماسونايناينحا حابيبي ناين-ناينحا</font> - 返回</button>
+		</div>
 
 		<h2>反馈</h2>
 
@@ -57,9 +60,11 @@
 			async>
 		</script>
 		<br>
-		<button onclick="window.location.href='/'" class="btn btn-success btn-ghost"><font class="notTranslate">حامود حامود ياريماسونايناينحا حابيبي ناين-ناينحا</font> - 回到主页</button>
-		<button onclick="window.location.href='#'" class="btn btn-success btn-ghost"><font class="notTranslate">حامود حامود ياريماسونايناينحا حابيبي ناين-ناينحا</font> - 返回页顶</button>
-		<button onclick="javascript:history.back(-1);" class="btn btn-success btn-ghost"><font class="notTranslate">حامود حامود ياريماسونايناينحا حابيبي ناين-ناينحا</font> - 返回</button>
+		<div class="btn-group">
+			<button onclick="window.location.href='/'" class="btn btn-success btn-ghost"><font class="notTranslate">حامود حامود ياريماسونايناينحا حابيبي ناين-ناينحا</font> - 回到主页</button>
+			<button onclick="window.location.href='#'" class="btn btn-success btn-ghost"><font class="notTranslate">حامود حامود ياريماسونايناينحا حابيبي ناين-ناينحا</font> - 返回页顶</button>
+			<button onclick="javascript:history.back(-1);" class="btn btn-success btn-ghost"><font class="notTranslate">حامود حامود ياريماسونايناينحا حابيبي ناين-ناينحا</font> - 返回</button>
+		</div>
 		<footer class="footer"><a href="https://icp.gov.moe/?keyword=20230986" target="_blank">萌 ICP 备 20230986 号</a></footer>	
 	</div>
 </body>

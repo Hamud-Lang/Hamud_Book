@@ -59,10 +59,8 @@
 
 本项目遵循 [Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) 许可协议。如果想了解完整许可信息，请查阅 `LICENSE` 文件。
 
-### 🗃️附属许可证
+### 🗃️附加许可证
 
-* mdBook：[MPL-2.0 license](https://www.mozilla.org/en-US/MPL/2.0/)；
-  * [Github](https://github.com/rust-lang/mdBook/blob/master/LICENSE)；
 * hack：[MIT license](https://mit-license.org)；
   * [Github](https://github.com/egoist/hack/blob/master/LICENSE)；
 * Character_substitution：[Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)；

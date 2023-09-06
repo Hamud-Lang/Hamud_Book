@@ -32,6 +32,8 @@
 
 欢迎每一位对本项目感兴趣的朋友贡献代码和内容。
 
+[点击提交贡献](../Contribute/index.md)
+
 在提交代码前请确保您了解 [mdbook](https://rust-lang.github.io/mdBook/) 系统。
 
 ### 参考

@@ -74,6 +74,16 @@
   - [姆约· Trigonometry 记]()
   - [姆约· PJ568 记]()  <!-- (./Materials/Bible_Hamud/Record_PJ568.md) -->
 
+# 提交贡献
+
+- [代码或内容贡献](./Contribute/index.md)
+  - [报告错误或问题](./Contribute/Feedback.md)
+  - [内容创作](./Contribute/Creation.md)
+  - [翻译相关术语](./Contribute/Words_translate.md)
+  - [创建离线翻译]()
+  - [目录文件结构](./Contribute/File_structure.md)
+  - [创建地图]()
+
 ---
 
 [关于《【人造语言】我用《哈姆》创造了一种语言…》视频](./lib/First_Video.md)
@@ -82,10 +92,3 @@
 ---
 
 [贡献者名单](./Contributors/index.md)
-- [代码或内容贡献](./Contribute/index.md)
-  - [报告错误或问题](./Contribute/Feedback.md)
-  - [内容创作](./Contribute/Creation.md)
-  - [翻译相关术语](./Contribute/Words_translate.md)
-  - [创建离线翻译]()
-  - [目录文件结构](./Contribute/File_structure.md)
-  - [创建地图]()

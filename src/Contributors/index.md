@@ -9,4 +9,4 @@
 <a href="tencent://message/?uin=93618119&Menu=yes" target="_blank"><img width="64" alt="宁宁" src="https://q1.qlogo.cn/g?b=qq&nk=93618119&s=640"/>​</a>
 <a href="tencent://message/?uin=8598225&Menu=yes" target="_blank"><img width="64" alt="平A新的病毒" src="https://q1.qlogo.cn/g?b=qq&nk=8598225&s=640"/>​</a>
 
-您若是发现自己不在此名单里，请随时提交贡献到[仓库](https://github.com/Hamud-Lang/Hamud_Book)中吧。
+您若是发现自己不在此名单里，请随时[提交贡献](../Contribute/index.md)吧。

@@ -17,18 +17,7 @@
 		<a href="/"><p align="center"><img alt="Hamud language" src="../zh-Hans-CN/favicon.svg" width="40%" style="max-width:256px"></p></a>
 
 		<script src="https://res.zvo.cn/translate/translate.js"></script>
-		<script>
-			try{
-				translate.listener.start();
-				translate.language.setLocal('chinese_simplified');
-				translate.setAutoDiscriminateLocalLanguage();
-				translate.language.setUrlParamControl();
-			}
-			catch(e){console.log(e);}
-			translate.setUseVersion2();
-			translate.ignore.class.push('notTranslate');
-			translate.execute();
-		</script>
+		<script src="../zh-Hans-CN/assets/translate_lib.js"></script>
 		<style>
 			@media screen and (max-width: 980px){#translate>.translateSelectLanguage {cursor:pointer;position:absolute;left:1rem;top:1rem;font-size:.8rem;padding:0.3rem;padding-left:0.5rem;padding-right:0.5rem;border:1px solid #C9C9C9;background-color:#fff;color:#555;width:6rem}}
 			@media screen and (min-width: 980px){#translate>.translateSelectLanguage {cursor:pointer;position:absolute;left:2rem;top:2rem;font-size:1rem;padding:0.3rem;padding-left:0.5rem;padding-right:0.5rem;border:1px solid #C9C9C9;background-color:#fff;color:#555}}

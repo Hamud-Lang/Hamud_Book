@@ -83,9 +83,9 @@
 
 [贡献者名单](./Contributors/index.md)
 - [代码或内容贡献](./Contribute/index.md)
-  - [报告错误或问题](./Feedback.md)
-  - [内容创作](./Creation.md)
-  - [翻译相关术语](./Words_translate.md)
+  - [报告错误或问题](./Contribute/Feedback.md)
+  - [内容创作](./Contribute/Creation.md)
+  - [翻译相关术语](./Contribute/Words_translate.md)
   - [创建离线翻译]()
-  - [目录文件结构](./File_structure.md)
+  - [目录文件结构](./Contribute/File_structure.md)
   - [创建地图]()

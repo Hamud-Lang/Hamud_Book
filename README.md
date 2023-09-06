@@ -6,9 +6,9 @@
 
 > 🗃️[Github](https://github.com/Hamud-Lang/Hamud_Book) | [Gitee](https://gitee.com/Hamud-Lang/Hamud_Book)
 
-# <img height="30" style="margin: -3px 5px;" src="https://Hamud.PJ568.eu.org/zh-Hans-CN/favicon.svg"/>`哈姆`语言之书
+# <img height="30" style="margin: -3px 5px;" src="https://Hamud.PJ568.eu.org/zh-Hans-CN/favicon.svg"/>哈姆语言之书
 
-* 本项目旨在为`哈姆`语提供标准范本。为学习`哈姆`语的人提供参考资料和交流平台。
+* 本项目旨在为哈姆语提供标准范本。为学习哈姆语的人提供参考资料和交流平台。
 * 假若您对本项目感到满意，请在您的指尖星空[绘制一颗新的星🌟](https://github.com/Hamud-Lang/Hamud_Book)，指引我们继续砥砺前行。
 * [点击访问](https://Hamud.PJ568.eu.org/index.html)
 

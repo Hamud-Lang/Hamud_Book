@@ -19,3 +19,5 @@
     ├─Creation.md   {内容创作相关文章}
     └─……            {其他目录或文章}
 ```
+
+> 更详细的内容请查看 [mdbook 文档](https://rust-lang.github.io/mdBook/)。

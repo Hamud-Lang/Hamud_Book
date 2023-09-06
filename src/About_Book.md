@@ -2,7 +2,7 @@
     <img height="256" src='https://Hamud.PJ568.eu.org/zh-Hans-CN/favicon.svg'/>
 </p>
 
-> 🌏简体中文 | [English](../en-US/About_Book.md)
+> 🌏简体中文 | [English](?language=english)
 
 > 🗃️[Github](https://github.com/Hamud-Lang/Hamud_Book) | [Gitee](https://gitee.com/Hamud-Lang/Hamud_Book)
 

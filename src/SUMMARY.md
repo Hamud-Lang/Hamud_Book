@@ -34,7 +34,7 @@
 # 语言工具
 
 - [哈汉对译翻译器](Translator.md)
-- [字符替换工具](Replacer.md)
+- [字符替换工具](Character_substitution.md)
 
 # 语系分支
 

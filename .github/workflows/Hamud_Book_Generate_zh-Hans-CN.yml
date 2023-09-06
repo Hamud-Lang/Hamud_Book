@@ -53,17 +53,17 @@ jobs:
           cp -v -u -r /home/runner/tree/zh-Hans-CN/ ./zh-Hans-CN/
           ls ./zh-Hans-CN/
 
-#      - name: Generate the sitemap
-#        id: sitemap
-#        uses: cicirello/generate-sitemap@v1
-#        with:
-#          base-url-path: https://***/
+      - name: Generate the sitemap
+        id: sitemap
+        uses: cicirello/generate-sitemap@v1
+        with:
+          base-url-path: https://hamud.pj568.eu.org/
 
-#      - name: Output sitemap stats
-#        run: |
-#          echo "sitemap-path = ${{ steps.sitemap.outputs.sitemap-path }}"
-#          echo "url-count = ${{ steps.sitemap.outputs.url-count }}"
-#          echo "excluded-count = ${{ steps.sitemap.outputs.excluded-count }}"
+      - name: Output sitemap stats
+        run: |
+          echo "sitemap-path = ${{ steps.sitemap.outputs.sitemap-path }}"
+          echo "url-count = ${{ steps.sitemap.outputs.url-count }}"
+          echo "excluded-count = ${{ steps.sitemap.outputs.excluded-count }}"
 
       # Deploy
       - uses: JamesIves/github-pages-deploy-action@4.1.7
@@ -71,5 +71,5 @@ jobs:
           branch: gh-pages # The branch the action should deploy to.
           folder: . # The folder the action should deploy.
 
-#      - name: Ping Google
-#        run: curl https://www.google.com/ping?sitemap=https://***/sitemap.xml
+      - name: Ping Google
+        run: curl https://www.google.com/ping?sitemap=https://hamud.pj568.eu.org/sitemap.xml

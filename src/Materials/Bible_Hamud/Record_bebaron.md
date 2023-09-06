@@ -2,15 +2,15 @@
 
 ## 汉语版
 
-9:1 `bebaron` 至`哈姆`，却并不`哈姆`。
+9:1 `bebaron` 至哈姆，却并不哈姆。
 
-9:2 哈很设讲坛，欲向 `bebaron` 传`哈姆`的智慧。
+9:2 哈很设讲坛，欲向 `bebaron` 传哈姆的智慧。
 
-9:3 `bebaron` 不识得哈很，于是说出怪异的语言，意图伪装成`哈姆`。
+9:3 `bebaron` 不识得哈很，于是说出怪异的语言，意图伪装成哈姆。
 
-9:4 哈很将`bebaron`遣返，`哈姆`人得知这事，便用“ `bebaron` ”表示疯癫、胡言乱语与怪异。
+9:4 哈很将`bebaron`遣返，哈姆人得知这事，便用“ `bebaron` ”表示疯癫、胡言乱语与怪异。
 
-## `哈姆`语版
+## 哈姆语版
 
 9:1 Bebaron HAMUD yarimasune-no HABIBI Hamud, GOMEGADMENENOAMA Bebaron HAMUD hamud a.
 

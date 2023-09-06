@@ -1,19 +1,19 @@
 # Summary
 
-[关于`哈姆`语](./index.md)
-[关于`哈姆`语言之书](./About_Book.md)
-[关于`哈姆`论坛](./Community.md)
+[关于哈姆语](./index.md)
+[关于哈姆语言之书](./About_Book.md)
+[关于哈姆论坛](./Community.md)
 
 ---
 
 # 语言学习
 
 - [指南](./Guide/index.md)
-- [认识`哈姆`语](./First_Contact.md)
+- [认识哈姆语](./First_Contact.md)
 - [首次发声](./Reading/index.md)
   - [音系学](./Reading/Sound.md)
   - [发音示范]()
-- [`哈姆`语法](./Grammar/index.md)
+- [哈姆语法](./Grammar/index.md)
   - [语法词](./Grammar/Main.md)
   - [词汇](./Grammar/Words/index.md)
     - [核心词汇](./Grammar/Words/Core.md)
@@ -22,7 +22,7 @@
     - [主题](./Grammar/Words/Theme.md)
     - [数字与疑问](./Grammar/Words/Num&Query.md)
     - [语气词](./Grammar/Words/Exclamations.md)
-    - [外来语`哈姆`化](./Grammar/Words/Extern.md)
+    - [外来语哈姆化](./Grammar/Words/Extern.md)
 - [强化学习](./Words_Learning/index.md)
   - [常用词表](./Words_Learning/List.md)
   - [词语练习题]()
@@ -59,10 +59,10 @@
 # 文献
 
 - [资料](./Materials/index.md)
-  - [《新标准`哈姆`语》](./Materials/New_Standard_Hamud.md)
+  - [《新标准哈姆语》](./Materials/New_Standard_Hamud.md)
 - [《哈经·姆约》](./Materials/Bible_Hamud/index.md)
   - [哈约·初生纪](./Materials/Bible_Hamud/Newborn.md)
-  - [哈约·出`哈姆`纪](./Materials/Bible_Hamud/Hamud.md)
+  - [哈约·出哈姆纪](./Materials/Bible_Hamud/Hamud.md)
   - [哈约·列王纪](./Materials/Bible_Hamud/Kings.md)
   - [哈约·申命纪](./Materials/Bible_Hamud/Souls.md)
   - [哈约·律法书](./Materials/Bible_Hamud/Laws.md)
@@ -76,7 +76,7 @@
 
 ---
 
-[关于《【人造语言】我用《`哈姆`》创造了一种语言…》视频](./lib/First_Video.md)
+[关于《【人造语言】我用《哈姆》创造了一种语言…》视频](./lib/First_Video.md)
 [关于 *Hamood Habibi* 视频](./lib/Hamood_Habibi.md)
 
 ---

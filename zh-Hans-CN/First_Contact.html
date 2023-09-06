@@ -29,6 +29,7 @@
         <link rel="stylesheet" href="ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="assets/translate.css">
 
     </head>
     <body>
@@ -108,29 +109,6 @@
                             <li role="none"><button role="menuitem" class="theme" id="ayu">阿黑 - Ayu</button></li>
                         </ul>
                         <script src="https://res.zvo.cn/translate/translate.js"></script>
-                        <script>
-                            try{
-                                translate.listener.start();
-                                translate.language.setLocal('chinese_simplified');
-                                translate.setAutoDiscriminateLocalLanguage();
-                                translate.language.setUrlParamControl();
-                            }
-                            catch(e){console.log(e);}
-                            translate.setUseVersion2();
-                            translate.ignore.class.push('notTranslate');
-                            translate.execute();
-                        </script>
-                        <style>
-                            .translateSelectLanguage{
-                                z-index:10;
-                                width:100%;
-                                height:100%;
-                                opacity:0;
-                                cursor:pointer;
-                                position:absolute;
-                                left:0;
-                            }
-                        </style>
                         <button id="translate" class="icon-button" type="button" title="更改语言 - Change language" aria-label="Change language" aria-haspopup="true" aria-expanded="false">
                             <i class="fa fa-globe"></i>
                         </button>
@@ -139,7 +117,7 @@
                         </button>
                     </div>
 
-                    <h1 class="menu-title notTranslate">哈姆语言之书</h1>
+                    <h1 class="menu-title">哈姆语言之书</h1>
 
                     <div class="right-buttons">
                         <a href="/" title="返回主页 - Back home">
@@ -186,17 +164,17 @@
 حامود
 </code></pre>
 <p>读作：<code>/hʌˈmud/</code></p>
-<p><code>哈姆德</code>，不同情况下亦翻译为<code>哈姆</code>。这是或许你接触到的首个<code>哈姆</code>语词语。</p>
+<p><code>哈姆德</code>，不同情况下亦翻译为<code>哈姆</code>。这是或许你接触到的首个哈姆语词语。</p>
 <p><code>哈姆</code>，即是发生；即是存在。它可以是一个语言，可以是对所有人的问候，也可以是“人”本身的体现。</p>
-<p><code>哈姆</code>即是<code>哈姆</code>。</p>
+<p>哈姆即是哈姆。</p>
 <h2 id="形式对照"><a class="header" href="#形式对照">形式对照</a></h2>
-<p>以<code>哈姆</code>为例以上是<code>哈姆</code>语常见的三种形式：</p>
+<p>以<code>哈姆</code>为例以上是哈姆语常见的三种形式：</p>
 <ul>
 <li>以拉丁字母或符号书写</li>
 <li>古老的 Onerio 式哈拉伯符号</li>
 <li>Tri 式哈拉伯符号</li>
 </ul>
-<p>很巧，<code>哈姆</code>用 <code>Onerio 式哈拉伯符号</code>或 <code>Tri 式哈拉伯符号</code>的写法是一样的。</p>
+<p>很巧，哈姆用 <code>Onerio 式哈拉伯符号</code>或 <code>Tri 式哈拉伯符号</code>的写法是一样的。</p>
 <p>以上3种形式，可以根据此对照表相互转换：</p>
 <div class="table-wrapper"><table><thead><tr><th style="text-align: center">拉丁字母或符号</th><th style="text-align: center">Onerio 式哈拉伯符号</th><th style="text-align: center">Tri 式哈拉伯符号</th></tr></thead><tbody>
 <tr><td style="text-align: center">h</td><td style="text-align: center">ح</td><td style="text-align: center">ح</td></tr>
@@ -269,6 +247,7 @@
 
         <!-- Custom JS scripts -->
         <script src="assets/giscus.js"></script>
+        <script src="assets/translate_lib.js"></script>
 
 
     </div>

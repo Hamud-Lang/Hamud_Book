@@ -29,6 +29,7 @@
         <link rel="stylesheet" href="ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="assets/translate.css">
 
     </head>
     <body>
@@ -108,29 +109,6 @@
                             <li role="none"><button role="menuitem" class="theme" id="ayu">阿黑 - Ayu</button></li>
                         </ul>
                         <script src="https://res.zvo.cn/translate/translate.js"></script>
-                        <script>
-                            try{
-                                translate.listener.start();
-                                translate.language.setLocal('chinese_simplified');
-                                translate.setAutoDiscriminateLocalLanguage();
-                                translate.language.setUrlParamControl();
-                            }
-                            catch(e){console.log(e);}
-                            translate.setUseVersion2();
-                            translate.ignore.class.push('notTranslate');
-                            translate.execute();
-                        </script>
-                        <style>
-                            .translateSelectLanguage{
-                                z-index:10;
-                                width:100%;
-                                height:100%;
-                                opacity:0;
-                                cursor:pointer;
-                                position:absolute;
-                                left:0;
-                            }
-                        </style>
                         <button id="translate" class="icon-button" type="button" title="更改语言 - Change language" aria-label="Change language" aria-haspopup="true" aria-expanded="false">
                             <i class="fa fa-globe"></i>
                         </button>
@@ -139,7 +117,7 @@
                         </button>
                     </div>
 
-                    <h1 class="menu-title notTranslate">哈姆语言之书</h1>
+                    <h1 class="menu-title">哈姆语言之书</h1>
 
                     <div class="right-buttons">
                         <a href="/" title="返回主页 - Back home">
@@ -180,13 +158,13 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="关于哈姆语"><a class="header" href="#关于哈姆语">关于<code>哈姆</code>语</a></h1>
-<p><code>哈姆</code>语是一门起源于网络流行哏，语法基于道本语、词汇基于阿拉伯词源的人造语言。</p>
-<p><code>哈姆</code>语有趋于完善的语法和词汇，其背后拥有一套独特的世界观。</p>
+                        <h1 id="关于哈姆语"><a class="header" href="#关于哈姆语">关于哈姆语</a></h1>
+<p>哈姆语是一门起源于网络流行哏，语法基于道本语、词汇基于阿拉伯词源的人造语言。</p>
+<p>哈姆语有趋于完善的语法和词汇，其背后拥有一套独特的世界观。</p>
 <h2 id="起源和发展"><a class="header" href="#起源和发展">起源和发展</a></h2>
 <ul>
 <li>2007年3月4日：用户 <code>Tahloube S</code> 在油管（Youtube）网站上传了一个阿拉伯语儿歌动画视频 <em>Hamood Habibi</em> ，“ Hamood Habibi ”意为“我心爱的人”。（可在本站查看<a href="./lib/Hamood_Habibi.html">原视频留档</a>）</li>
-<li>2022年10月13日：哔哩哔哩用户 <code>@希腊火Onerio</code> 在哔哩哔哩网站上传了第一个<code>哈姆</code>语视频，一周之内突破了 10 万播放量。</li>
+<li>2022年10月13日：哔哩哔哩用户 <code>@希腊火Onerio</code> 在哔哩哔哩网站上传了第一个哈姆语视频，一周之内突破了 10 万播放量。</li>
 <li>2022年10月？日：哔哩哔哩网站用户 <code>@希腊火Onerio</code> 被（疑似）误封禁并自动下架了最新发布的三个视频。</li>
 </ul>
 <blockquote>
@@ -195,13 +173,13 @@
 <p>不知道…先是给我永久封号…再是把我最新发的三个视频下架了😭去找客服问原因他们也说的模棱两可😭</p>
 </blockquote>
 <ul>
-<li>2022年10月26日：原哔哩哔哩网站用户 <code>@希腊火Onerio</code> 使用 <a href="https://space.bilibili.com/3461580048042619">@烯烯Onerio</a> 用户名补档视频<a href="./lib/First_Video.html">《【人造语言】我用《<code>哈姆</code>》创造了一种语言…》</a>。</li>
+<li>2022年10月26日：原哔哩哔哩网站用户 <code>@希腊火Onerio</code> 使用 <a href="https://space.bilibili.com/3461580048042619">@烯烯Onerio</a> 用户名补档视频<a href="./lib/First_Video.html">《【人造语言】我用《哈姆》创造了一种语言…》</a>。</li>
 <li>后来：<a href="https://space.bilibili.com/3461580048042619">@烯烯Onerio</a> 更名为 <a href="https://space.bilibili.com/3461580048042619">@希腊火Onerio</a> 并活跃于 Hamud 社区。</li>
 </ul>
 <h2 id="观看视频"><a class="header" href="#观看视频">观看视频</a></h2>
 <ul>
 <li><a href="./lib/Hamood_Habibi.html"><em>Hamood Habibi</em> 原视频留档</a></li>
-<li><a href="./lib/First_Video.html">《【人造语言】我用《<code>哈姆</code>》创造了一种语言…》</a></li>
+<li><a href="./lib/First_Video.html">《【人造语言】我用《哈姆》创造了一种语言…》</a></li>
 </ul>
 
                     </main>
@@ -248,6 +226,7 @@
 
         <!-- Custom JS scripts -->
         <script src="assets/giscus.js"></script>
+        <script src="assets/translate_lib.js"></script>
 
 
     </div>

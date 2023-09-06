@@ -29,6 +29,7 @@
         <link rel="stylesheet" href="../../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../../assets/translate.css">
 
     </head>
     <body>
@@ -108,29 +109,6 @@
                             <li role="none"><button role="menuitem" class="theme" id="ayu">阿黑 - Ayu</button></li>
                         </ul>
                         <script src="https://res.zvo.cn/translate/translate.js"></script>
-                        <script>
-                            try{
-                                translate.listener.start();
-                                translate.language.setLocal('chinese_simplified');
-                                translate.setAutoDiscriminateLocalLanguage();
-                                translate.language.setUrlParamControl();
-                            }
-                            catch(e){console.log(e);}
-                            translate.setUseVersion2();
-                            translate.ignore.class.push('notTranslate');
-                            translate.execute();
-                        </script>
-                        <style>
-                            .translateSelectLanguage{
-                                z-index:10;
-                                width:100%;
-                                height:100%;
-                                opacity:0;
-                                cursor:pointer;
-                                position:absolute;
-                                left:0;
-                            }
-                        </style>
                         <button id="translate" class="icon-button" type="button" title="更改语言 - Change language" aria-label="Change language" aria-haspopup="true" aria-expanded="false">
                             <i class="fa fa-globe"></i>
                         </button>
@@ -139,7 +117,7 @@
                         </button>
                     </div>
 
-                    <h1 class="menu-title notTranslate">哈姆语言之书</h1>
+                    <h1 class="menu-title">哈姆语言之书</h1>
 
                     <div class="right-buttons">
                         <a href="/" title="返回主页 - Back home">
@@ -244,6 +222,7 @@
 
         <!-- Custom JS scripts -->
         <script src="../../assets/giscus.js"></script>
+        <script src="../../assets/translate_lib.js"></script>
 
 
     </div>

@@ -2,7 +2,7 @@
 
 欢迎每一位对本项目感兴趣的朋友贡献代码和内容。
 
-开始前请确保您能够访问 [Github](https://Github.com) 并拥有其账户。可使用 [Steam++（Watt Toolkit）](https://steampp.net)来帮助您在个人电脑上对 [Github](https://Github.com) 更快速的访问。
+开始前请确保您能够访问 [Github](https://Github.com) 并拥有其账户。可使用 [Steam++（Watt Toolkit）](https://steampp.net)来帮助您在个人电脑上更快速地访问 [Github](https://Github.com) 。
 
 本项目的源代码也可在 [Gitee](https://gitee.com/Hamud-Lang/Hamud_Book) 上获取。
 

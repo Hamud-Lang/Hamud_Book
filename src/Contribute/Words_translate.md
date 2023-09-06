@@ -34,4 +34,4 @@ translate.nomenclature.append('chinese_simplified','english',`
 
 - [点击在线编辑翻译配置文件](https://github.com/Hamud-Lang/Hamud_Book/edit/zh-Hans-CN/assets/translate_lib.js)
 
-> 如果在线编辑无法满足您的需求，您可以选择使用[标准流程](../About_Book.md#💻代码或内容贡献)对源码进行修改。
+> 如果在线编辑无法满足您的需求，您可以选择使用[标准流程](../About_Book.md#代码或内容贡献)对源码进行修改。

@@ -2,7 +2,7 @@
     <img height="256" src='https://Hamud.PJ568.eu.org/zh-Hans-CN/favicon.svg'/>
 </p>
 
-> 🌏简体中文 | [English](https://github.com/Hamud-Lang/Hamud_Book/blob/en-US/README.md)
+> 🌏简体中文 | [English](https://hamud.pj568.eu.org/zh-Hans-CN/About_Book.html?language=english)
 
 > 🗃️[Github](https://github.com/Hamud-Lang/Hamud_Book) | [Gitee](https://gitee.com/Hamud-Lang/Hamud_Book)
 
@@ -35,7 +35,7 @@
 
 ## 💻代码或内容贡献
 
-欢迎每一位对本项目感兴趣的朋友贡献代码。
+欢迎每一位对本项目感兴趣的朋友贡献代码和内容。
 
 在提交代码前请确保您了解 [mdbook](https://rust-lang.github.io/mdBook/) 系统。
 

@@ -2,7 +2,9 @@
     <img height="256" src='https://Hamud.PJ568.eu.org/zh-Hans-CN/favicon.svg'/>
 </p>
 
-> 🗃️[Github](https://github.com/Hamud-Lang/Character_substitution)
+> 🌏简体中文 | [English](https://hamud.pj568.eu.org/zh-Hans-CN/Character_substitution.html?language=english)
+
+> 🗃️[Github](https://github.com/Hamud-Lang/Character_substitution) | [Gitee](https://gitee.com/Hamud-Lang/Character_substitution)
 
 # Character_substitution
 
@@ -48,6 +50,11 @@
 ## 📄许可证
 
 本项目遵循 [Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) 许可协议。如果想了解完整许可信息，请查阅 `LICENSE` 文件。
+
+### 🗃️附属许可证
+
+* hack：[MIT license](https://mit-license.org)；
+  * [Github](https://github.com/egoist/hack/blob/master/LICENSE)。
 
 ## ⭐Star 历史
 

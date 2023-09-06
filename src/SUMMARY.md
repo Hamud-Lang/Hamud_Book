@@ -3,6 +3,7 @@
 [关于哈姆语](./index.md)
 [关于哈姆语言之书](./About_Book.md)
 [关于哈姆论坛](./Community.md)
+[关于 Character_substitution](./Character_substitution.md)
 
 ---
 
@@ -71,8 +72,7 @@
   - [姆约·卡莫里卡记](./Materials/Bible_Hamud/Record_gamurig.md)
   - [姆约·佩帕罗尼记](./Materials/Bible_Hamud/Record_bebaron.md)
   - [姆约· Trigonometry 记]()
-  <!-- - [姆约· PJ568 记](./Materials/Bible_Hamud/Record_PJ568.md) -->
-  <!-- - [姆约· PJ568 记]() -->
+  - [姆约· PJ568 记]()  <!-- (./Materials/Bible_Hamud/Record_PJ568.md) -->
 
 ---
 
@@ -82,3 +82,10 @@
 ---
 
 [贡献者名单](./Contributors/index.md)
+- [代码或内容贡献](./Contribute/index.md)
+  - [报告错误或问题](./Feedback.md)
+  - [内容创作](./Creation.md)
+  - [翻译相关术语](./Words_translate.md)
+  - [创建离线翻译]()
+  - [目录文件结构](./File_structure.md)
+  - [创建地图]()

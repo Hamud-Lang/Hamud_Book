@@ -131,29 +131,6 @@
                             <li role="none"><button role="menuitem" class="theme" id="ayu">阿黑 - Ayu</button></li>
                         </ul>
                         <script src="https://res.zvo.cn/translate/translate.js"></script>
-                        <script>
-                            try{
-                                translate.listener.start();
-                                translate.language.setLocal('chinese_simplified');
-                                translate.setAutoDiscriminateLocalLanguage();
-                                translate.language.setUrlParamControl();
-                            }
-                            catch(e){console.log(e);}
-                            translate.setUseVersion2();
-                            translate.ignore.class.push('notTranslate');
-                            translate.execute();
-                        </script>
-                        <style>
-                            .translateSelectLanguage{
-                                z-index:10;
-                                width:100%;
-                                height:100%;
-                                opacity:0;
-                                cursor:pointer;
-                                position:absolute;
-                                left:0;
-                            }
-                        </style>
                         <button id="translate" class="icon-button" type="button" title="更改语言 - Change language" aria-label="Change language" aria-haspopup="true" aria-expanded="false">
                             <i class="fa fa-globe"></i>
                         </button>
@@ -164,7 +141,7 @@
                         {{/if}}
                     </div>
 
-                    <h1 class="menu-title notTranslate">{{ book_title }}</h1>
+                    <h1 class="menu-title">{{ book_title }}</h1>
 
                     <div class="right-buttons">
                         <a href="/" title="返回主页 - Back home">

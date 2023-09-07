@@ -2,7 +2,7 @@
     <img height="256" src='https://Hamud.PJ568.eu.org/zh-Hans-CN/favicon.svg'/>
 </p>
 
-> 🌏简体中文 | [English](https://hamud.pj568.eu.org/zh-Hans-CN/About_Book.html?language=english)
+> 🌏简体中文 | [繁體中文](https://hamud.pj568.eu.org/zh-Hans-CN/About_Book.html?language=chinese_traditional) | [日本語](https://hamud.pj568.eu.org/zh-Hans-CN/About_Book.html?language=japanese) | [한어](https://hamud.pj568.eu.org/zh-Hans-CN/About_Book.html?language=korean) | [English](https://hamud.pj568.eu.org/zh-Hans-CN/About_Book.html?language=english) | [español](https://hamud.pj568.eu.org/zh-Hans-CN/About_Book.html?language=spanish)
 
 > 🗃️[Github](https://github.com/Hamud-Lang/Hamud_Book) | [Gitee](https://gitee.com/Hamud-Lang/Hamud_Book)
 

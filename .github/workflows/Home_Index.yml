@@ -40,6 +40,15 @@ jobs:
           echo '复制 /home/runner/temp/css/ 到 ./css/：'
           cp -v -u -r /home/runner/temp/css/ ./css/
       - run: |
+          echo '如果存在则删除 ./js'
+          if [ -d "./js/" ];then
+          rm -r ./js/
+          else
+          echo "文件夹不存在。"
+          fi;
+          echo '复制 /home/runner/temp/js/ 到 ./js/：'
+          cp -v -u -r /home/runner/temp/js/ ./js/
+      - run: |
           echo '如果存在则删除 ./Character_substitution：'
           if [ -d "./Character_substitution/" ];then
           rm -r ./Character_substitution/

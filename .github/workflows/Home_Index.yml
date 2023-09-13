@@ -49,14 +49,14 @@ jobs:
           echo '复制 /home/runner/temp/js/ 到 ./js/：'
           cp -v -u -r /home/runner/temp/js/ ./js/
       - run: |
-          echo '如果存在则删除 ./footer'
-          if [ -d "./footer" ];then
-          rm -r ./footer
+          echo '如果存在则删除 ./footer.html：'
+          if [ ! -f "./footer.html" ];then
+          echo "文件不存在"
           else
-          echo "文件夹不存在。"
-          fi;
-          echo '复制 /home/runner/temp/footer 到 ./footer：'
-          cp -v -u -r /home/runner/temp/footer ./footer
+          rm -d ./footer.html
+          fi
+          echo '复制 /home/runner/temp/footer.html 到 ./footer.html：'
+          cp -v -u -r /home/runner/temp/footer.html ./footer.html
       - run: |
           echo '如果存在则删除 ./Character_substitution：'
           if [ -d "./Character_substitution/" ];then

@@ -10,7 +10,7 @@
 
 
 * The home page of Hamud website.
-* [Click to go](https://Hamud.PJ568.eu.org/index.html)
+* [Click to go](https://Hamud.PJ568.eu.org)
 
 ## ℹ️More Info
 

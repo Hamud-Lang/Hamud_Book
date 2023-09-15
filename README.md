@@ -6,11 +6,11 @@
 
 > 🗃️[Github](https://github.com/Hamud-Lang/Hamud_Book) | [Gitee](https://gitee.com/Hamud-Lang/Hamud_Book)
 
-# <img height="30" style="margin: -3px 5px;" src="https://Hamud.PJ568.eu.org/zh-Hans-CN/favicon.svg"/>哈姆语言之书首页
+# <img height="30" style="margin: -3px 5px;" src="https://Hamud.PJ568.eu.org/zh-Hans-CN/favicon.svg"/>哈姆语首页
 
 
 * 此分支存储着哈姆语首页。
-* [点击访问](https://Hamud.PJ568.eu.org/index.html)
+* [点击访问](https://Hamud.PJ568.eu.org)
 
 ## ℹ️更多信息
 

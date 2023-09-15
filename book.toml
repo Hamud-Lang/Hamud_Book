@@ -1,21 +1,27 @@
 [book]
-authors = ["PJ568"]
+authors = ["PJ568", "Hamud_Lang Community"]
 language = "zh"
-multilingual = false
+multilingual = true
 src = "src"
 title = "哈姆语言之书"
 description = "哈姆语言之书旨在为哈姆语言者提供标准范本。为学习哈姆语的人提供参考资料。"
 
 [output.html]
+default-theme = "rust"
+preferred-dark-theme = "navy"
+mathjax-support = false
 site-url = "/zh-Hans-CN/"
-additional-css = ["assets/translate.css"]
-additional-js = ["assets/giscus.js", "assets/translate_lib.js"]
+additional-css = ["assets/loading.css", "assets/translate.css"]
+additional-js = ["assets/loading.js", "assets/translate_lib.js", "assets/giscus.js"]
 git-repository-url = "https://github.com/Hamud-Lang/Hamud_Book/tree/zh-Hans-CN"
 edit-url-template = "https://github.com/Hamud-Lang/Hamud_Book/edit/zh-Hans-CN/{path}"
 
 [output.html.fold]
 enable = true
 level = 0
+
+[output.html.playground]
+copyable = true
 
 [preprocessor.index]
 

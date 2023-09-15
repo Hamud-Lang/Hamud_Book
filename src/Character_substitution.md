@@ -2,7 +2,7 @@
     <img height="256" src='https://Hamud.PJ568.eu.org/zh-Hans-CN/favicon.svg'/>
 </p>
 
-> 🌏简体中文 | [English](https://hamud.pj568.eu.org/zh-Hans-CN/Character_substitution.html?language=english)
+> 🌏简体中文 | [繁體中文](?language=chinese_traditional) | [日本語](?language=japanese) | [한어](?language=korean) | [English](?language=english) | [español](?language=spanish)
 
 > 🗃️[Github](https://github.com/Hamud-Lang/Character_substitution) | [Gitee](https://gitee.com/Hamud-Lang/Character_substitution)
 
@@ -53,6 +53,8 @@
 
 ### 🗃️附属许可证
 
+* translate：[Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)；
+  * [Github](https://github.com/xnx3/translate/blob/master/LICENSE)、[Gitee](https://gitee.com/mail_osc/translate/blob/master/LICENSE)；
 * hack：[MIT license](https://mit-license.org)；
   * [Github](https://github.com/egoist/hack/blob/master/LICENSE)。
 

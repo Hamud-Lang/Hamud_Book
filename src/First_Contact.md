@@ -24,7 +24,7 @@ Hamud
 
 很巧，哈姆用 `Onerio 式哈拉伯符号`或 `Tri 式哈拉伯符号`的写法是一样的。
 
-以上3种形式，可以根据此对照表相互转换：
+这三种形式，可以根据以下对照表相互转换：
 
 | 拉丁字母或符号 | Onerio 式哈拉伯符号 | Tri 式哈拉伯符号 |
 | :-: | :-: | :-: |
@@ -46,3 +46,11 @@ Hamud
 | aw | لي | يٰ |
 
 为了让读者能更容易地上手。本教程会优先采用拉丁字母或符号的形式。
+
+## 拉丁字母互哈拉伯符号转换工具
+
+Character_substitution提供简便地从拉丁字母和哈拉伯符号转换的工具。
+
+* [点击访问](//Hamud.PJ568.eu.org/Character_substitution)
+
+[更多关于Character_substitution的信息](Character_substitution.md)

@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="zh" class="sidebar-visible no-js light">
+<html lang="zh" class="sidebar-visible no-js rust">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -29,15 +29,21 @@
         <link rel="stylesheet" href="../../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../../assets/loading.css">
         <link rel="stylesheet" href="../../assets/translate.css">
 
     </head>
     <body>
+    <div id="loading">
+		<div id="loading_bg">
+			<img alt="正在加载" class="loader" src="/css/loading.svg">正在加载</img>
+		</div>
+	</div>
     <div id="body-container">
         <!-- Provide site root to javascript -->
         <script>
             var path_to_root = "../../";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "rust";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
@@ -63,7 +69,7 @@
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
             html.classList.remove('no-js')
-            html.classList.remove('light')
+            html.classList.remove('rust')
             html.classList.add(theme);
             html.classList.add('js');
         </script>
@@ -211,8 +217,9 @@
         <script src="../../book.js"></script>
 
         <!-- Custom JS scripts -->
-        <script src="../../assets/giscus.js"></script>
+        <script src="../../assets/loading.js"></script>
         <script src="../../assets/translate_lib.js"></script>
+        <script src="../../assets/giscus.js"></script>
 
 
     </div>

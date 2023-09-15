@@ -2,9 +2,9 @@
 
 ## 原视频留档
 
-<video controls height='100%' width='100%' src="//Test.PJ568.eu.org/video/Hamood_Habibi.mp4"></video>
+<video controls height='100%' width='100%' src="//Repo-Hamud.PJ568.eu.org/video/Hamood_Habibi.mp4"></video>
 
-<a href="//Test.PJ568.eu.org/video/Hamood_Habibi.mp4" download="Hamood_Habibi.mp4">下载视频</a>
+<a href="//Repo-Hamud.PJ568.eu.org/video/Hamood_Habibi.mp4" download="Hamood_Habibi.mp4">下载视频</a>
 
 ## 相关信息
 

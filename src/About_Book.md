@@ -4,13 +4,13 @@
 
 > 🌏简体中文 | [繁體中文](?language=chinese_traditional) | [日本語](?language=japanese) | [한어](?language=korean) | [English](?language=english) | [español](?language=spanish)
 
-> 🗃️[Github](https://github.com/Hamud-Lang/Hamud_Book) | [Gitee](https://gitee.com/Hamud-Lang/Hamud_Book)
+> 🗃️[Github](//github.com/Hamud-Lang/Hamud_Book) | [Gitee](//gitee.com/Hamud-Lang/Hamud_Book)
 
 # <img height="30" style="margin: -3px 5px;" src="https://Hamud.PJ568.eu.org/zh-Hans-CN/favicon.svg"/>哈姆语言之书
 
 * 本项目旨在为哈姆语提供标准范本。为学习哈姆语的人提供参考资料和交流平台。
-* 假若您对本项目感到满意，请在您的指尖星空[绘制一颗新的星🌟](https://github.com/Hamud-Lang/Hamud_Book)，指引我们继续砥砺前行。
-* [点击访问](https://Hamud.PJ568.eu.org/index.html)
+* 假若您对本项目感到满意，请在您的指尖星空[绘制一颗新的星🌟](//github.com/Hamud-Lang/Hamud_Book)，指引我们继续砥砺前行。
+* [点击访问](//Hamud.PJ568.eu.org/index.html)
 
 ## 🪴项目活动
 
@@ -32,9 +32,9 @@
 
 欢迎每一位对本项目感兴趣的朋友贡献代码和内容。
 
-[点击提交贡献](../Contribute/index.md)
+[点击提交贡献](./Contribute/index.md)
 
-在提交代码前请确保您了解 [mdbook](https://rust-lang.github.io/mdBook/) 系统。
+在提交代码前请确保您了解 [mdbook](//rust-lang.github.io/mdBook/) 系统。
 
 ### 参考
 
@@ -58,17 +58,17 @@
 
 ### 🗃️附属许可证
 
-* mdBook：[MPL-2.0 license](https://www.mozilla.org/en-US/MPL/2.0/)；
-  * [Github](https://github.com/rust-lang/mdBook/blob/master/LICENSE)；
-* hack：[MIT license](https://mit-license.org)；
-  * [Github](https://github.com/egoist/hack/blob/master/LICENSE)；
+* mdBook：[MPL-2.0 license](//www.mozilla.org/en-US/MPL/2.0/)；
+  * [Github](//github.com/rust-lang/mdBook/blob/master/LICENSE)；
+* hack：[MIT license](//mit-license.org)；
+  * [Github](//github.com/egoist/hack/blob/master/LICENSE)；
 * Character_substitution：[Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)；
-  * [Github](https://github.com/Hamud-Lang/Character_substitution/LICENSE)、[Gitee](https://gitee.com/Hamud-Lang/Character_substitution/LICENSE)；
+  * [Github](//github.com/Hamud-Lang/Character_substitution/LICENSE)、[Gitee](//gitee.com/Hamud-Lang/Character_substitution/LICENSE)；
 * translate：[Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)；
-  * [Github](https://github.com/xnx3/translate/blob/master/LICENSE)、[Gitee](https://gitee.com/mail_osc/translate/blob/master/LICENSE)；
-* giscus：[MIT license](https://mit-license.org)；
-  * [Github](https://github.com/giscus/giscus/blob/main/LICENSE)。
+  * [Github](//github.com/xnx3/translate/blob/master/LICENSE)、[Gitee](//gitee.com/mail_osc/translate/blob/master/LICENSE)；
+* giscus：[MIT license](//mit-license.org)；
+  * [Github](//github.com/giscus/giscus/blob/main/LICENSE)。
 
 ## ⭐Star 历史
 
-![Star History Chart](https://api.star-history.com/svg?repos=Hamud-Lang/Hamud_Book&type=Date)
+![Star History Chart](//api.star-history.com/svg?repos=Hamud-Lang/Hamud_Book&type=Date)

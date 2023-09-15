@@ -37,7 +37,7 @@
 
 欢迎每一位对本项目感兴趣的朋友贡献代码和内容。
 
-可查阅[贡献文档](//Hamud.PJ568.eu.org/zh-Hans-CN/Contribute/)以了解相关信息。
+较为简单的提交贡献方法可查阅[贡献文档](//Hamud.PJ568.eu.org/zh-Hans-CN/Contribute/)以了解相关信息。
 
 在提交代码前请确保您了解 [mdbook](//rust-lang.github.io/mdBook/) 系统。
 

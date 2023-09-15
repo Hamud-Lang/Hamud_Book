@@ -32,7 +32,7 @@
 
 欢迎每一位对本项目感兴趣的朋友贡献代码和内容。
 
-[点击提交贡献](./Contribute/index.md)
+较为简单的提交贡献方法可查阅[贡献文档](./Contribute/index.md)以了解相关信息。
 
 在提交代码前请确保您了解 [mdbook](//rust-lang.github.io/mdBook/) 系统。
 

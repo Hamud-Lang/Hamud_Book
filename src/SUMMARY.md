@@ -1,9 +1,6 @@
 # Summary
 
 [关于哈姆语](index.md)
-[关于哈姆语言之书](About_Book.md)
-[关于哈姆论坛](Community.md)
-[关于 Character_substitution](Character_substitution.md)
 
 ---
 
@@ -62,6 +59,9 @@
 
 - [资料](Materials/index.md)
   - [《新标准哈姆语》](Materials/New_Standard_Hamud.md)
+  - [关于哈姆语言之书](About_Book.md)
+  - [关于哈姆论坛](Community.md)
+  - [关于 Character_substitution](Character_substitution.md)
 - [《哈经·姆约》](Materials/Bible_Hamud/index.md)
   - [哈约·初生纪](Materials/Bible_Hamud/Newborn.md)
   - [哈约·出哈姆纪](Materials/Bible_Hamud/Hamud.md)
@@ -94,4 +94,7 @@
 ---
 
 [任务清单](To_do.md)
+[关于哈姆语言之书](About_Book.md)
+[关于哈姆论坛](Community.md)
+[关于 Character_substitution](Character_substitution.md)
 [贡献者名单](Contributors/index.md)

@@ -2,14 +2,14 @@
     <img height="256" src='https://Hamud.PJ568.eu.org/zh-Hans-CN/favicon.svg'/>
 </p>
 
-> 🌏简体中文 | [English](https://hamud.pj568.eu.org/zh-Hans-CN/Character_substitution.html?language=english)
+> 🌏简体中文 | [繁體中文](//hamud.pj568.eu.org/zh-Hans-CN/Character_substitution.html?language=chinese_traditional) | [日本語](//hamud.pj568.eu.org/zh-Hans-CN/Character_substitution.html?language=japanese) | [한어](//hamud.pj568.eu.org/zh-Hans-CN/Character_substitution.html?language=korean) | [English](//hamud.pj568.eu.org/zh-Hans-CN/Character_substitution.html?language=english) | [español](//hamud.pj568.eu.org/zh-Hans-CN/Character_substitution.html?language=spanish)
 
-> 🗃️[Github](https://github.com/Hamud-Lang/Character_substitution) | [Gitee](https://gitee.com/Hamud-Lang/Character_substitution)
+> 🗃️[Github](//github.com/Hamud-Lang/Character_substitution) | [Gitee](//gitee.com/Hamud-Lang/Character_substitution)
 
 # Character_substitution
 
 * 本项目提供简便地从拉丁字母和哈拉伯符号转换的工具。
-* [点击访问](https://Hamud.PJ568.eu.org/Character_substitution)
+* [点击访问](//Hamud.PJ568.eu.org/Character_substitution)
 
 ## 🪴项目活动
 
@@ -25,7 +25,7 @@
 
 > 感谢所有让这个项目变得更好的贡献者们！
 
-[![Contributors Chart](https://contrib.rocks/image?repo=Hamud-Lang/Character_substitution)](https://github.com/Hamud-Lang/Character_substitution/graphs/contributors)
+[![Contributors Chart](//contrib.rocks/image?repo=Hamud-Lang/Character_substitution)](//github.com/Hamud-Lang/Character_substitution/graphs/contributors)
 
 ## 💻代码或内容贡献
 
@@ -53,9 +53,11 @@
 
 ### 🗃️附属许可证
 
-* hack：[MIT license](https://mit-license.org)；
-  * [Github](https://github.com/egoist/hack/blob/master/LICENSE)。
+* translate：[Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)；
+  * [Github](https://github.com/xnx3/translate/blob/master/LICENSE)、[Gitee](https://gitee.com/mail_osc/translate/blob/master/LICENSE)；
+* hack：[MIT license](//mit-license.org)；
+  * [Github](//github.com/egoist/hack/blob/master/LICENSE)。
 
 ## ⭐Star 历史
 
-![Star History Chart](https://api.star-history.com/svg?repos=Hamud-Lang/Character_substitution&type=Date)
+![Star History Chart](//api.star-history.com/svg?repos=Hamud-Lang/Character_substitution&type=Date)

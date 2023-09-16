@@ -19,9 +19,9 @@
 	<script src="../js/include.js"></script>
 </head>
 <body class="standard">
-	<div id="loading">
-		<div id="loading_bg">
-			<img alt="正在加载" class="loader" src="../css/loading.svg"/>
+	<div id="hmd-loading">
+		<div id="hmd-loading_bg">
+			<img alt="正在加载" class="hmd-loader" src="../css/loading.svg"/>
 		</div>
 	</div>
 	<div class="main container">
@@ -30,24 +30,20 @@
 		<a href="/"><p align="center"><img alt="Hamud language" src="../zh-Hans-CN/favicon.svg" width="40%" style="max-width:256px"/></p></a>
 
 		<h1>字符替换</h1>
-		<fieldset class="form-group form-primary">
-			<label for="inputText">拉丁字母或符号</label>
-			<input id="inputText" type="text" placeholder="Hamud" class="form-control">
-			<div class="help-block">请输入拉丁字母或符号。</div>
-		</fieldset>
-
-		<table class="notTranslate">
-			<tr>
-				<th>类型</th>
-				<th>Onerio 式哈拉伯符号</th>
-				<th>Tri 式哈拉伯符号</th>
-			</tr>
-			<tr>
-				<td>输出/输入</td>
-				<td contenteditable='true' id="onerioOutput">حامود</td>
-				<td contenteditable='true' id="triOutput">حامود</td>
-			</tr>
-		</table>
+		<form class="form">
+			<fieldset class="form-group">
+				<label for="inputText">拉丁字母或符号：</label>
+				<input id="inputText" type="text" placeholder="Hamud" class="form-control">
+			</fieldset>
+			<fieldset class="form-group form-success">
+				<label class="notTranslate" for="onerioOutput">Onerio 式哈拉伯：</label>
+				<input id="onerioOutput" type="text" placeholder="حامود" class="form-control">
+			</fieldset>
+			<fieldset class="form-group form-warning">
+				<label class="notTranslate" for="triOutput">Tri 式哈拉伯：</label>
+				<input id="triOutput" type="text" placeholder="حامود" class="form-control">
+			</fieldset>
+		</form>
 
 		<div class="btn-group">
 			<button onclick="replaceChars()" class="btn btn-ghost btn-primary">拉丁字母 → <font class="notTranslate">哈拉伯</font>符号</button>

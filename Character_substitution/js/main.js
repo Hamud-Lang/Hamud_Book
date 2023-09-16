@@ -16,6 +16,9 @@ function replaceChars() {
             case "m":
                 outputOnerio += "م";
                 outputTri += "م";
+            case "-":
+                outputOnerio += " ";
+                outputTri += " ";
                 break;
             case "d":
                 outputOnerio += "د";

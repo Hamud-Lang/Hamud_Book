@@ -1,8 +1,8 @@
 <p align="center">
-    <img height="256" src='//Hamud.PJ568.eu.org/zh-Hans-CN/favicon.svg'/>
+    <img height="256" src='https://Hamud.PJ568.eu.org/zh-Hans-CN/favicon.svg'/>
 </p>
 
-> 🌏简体中文 | [繁體中文](//hamud.pj568.eu.org/zh-Hans-CN/Character_substitution.html?language=chinese_traditional) | [日本語](//hamud.pj568.eu.org/zh-Hans-CN/Character_substitution.html?language=japanese) | [한어](//hamud.pj568.eu.org/zh-Hans-CN/Character_substitution.html?language=korean) | [English](//hamud.pj568.eu.org/zh-Hans-CN/Character_substitution.html?language=english) | [español](//hamud.pj568.eu.org/zh-Hans-CN/Character_substitution.html?language=spanish)
+> 🌏简体中文 | [繁體中文](//hamud.pj568.eu.org/zh-Hans-CN/Character_substitution.html?language=chinese_traditional) | [日本語](//hamud.pj568.eu.org/zh-Hans-CN/Character_substitution.html?language=japanese) | [한어](//hamud.pj568.eu.org/zh-Hans-CN/Character_substitution.html?language=korean) | [English](//hamud.pj568.eu.org/zh-Hans-CN/Character_substitution.html?language=english) | [Español](//hamud.pj568.eu.org/zh-Hans-CN/Character_substitution.html?language=spanish)
 
 > 🗃️[Github](//github.com/Hamud-Lang/Character_substitution) | [Gitee](//gitee.com/Hamud-Lang/Character_substitution)
 

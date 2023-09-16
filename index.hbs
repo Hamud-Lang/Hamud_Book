@@ -50,7 +50,7 @@
 
         {{#if mathjax_support}}
         <!-- MathJax -->
-        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
         {{/if}}
     </head>
     <body>
@@ -136,7 +136,7 @@
                             <li role="none"><button role="menuitem" class="theme" id="navy">海魂 - Navy</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="ayu">阿黑 - Ayu</button></li>
                         </ul>
-                        <script src="https://res.zvo.cn/translate/translate.js"></script>
+                        <script src="//res.zvo.cn/translate/translate.js"></script>
                         <button id="translate" class="icon-button" type="button" title="更改语言 - Change language" aria-label="Change language" aria-haspopup="true" aria-expanded="false">
                             <i class="fa fa-globe"></i>
                         </button>
@@ -150,21 +150,21 @@
                     <h1 class="menu-title">{{ book_title }}</h1>
 
                     <div class="right-buttons">
-                        <a href="//Hamud.PJ568.eu.org" title="返回主页 - Back home">
+                        <a href="//Hamud.PJ568.eu.org" onclick="startLoading()" title="返回主页 - Back home">
                             <i class="fa fa-home"></i>
                         </a>
                         {{#if print_enable}}
-                        <a href="{{ path_to_root }}print.html" title="打印本书 - Print this book" aria-label="Print this book">
+                        <a href="{{ path_to_root }}print.html" onclick="startLoading()" title="打印本书 - Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
                         </a>
                         {{/if}}
                         {{#if git_repository_url}}
-                        <a href="{{git_repository_url}}" title="仓库链接 - Git repository" aria-label="Git repository">
+                        <a href="{{git_repository_url}}" onclick="startLoading()" title="仓库链接 - Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa {{git_repository_icon}}"></i>
                         </a>
                         {{/if}}
                         {{#if git_repository_edit_url}}
-                        <a href="{{git_repository_edit_url}}" title="编辑此页面 - Suggest an edit" aria-label="Suggest an edit">
+                        <a href="{{git_repository_edit_url}}" onclick="startLoading()" title="编辑此页面 - Suggest an edit" aria-label="Suggest an edit">
                             <i id="git-edit-button" class="fa fa-edit"></i>
                         </a>
                         {{/if}}

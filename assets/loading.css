@@ -1,4 +1,4 @@
-#loading {
+#hmd-loading {
 	position: fixed;
 	background-color: #424242;
 	top: 0px;
@@ -8,11 +8,11 @@
 	z-index: 1000000
 }
 
-#loading_bg{
+#hmd-loading_bg{
 	background-color: rgba(0,0,0,0.7);
 }
 
-.loader {
+.hmd-loader {
 	line-height: 50px;
 	text-align: center;
 	position: absolute;
@@ -27,8 +27,8 @@
 	letter-spacing: 0.2em;
 }
 
-@media screen and (max-width: 980px){.loader{width:80%}}
-@media screen and (min-width: 980px){.loader{width:25rem}}
+@media screen and (max-width: 980px){.hmd-loader{width:80%}}
+@media screen and (min-width: 980px){.hmd-loader{width:25rem}}
 
 @-webkit-keyframes load {
 	0% {

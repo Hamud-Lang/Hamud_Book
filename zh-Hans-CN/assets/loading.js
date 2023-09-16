@@ -1,5 +1,5 @@
 // const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay))
-const position = document.querySelector('#loading');
+const position = document.querySelector('#hmd-loading');
 
 document.onreadystatechange=function () {
     if (window.location.href.indexOf("print.html") === -1) {
@@ -13,7 +13,7 @@ document.onreadystatechange=function () {
 }
 
 function startLoading() {
-    var loadingBackground=document.getElementById('loading_bg');
+    var loadingBackground=document.getElementById('hmd-loading_bg');
     position.style.display = 'block';
     loadingBackground.style.opacity=1;
     setTimeout(() => loadingFade(), 30000)
@@ -22,7 +22,7 @@ function startLoading() {
 function loadingFade() {
     var opacity=1;
     //  var loadingPage=document.getElementById('loading');
-    var loadingBackground=document.getElementById('loading_bg');
+    var loadingBackground=document.getElementById('hmd-loading_bg');
     var time=setInterval(function () {
         if (opacity<=0){
             clearInterval(time);

@@ -1,6 +1,7 @@
 /*********LoadingPage*************/
 
 #loading {
+	display: none;
 	position: fixed;
 	background-color: #424242;
 	top: 0px;

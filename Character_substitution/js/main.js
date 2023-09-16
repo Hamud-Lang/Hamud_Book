@@ -1,4 +1,4 @@
-function AA() {alert("请输入内容。\n請輸入內容。\nInput something please.\n:-)");}
+function AA() {msg.info('请输入内容');}
 function replaceChars() {
     var inputText = document.getElementById("inputText").value.toLowerCase();
     var outputOnerio = "";
@@ -98,6 +98,7 @@ function replaceChars() {
         } else {
             document.getElementById("onerioOutput").innerHTML = outputOnerio;
             document.getElementById("triOutput").innerHTML = outputTri;
+            msg.success('转换成功');
         }
     }
 
@@ -108,10 +109,12 @@ function replaceChars() {
     // 复制内容到剪贴板
     navigator.clipboard.writeText(inputContent)
     .then(function() {
+        msg.success('复制成功');
         console.log("内容已复制到剪贴板");
     })
     .catch(function(err) {
         console.error("无法复制内容：", err);
+        msg.failure('复制失败');
     });
 }
 
@@ -123,9 +126,11 @@ function replaceChars() {
     navigator.clipboard.writeText(inputContent)
     .then(function() {
         console.log("内容已复制到剪贴板");
+        msg.success('复制成功');
     })
     .catch(function(err) {
         console.error("无法复制内容：", err);
+        msg.failure('复制失败');
     });
 }
 
@@ -213,13 +218,13 @@ function reverseonerioChars() {
         AA();
     } else {
     document.getElementById("inputText").value = outputText;
+    msg.success('转换成功')
     }
 }
 
 function reversetriChars() {
     var triText = document.getElementById("triOutput").innerHTML;
     var outputText = "";
-    alert("不可抗因素导致本功能有些许异常，请谨慎使用。\n不可抗因素導致本功能有些許異常，請謹慎使用。\nPlease notice that this feature is buggy.\n:-(");
 
     // 将Tri转换回字母或符号
     for (var i = 0; i < triText.length; i++) {
@@ -292,7 +297,8 @@ function reversetriChars() {
         AA();
     } else {
     document.getElementById("inputText").value = outputText;
+    msg.info('不可抗因素导致本功能有些许异常，请谨慎使用');
     }
 }
 
-function clearContent() {document.getElementById("inputText").value = "";document.getElementById("triOutput").innerHTML = "";document.getElementById("onerioOutput").innerHTML = "";}
+function clearContent() {document.getElementById("inputText").value = "";document.getElementById("triOutput").innerHTML = "";document.getElementById("onerioOutput").innerHTML = "";msg.success('已清空')}

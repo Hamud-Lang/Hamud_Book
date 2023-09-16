@@ -1,11 +1,16 @@
-document.onreadystatechange=function () {
-    if (document.readyState=="complete"){
-         loadingFade();
-    }
-}
-
 // const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay))
 const position = document.querySelector('#loading');
+
+document.onreadystatechange=function () {
+    if (window.location.href.indexOf("print.html") === -1) {
+        position.style.display = 'block';
+        if (document.readyState=="complete"){
+            loadingFade();
+        }
+    } else {
+        position.style.display = 'none';
+    }
+}
 
 function startLoading() {
     var loadingBackground=document.getElementById('loading_bg');

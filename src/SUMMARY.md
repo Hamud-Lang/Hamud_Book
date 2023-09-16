@@ -1,6 +1,7 @@
 # Summary
 
-[关于哈姆语](index.md)
+[选择语言](index.md)
+[关于哈姆语](About_Hamud.md)
 
 ---
 

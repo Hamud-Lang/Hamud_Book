@@ -1,5 +1,5 @@
 <p align="center">
-    <img height="256" src='//Hamud.PJ568.eu.org/zh-Hans-CN/favicon.svg'/>
+    <img height="256" src='https://Hamud.PJ568.eu.org/zh-Hans-CN/favicon.svg'/>
 </p>
 
 > 🌏简体中文 | [English](./README_EN.md)

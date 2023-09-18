@@ -58,16 +58,16 @@
 
 ### 🗃️附属许可证
 
-* mdBook：[MPL-2.0 license](//www.mozilla.org/en-US/MPL/2.0/)；
-  * [Github](//github.com/rust-lang/mdBook/blob/master/LICENSE)；
-* hack：[MIT license](//mit-license.org)；
-  * [Github](//github.com/egoist/hack/blob/master/LICENSE)；
+* hack：[MIT license](https://mit-license.org)；
+  * [Github](https://github.com/egoist/hack/blob/master/LICENSE)；
 * Character_substitution：[Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)；
-  * [Github](//github.com/Hamud-Lang/Character_substitution/LICENSE)、[Gitee](//gitee.com/Hamud-Lang/Character_substitution/LICENSE)；
+  * [Github](https://github.com/Hamud-Lang/Character_substitution/LICENSE)、[Gitee](https://gitee.com/Hamud-Lang/Character_substitution/LICENSE)；
 * translate：[Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)；
-  * [Github](//github.com/xnx3/translate/blob/master/LICENSE)、[Gitee](//gitee.com/mail_osc/translate/blob/master/LICENSE)；
+  * [Github](https://github.com/xnx3/translate/blob/master/LICENSE)、[Gitee](https://gitee.com/mail_osc/translate/blob/master/LICENSE)；
+* msg：[Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)；
+  * [Github](https://github.com/xnx3/msg/blob/master/LICENSE)、[Gitee](https://gitee.com/mail_osc/msg/blob/master/LICENSE)；
 * giscus：[MIT license](//mit-license.org)；
-  * [Github](//github.com/giscus/giscus/blob/main/LICENSE)。
+  * [Github](https://github.com/giscus/giscus/blob/main/LICENSE)。
 
 ## ⭐Star 历史
 

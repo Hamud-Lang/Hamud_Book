@@ -1,0 +1,23 @@
+@media only screen and (max-width: 500px) {
+    #menu-bar i, #menu-bar .icon-button {
+        padding: 0 5px
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #menu-bar i, #menu-bar .icon-button {
+        padding: 0 2px
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .menu-title {
+        font-size: 2rem
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .menu-title {
+        font-size: 1.5rem
+    }
+}

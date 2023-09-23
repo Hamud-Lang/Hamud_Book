@@ -1,8 +1,38 @@
-// 若当前 mdbook 主题为 Light 或 Rust ，则将 giscuz 主题设置为 light
+// 若当前 mdbook 主题为 Light 或 Rust ，则将 giscus 主题设置为 light
 var theme = "transparent_dark";
 const themeClass = document.getElementsByTagName("html")[0].className;
 if (themeClass.indexOf("light") != -1 || themeClass.indexOf("rust") != -1) {
     theme = "light"
+}
+
+// 获取用户使用的语种。
+var lang = translate.language.getCurrent();
+var giscus_lang = "zh-CN";
+switch (lang) {
+	case "chinese_traditional":
+		giscus_lang = "zh-TW"
+		break;
+	case "english":
+		giscus_lang = "en"
+		break;
+	case "spanish":
+		giscus_lang = "es"
+		break;
+	case "japanese":
+		giscus_lang = "ja"
+		break;
+	case "korean":
+		giscus_lang = "ko"
+		break;
+	case "french":
+		giscus_lang = "fr"
+		break;
+	case "arabic":
+		giscus_lang = "ar"
+		break;
+	default:
+		giscus_lang = "zh-CN";
+		break;
 }
 
 var giscus = function () {
@@ -22,7 +52,7 @@ var giscus = function () {
 	script.setAttribute("data-emit-metadata", "0");
 	script.setAttribute("data-input-position", "top");
 	script.setAttribute("data-theme", theme);
-	script.setAttribute("data-lang", "zh-CN");
+	script.setAttribute("data-lang", giscus_lang);
 
 	script.crossOrigin = "anonymous";
 	script.async = true;

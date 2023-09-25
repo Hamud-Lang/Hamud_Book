@@ -59,7 +59,7 @@
 
 ## 📄许可证
 
-本项目遵循 [Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) 许可协议。如果想了解完整许可信息，请查阅 `LICENSE` 文件。
+本项目遵循 [CC BY-SA 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) 许可协议。如果想了解完整许可信息，请查阅 `LICENSE` 文件。
 
 ### 🗃️附加许可证
 

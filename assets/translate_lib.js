@@ -3,10 +3,10 @@ try{
     translate.language.setLocal('chinese_simplified');
     translate.setAutoDiscriminateLocalLanguage();
     translate.language.setUrlParamControl();
+    translate.ignore.class.push('notTranslate');
 }
 catch(e){console.log(e);}
 translate.setUseVersion2();
-translate.ignore.class.push('notTranslate');
 translate.nomenclature.append('chinese_simplified','english',`
     哈姆语言之书=Hamud Book
     哈姆语=the language of Hamud

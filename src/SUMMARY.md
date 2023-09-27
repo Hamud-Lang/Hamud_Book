@@ -54,9 +54,8 @@
 
 - [MHDH 世界线](World_line/index.md)
   - [MHDH 相关政权](World_line/Nations.md)
-  - [MHDH 相关人造语言](World_line/Nations.md)
+  - [MHDH 相关人造语言](World_line/Lang.md)
 - [HITL 世界线]()
-- [引入]()
 - [地图]()
 - [预言、故事和传说]()
 

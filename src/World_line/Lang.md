@@ -1,6 +1,6 @@
-# MHDH 相关世界线的政权
-
-- ![HITL](//static.miraheze.org/hamuddaolihumanlinewikiwiki/2/28/Hamud.png)哈姆语
-- ![Xdi8](//static.miraheze.org/hamuddaolihumanlinewikiwiki/f/f6/Xdi8.png)希顶语
-- ![Kjazan](//static.miraheze.org/hamuddaolihumanlinewikiwiki/2/2b/Kjazan.png)克伊亚兰语
-- 新说的道理语
+<div style="position: relative; width: 100%; 
+    padding-top: calc(100% - 24px)">
+    <iframe src="https://hamuddaolihumanlinewiki.miraheze.org/wiki/语言列表" title="MHDH语言列表" 
+    style="position: absolute; width: 100%; height: 100%; top: 0;">
+    </iframe>
+</div>

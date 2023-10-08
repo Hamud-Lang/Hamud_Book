@@ -22,7 +22,7 @@ jobs:
         with:
           toolchain: stable
       - run: (test -x $HOME/.cargo/bin/mdbook || cargo install --vers "^0.4" mdbook)
-      - run: mdbook build && mdbook test
+      - run: mdbook -V && mdbook build && mdbook test
       - run: |
           echo '创建 tree/：'
           mkdir /home/runner/tree

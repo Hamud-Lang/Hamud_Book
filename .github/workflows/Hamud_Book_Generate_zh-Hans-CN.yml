@@ -18,10 +18,13 @@ jobs:
         with:
           ref: zh-Hans-CN
           submodules: recursive
-      - uses: actions-rs/toolchain@v1
+
+      - name: Setup mdBook
+        uses: peaceiris/actions-mdbook@v1
         with:
-          toolchain: stable
-      - run: (test -x $HOME/.cargo/bin/mdbook || cargo install --vers "^0.4" mdbook)
+          mdbook-version: '0.4.29'
+          # mdbook-version: 'latest'
+
       - run: mdbook -V && mdbook build && mdbook test
       - run: |
           echo '创建 tree/：'

@@ -26,10 +26,10 @@ jobs:
           echo '检查 temp/：'
           ls /home/runner/temp/
 
-      - name: HTML/CSS/JS Minifier
-        run: |
+      # HTML/CSS/JS Minifier
+      - run: |
           cd /home/runner/temp/
-        uses: docker://devatherock/minify-js:2.0.0
+      - uses: docker://devatherock/minify-js:2.0.0
         with:
           add_suffix: false
 

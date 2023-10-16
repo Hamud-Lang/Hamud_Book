@@ -27,9 +27,10 @@ jobs:
           ls /home/runner/temp/
 
       - name: HTML/CSS/JS Minifier
+      - run: |
+          cd /home/runner/temp/
         uses: docker://devatherock/minify-js:2.0.0
         with:
-          directory: '/home/runner/temp/'
           add_suffix: false
 
       # Run merge home and gh-pages

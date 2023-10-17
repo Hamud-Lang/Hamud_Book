@@ -29,6 +29,16 @@
   - [文段阅读]()
   - [长难句]()
 
+# 世界线
+
+- [MHDH 世界线](World_line/index.md)
+  - [政权](World_line/Nations.md)
+  - [人造语言](World_line/Lang.md)
+  - [图例](World_line/Graph.md)
+- [HITL 世界线]()
+- [地图]()
+- [预言、故事和传说]()
+
 # 语言工具
 
 - [大语言模型翻译 Prompt](lib/Prompt.md)
@@ -49,16 +59,6 @@
 - [德哈语]()
   - [由来]()
   - [对比]()
-
-# 世界线
-
-- [MHDH 世界线](World_line/index.md)
-  - [政权](World_line/Nations.md)
-  - [人造语言](World_line/Lang.md)
-  - [图例](World_line/Graph.md)
-- [HITL 世界线]()
-- [地图]()
-- [预言、故事和传说]()
 
 # 文献
 

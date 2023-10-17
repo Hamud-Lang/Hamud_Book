@@ -23,15 +23,13 @@
 ```markdown
 # 新标准哈姆语
 ## 语法词
-哈姆语有几个用于分割句子成分的语法词，用拉丁字母书写时，要求全大写。
-这些语法词基本上与道本语的语法词用法类似。
 - `HAMUD` 加在主语后用以分割句子成分，提示主语。
 - `HABIBI` 加在谓语后用于分割句子成分，提示宾语。
 - `GOMEGADMENENOAMA` 加在主题后用于提示主题。
 - `YA AHMAD HAMADI` 加在句尾用于表达尊敬或者嘲讽的含义。
 ### 语法示例
 - 主语 `HAMUD` 动词
- - 这是哈姆语句子的基本结构，一般情况下任何句子都需要主语和动词。
+ - 哈姆语句子的基本结构，一般情况任何句子都有主语和动词。
 - 主语 `HAMUD`, 主语 `HAMUD` 动词
  - 如果句子有两个主语，则需要用两个HAMUD来分别引导。
 - 主语 `HAMUD` 动词 `HABIBI` 宾语
@@ -40,8 +38,6 @@
  - 如果句子有两个直接宾语，则需要用两个 `HABIBI` 来分别引导。
 - 主题 `GOMEGADMENENOAMA` , 主语 `HAMUD` 动词
  - 如果句子有主题，那么就需要用 `GOMEGADMENENOAMA` 来引导。
-- 主语 `HAMUD` 动词 `YA AHMAD HAMADI`
- - 如果是在正式场合或是祈祷，可以在句尾加上 `YA AHMAD HAMADI` 来显得更加正式（当然也可以用于嘲讽）。
 以上的语法词并不冲突，可以同时使用，但是要按照一定顺序（从先至后）：
 1. 主题 `GOMEGADMENENOAMA`, （主题 `GOMEGADMENENOAMA` ）；
 1. 主语 `HAMUD` （主语 `HAMUD` ）；
@@ -60,8 +56,6 @@
 |no|地点、旁边、远、近|
 |yam|高度、上、下|
 |ma|容器、盒子、里、外|
-我们可以看到，每个词根都有两个相反的含义，这时就需要进行语法词缀进行区分。
-`hamud` 这个词可以说是整个哈姆语中最复杂的词，因为它的所以含义至今没有被完全总结。
 `ha` 和 `mud` 是一对对立统一的后缀，`ha` 表示抽象的“远”，`mud` 表示抽象的“近”。通过 `ha` 和 `mud` 我们就可以对 `gomgadmenenoama` 词进行区分。
 |词根（拉丁文字）|含义|
 |:-:|:--|
@@ -94,8 +88,6 @@
 |yammud|下|
 |mamud|外|
 - `nen` 行的推导是特殊规定：`hamud` 轴不变，但观察者的位置移动到 `ha` 和 `mud` 两极中间。
-- 该表仅作为理解构词法用，更多的单词含义还请看官方词表。
-- 你杠就是你对，你比哈姆还哈姆。
 ## 介词
 哈姆语起初缺少介词，后来经过对 `gomgadmenenoama` 词的词根的引申从而有了介词。
 |近词（拉丁文字）|含义|
@@ -121,36 +113,29 @@
 - 哈姆：所有的语法词、介词和“hamud”这个词。因为Hamud这个词既可以直接做静词也可以当成动词。
 在哈姆语中，中心词在前，修饰成分后置。
 例如：
-- 哈姆的食物：`basoye hamud`（ `hamud` 修饰 `basoye` ，`hamud` 在这里的意思是“哈姆的”）
-- 和哈姆一起做：`yarimasune yam hamud`（ `yam` 引导的修饰成分一起修饰动词 `yarimasune` ）
-但是当修饰成分过长时，有时可能会引起歧义，这时就需要一个词来避免修饰顺序引起的歧义。
-`Min` 的含义是“的”，但与汉语“的”用法不同，更像是英语的“`of`”，如果你懂道本语，那你完全可以认为`min` 的用法与道本语“`pi`”的用法相同
-例如：
-- `Ma ragia hamud` 人的黏土房
- - （ `ragia` 黏状物修饰 `ma` 房子，`hamud` 人再修饰前面的整体）
-- `Ma min ragia hamud` 厕所
-（ `min` 将 `ma` 和 `ragia hamud` 分隔开，`ragia hamud` 作为一个整体，`hamud` 修饰 `ragia` ，含义是“`人的粪便`”，这个整体再修饰前面的 `ma` 房子，表示厕所）
+- 哈姆的食物：`basoye hamud`
+- 和哈姆一起做：`yarimasune yam hamud`
 ## 从句
 哈姆语的从句引导词是 `deg` ，用于引导静词从句（名词从句和关系从句），如果你懂道世语，那你可以认为这个词和 `te` 是同样的用法。
 当 `deg` 前面紧跟介词、语法词或者是在句子开头时，那它就是名词从句。当它紧跟在名词后面，它就是关系从句。
 例如：
 - `Gommud HAMUD yarimasunemengad HABIBI deg gommud HAMUD yarimasunebido HBIBI habi.`
- - `deg gommud HAMUD yarimasunebido HBIBI habi`是名词（名词从句），整体作为 `yarimasunemengad` 的宾语，由 `HABIBI` 引导。这句话的意思是`你想要你打畜生`。
+ - `deg gommud HAMUD yarimasunebido HBIBI habi`这句话的意思是`你想要你打牲畜`。
  - 如果从句的主语和主句的主语一致，则从句的主语和引导它的 `HAMUD` 可以一并省掉：
 `Gommud HAMUD yarimasunemengad HABIBI deg yarimasunebido HBIBI habi.`
 - `deg gommud HAMUD yarimasunebido HBIBI habi, HAMUD hamud.`
- - “`deg gommud HAMUD yarimasunebido HBIBI habi`”在这里依然是一个名词（名词从句），整体作为后面主句的主语，由 `HAMUD` 引导。这句话的意思是“`你打畜生是好的`”。
+ - “`deg gommud HAMUD yarimasunebido HBIBI habi`”这句话的意思是“`你打畜生是好的`”。
 - `Habi deg gommud HAMUD yarimasunebido HABIBI, HAMUD hamud.`
- - `deg gommud HAMUD yarimasunebido HABIBI`在这里是一个形容词（关系从句），整体修饰前面的 `habi` 。一个关系从句必然会留下一个名词作为空项，由它所修饰的名词代替，这样引导这个名词的语法词就空出来了，所以由被从句修饰的名词来替代。这句话的意思是`你打的那个畜生是好的`。
+ - `deg gommud HAMUD yarimasunebido HABIBI`这句话的意思是`你打的那个畜生是好的`。
 - `Hamud deg gommud HAMUD yarimasune gom-, HAMUD hamud.`
- - “`deg gommud HAMUD yarimasune gom-`”在这里是一个形容词（关系从句），整体修饰前面的 `hamud` 。`Gom-` 后面所引导的词被空出来了，说明这个位置是留给整个从句修饰的那个中心词的。这句话的意思是“`和你一起做的那个哈姆是好的`”。
+ - “`deg gommud HAMUD yarimasune gom-`”这句话的意思是“`和你一起做的那个哈姆是好的`”。
 ## 主题
 句子的主题由语法词 `GOMEGADMENENOAMA` 引导，你可以翻译成“`对于……来说`”或者“`如果谈论……`”。
 主题不一定是一个词，也可以是一个句子。
 - `Gommud HAMUD yarimasunehabihia HABIBI hamud GOMEGADMENENOAMA gomha HAMUD hamud.`
-这句话中“ `GOMEGADMENENOAMA` ”引导“ `Gommud HAMUD yarimasunehabihia HABIBI hamud` ”作为整个句子的主题。这句话的意思是“`对于你谈谈哈姆来说，我很哈姆`”。
+  - `对于你谈谈哈姆来说，我很哈姆`。
 - `Nennen GOMEGADMENENOAMA gomha HAMUD hamud.`
-这句话“`nennen`”作为句子的主题。这句话的意思是“`对于现在来说，我很哈姆`”。
+  - `对于现在来说，我很哈姆`。
 ## 数字与疑问
 哈姆语通过元音在口腔中的发声位置定义了五个词：
 |词语（拉丁文字）|含义|
@@ -196,8 +181,7 @@
 |dida|10|
 以此类推。
 ## 语气词
-万能语气词：`hamud`。
-任何情况下表达任何语气都可以用这一个词。
+语气词：`hamud`。
 - `*ha`：表达汉语中“`悦`”、“`喜`”的感情
 - `*mud`：表达汉语中“`悲`”、“`恼`”的感情
 ## 外来语哈姆化
@@ -281,9 +265,6 @@ bido 攻击，破坏，死亡
 gamurig 异端，切割，分割
 gingin 钱，货币
 bahre 自由
-hamen 国王（hamud menha min hamudu的简称）
-hahen 先知（hamudhen hamudu的简称）
-haya 宰相（hamudyarima min hamud menha）
 haga 孩子，王子（hamud gadmud的简称）
 bebaron 疯癫，傻，胡言乱语，怪异
 desd 性行为

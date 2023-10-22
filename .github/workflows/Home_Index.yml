@@ -103,7 +103,7 @@ jobs:
 
       - name: Generate the sitemap
         id: sitemap
-        uses: cicirello/generate-sitemap@1
+        uses: cicirello/generate-sitemap@v1
         with:
           base-url-path: https://hamud.pj568.eu.org/
 

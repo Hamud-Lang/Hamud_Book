@@ -52,12 +52,12 @@ function replaceChars() {
 				break;
 			case "a":
 				if (inputText.charAt(i + 1) === "y") {
-					outputOnerio += "لو";
-					outputTri += "وٰ";
-					i++;
-				} else if (inputText.charAt(i + 1) === "w") {
 					outputOnerio += "لي";
 					outputTri += "يٰ";
+					i++;
+				} else if (inputText.charAt(i + 1) === "w") {
+					outputOnerio += "لو";
+					outputTri += "وٰ";
 					i++;
 				} else {
 					outputOnerio += "ا";

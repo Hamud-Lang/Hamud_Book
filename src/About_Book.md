@@ -63,6 +63,8 @@
 * Character_substitution：[Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)；
   * [Github](https://github.com/Hamud-Lang/Character_substitution/LICENSE)、[Gitee](https://gitee.com/Hamud-Lang/Character_substitution/LICENSE)；
 * translate：[Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)；
+  * [Github](https://github.com/sandoche/Darkmode.js/LICENSE)；
+* translate：[Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)；
   * [Github](https://github.com/xnx3/translate/blob/master/LICENSE)、[Gitee](https://gitee.com/mail_osc/translate/blob/master/LICENSE)；
 * msg：[Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)；
   * [Github](https://github.com/xnx3/msg/blob/master/LICENSE)、[Gitee](https://gitee.com/mail_osc/msg/blob/master/LICENSE)；

@@ -5,8 +5,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name='description' content='The Hamud language is a constructed language that originated from internet memes, with its grammar based on Toki Pona and its vocabulary derived from Arabic. 哈姆语是一门起源于网络流行哽，语法基于道本语、词汇基于阿拉伯词源的人造语言。这是哈姆语官方网站。'>
 	<meta http-equiv='content-language' content='zh-Hans-CN'>
-	<link rel="stylesheet" href="zh-Hans-CN/assets/loading.css">
+	<link rel="stylesheet" href="zh-Hans-CN/assets/loading.css"/>
 	<script src="zh-Hans-CN/assets/loading.js"></script>
+	<link rel="stylesheet" href="css/override.css"/>
+	<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+	<script>
+		function addDarkmodeWidget() {
+			new Darkmode().showWidget();
+		}
+		window.addEventListener('load', addDarkmodeWidget);
+	</script>
 	<link rel="stylesheet" href="css/translate.css">
 	<script src="//res.zvo.cn/translate/translate.js"></script>
 	<script src="zh-Hans-CN/assets/translate_lib.js"></script>

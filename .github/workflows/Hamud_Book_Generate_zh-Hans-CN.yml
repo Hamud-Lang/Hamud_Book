@@ -69,7 +69,7 @@ jobs:
           echo "excluded-count = ${{ steps.sitemap.outputs.excluded-count }}"
 
       # Deploy
-      - uses: JamesIves/github-pages-deploy-action@4.1.7
+      - uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: . # The folder the action should deploy.

@@ -1,1 +1,0 @@
-<iframe onload="this.height=document.documentElement.clientWidth;" src="https://MHDH.PJ568.eu.org/wiki/MHDH现存国家列表" title="MHDH现存国家列表" style="position:relative;width:100%;top:0" frameborder="0"></iframe>

@@ -85,3 +85,6 @@
     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Hamud-Lang/Hamud_Book&type=Date" />
   </picture>
 </a>
+
+<!-- mdbook build | mdbook serve -->
+<!-- python ./assets/MHDH_cpy.py -->

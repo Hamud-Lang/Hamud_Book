@@ -31,17 +31,16 @@
 
 # 哈姆
 
-- [哈姆](World_line/哈姆.md)
-  - [哈姆民族](World_line/哈姆民族列表.md)
-  - [哈姆文化](World_line/哈姆文化列表.md)
+- [哈姆](MHDH/Hamud.md)
+  - [哈姆文化](MHDH/哈姆文化列表.md)
 
 # 世界线
 
-- [MHDH 世界线](World_line/MHDH世界线.md)
-  - [政权](World_line/MHDH现存国家列表.md)
-  - [人造语言](World_line/语言列表.md)
-  - [图例](World_line/所有图例.md)
-- [HITL 世界线](World_line/HITL世界线.md)
+- [MHDH 世界线](MHDH/index.md)
+  - [政权](MHDH/Nations.md)
+  - [人造语言](MHDH/语言列表.md)
+  - [图例](MHDH/所有图例.md)
+- [HITL 世界线](MHDH/HITL.md)
 - [地图]()
 - [预言、故事和传说]()
 
@@ -51,9 +50,9 @@
 - [哈汉对译翻译器](Translator.md)
 - [字符替换工具](Character_substitution.md)
 
-# 语系分支
+<!-- # 语系分支
 
-- [哈姆方言](World_line/哈姆方言列表.md)
+- [哈姆方言](MHDH/哈姆方言列表.md) -->
 
 # 文献
 
@@ -97,5 +96,5 @@
 [关于哈姆语言之书](About_Book.md)
 [关于哈姆论坛](Community.md)
 [关于 Character_substitution](Character_substitution.md)
-[关于 MHDH 世界线](World_line/index.md)
+[关于 MHDH 世界线](MHDH/index.md)
 [贡献者名单](Contributors/index.md)

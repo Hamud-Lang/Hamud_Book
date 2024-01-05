@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 # pip install requests
 # pip install beautifulsoup4
 
-def save_section_content(url, path, domain):
+def save_section_content(url, path, domain, file_name):
     # 发送 GET 请求获取网页内容
     response = requests.get(url)
     response.raise_for_status()
@@ -27,13 +27,16 @@ def save_section_content(url, path, domain):
     section = replace_href_domain(section, domain)
 
     if section:
-        # 获取网页标题
-        title = soup.title.string.strip()
-        # 替换无效的文件名字符
-        title = title.replace('/', '-').replace('\\', '-').replace(':', '-').replace('*', '-').replace('?', '-').replace('"', "'").replace('<', '[').replace('>', ']')
-
-        # 构造保存的文件路径
-        save_path = os.path.join(path, f'{title}.md')
+        
+        if file_name != '':
+            save_path = os.path.join(path, f'{file_name}.md')
+        else:
+            # 获取网页标题
+            title = soup.title.string.strip()
+            # 替换无效的文件名字符
+            title = title.replace('/', '-').replace('\\', '-').replace(':', '-').replace('*', '-').replace('?', '-').replace('"', "'").replace('<', '[').replace('>', ']')
+            # 构造保存的文件路径
+            save_path = os.path.join(path, f'{title}.md')
         
         # 保存 <section> 元素内的内容到文件
         with open(save_path, 'w', encoding='utf-8') as file:
@@ -62,33 +65,30 @@ def batch_remove_string_in_filename(folder_path, target_string):
             if target_string in file_name:
                 new_file_name = file_name.replace(target_string, '')
                 os.rename(os.path.join(root, file_name), os.path.join(root, new_file_name))
+    print(f'已清除“{target_string}”。')
 
 # 执行
-path = './src/World_line/'
+path = './src/MHDH/'
 domain = '//mhdh.pj568.eu.org'
 # Hamud
-save_section_content('https://mhdh.pj568.eu.org/wiki/%E5%93%88%E5%A7%86', path, domain)
+save_section_content('https://mhdh.pj568.eu.org/wiki/%E5%93%88%E5%A7%86', path, domain, 'Hamud')
 # Index
-save_section_content('https://mhdh.pj568.eu.org/wiki/MHDH%E4%B8%96%E7%95%8C%E7%BA%BF', path, domain)
+save_section_content('https://mhdh.pj568.eu.org/wiki/MHDH%E4%B8%96%E7%95%8C%E7%BA%BF', path, domain, 'index')
 # Languages
-save_section_content('https://mhdh.pj568.eu.org/wiki/%E8%AF%AD%E8%A8%80%E5%88%97%E8%A1%A8', path, domain)
+save_section_content('https://mhdh.pj568.eu.org/wiki/%E8%AF%AD%E8%A8%80%E5%88%97%E8%A1%A8', path, domain, '')
 # Graph
-save_section_content('https://mhdh.pj568.eu.org/wiki/%E6%89%80%E6%9C%89%E5%9B%BE%E4%BE%8B', path, domain)
+save_section_content('https://mhdh.pj568.eu.org/wiki/%E6%89%80%E6%9C%89%E5%9B%BE%E4%BE%8B', path, domain, '')
 # Nations
-save_section_content('https://mhdh.pj568.eu.org/wiki/MHDH%E7%8E%B0%E5%AD%98%E5%9B%BD%E5%AE%B6%E5%88%97%E8%A1%A8', path, domain)
-# HIL
-save_section_content('https://mhdh.pj568.eu.org/wiki/HITL%E4%B8%96%E7%95%8C%E7%BA%BF', path, domain)
+save_section_content('https://mhdh.pj568.eu.org/wiki/MHDH%E7%8E%B0%E5%AD%98%E5%9B%BD%E5%AE%B6%E5%88%97%E8%A1%A8', path, domain, 'Nations')
+# HITL
+save_section_content('https://mhdh.pj568.eu.org/wiki/HITL%E4%B8%96%E7%95%8C%E7%BA%BF', path, domain, 'HITL')
 # 哈姆民族
-save_section_content('https://mhdh.pj568.eu.org/wiki/%E5%93%88%E5%A7%86%E6%B0%91%E6%97%8F%E5%88%97%E8%A1%A8', path, domain)
+# save_section_content('https://mhdh.pj568.eu.org/wiki/%E5%93%88%E5%A7%86%E6%B0%91%E6%97%8F%E5%88%97%E8%A1%A8', path, domain)
 # 哈姆文化
-save_section_content('https://mhdh.pj568.eu.org/wiki/%E5%93%88%E5%A7%86%E6%96%87%E5%8C%96%E5%88%97%E8%A1%A8', path, domain)
+save_section_content('https://mhdh.pj568.eu.org/wiki/%E5%93%88%E5%A7%86%E6%96%87%E5%8C%96%E5%88%97%E8%A1%A8', path, domain, '')
 # 哈姆方言
-save_section_content('https://mhdh.pj568.eu.org/wiki/%E5%93%88%E5%A7%86%E6%96%B9%E8%A8%80%E5%88%97%E8%A1%A8', path, domain)
+# save_section_content('https://mhdh.pj568.eu.org/wiki/%E5%93%88%E5%A7%86%E6%96%B9%E8%A8%80%E5%88%97%E8%A1%A8', path, domain)
 
 batch_remove_string_in_filename(path, ' - MHDH维基')
 
-# save_section_content('#####', path, domain)
-# save_section_content('#####', path, domain)
-# save_section_content('#####', path, domain)
-# save_section_content('#####', path, domain)
 # save_section_content('#####', path, domain)

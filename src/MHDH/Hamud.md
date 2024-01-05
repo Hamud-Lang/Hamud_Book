@@ -146,7 +146,7 @@
         哈姆
        </b>
        有不同的
-       <a href="//mhdh.pj568.eu.org/wiki/%E5%93%88%E5%A7%86%E6%B0%91%E6%97%8F%E5%88%97%E8%A1%A8" title="哈姆民族列表">
+       <a class="new" href="//mhdh.pj568.eu.org/w/index.php?title=%E5%93%88%E5%A7%86%E6%B0%91%E6%97%8F%E5%88%97%E8%A1%A8&amp;action=edit&amp;redlink=1" title="哈姆民族列表（页面不存在）">
         种族
        </a>
        ，
@@ -165,7 +165,7 @@
       </p>
       <ul>
        <li>
-        <a href="//mhdh.pj568.eu.org/wiki/%E5%93%88%E5%A7%86%E6%B0%91%E6%97%8F%E5%88%97%E8%A1%A8" title="哈姆民族列表">
+        <a class="new" href="//mhdh.pj568.eu.org/w/index.php?title=%E5%93%88%E5%A7%86%E6%B0%91%E6%97%8F%E5%88%97%E8%A1%A8&amp;action=edit&amp;redlink=1" title="哈姆民族列表（页面不存在）">
          哈姆民族列表
         </a>
        </li>
@@ -175,7 +175,7 @@
         </a>
        </li>
        <li>
-        <a href="//mhdh.pj568.eu.org/wiki/%E5%93%88%E5%A7%86%E6%96%B9%E8%A8%80%E5%88%97%E8%A1%A8" title="哈姆方言列表">
+        <a class="new" href="//mhdh.pj568.eu.org/w/index.php?title=%E5%93%88%E5%A7%86%E6%96%B9%E8%A8%80%E5%88%97%E8%A1%A8&amp;action=edit&amp;redlink=1" title="哈姆方言列表（页面不存在）">
          哈姆方言列表
         </a>
        </li>
@@ -215,13 +215,13 @@
       </div>
       <!-- 
 NewPP limit report
-Parsed by mw133
-Cached time: 20231217164621
+Parsed by mw141
+Cached time: 20231231020828
 Cache expiry: 604800
 Reduced expiry: false
 Complications: [no‐toc‐conversion]
-CPU time usage: 0.089 seconds
-Real time usage: 0.135 seconds
+CPU time usage: 0.046 seconds
+Real time usage: 0.110 seconds
 Preprocessor visited node count: 39/1000000
 Post‐expand include size: 608/2097152 bytes
 Template argument size: 0/2097152 bytes
@@ -232,10 +232,10 @@ Unstrip post‐expand size: 1249/5000000 bytes
 -->
       <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00%   17.297      1 Template:艺术美化
-100.00%   17.297      1 -total
+100.00%    4.810      1 Template:艺术美化
+100.00%    4.810      1 -total
 -->
-      <!-- Saved in parser cache with key hamuddaolihumanlinewikiwiki:pcache:idhash:10-0!canonical!zh!groups=* and timestamp 20231217164620 and revision id 669. Rendering was triggered because: page-view
+      <!-- Saved in parser cache with key hamuddaolihumanlinewikiwiki:pcache:idhash:10-0!canonical!zh!groups=* and timestamp 20231231020828 and revision id 669. Rendering was triggered because: page-view
  -->
      </div>
      <noscript>

@@ -205,13 +205,13 @@
       </p>
       <!-- 
 NewPP limit report
-Parsed by mw142
-Cached time: 20231223043940
+Parsed by mwtask141
+Cached time: 20240105035120
 Cache expiry: 604800
 Reduced expiry: false
 Complications: [no‐toc‐conversion]
-CPU time usage: 0.061 seconds
-Real time usage: 0.122 seconds
+CPU time usage: 0.127 seconds
+Real time usage: 0.262 seconds
 Preprocessor visited node count: 200/1000000
 Post‐expand include size: 5154/2097152 bytes
 Template argument size: 3184/2097152 bytes
@@ -222,16 +222,16 @@ Unstrip post‐expand size: 0/5000000 bytes
 -->
       <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00%   28.469      1 -total
- 77.35%   22.022      1 Template:兼容表
- 19.82%    5.643      1 Template:WIP
- 17.98%    5.118      4 Template:兼容表内容
- 10.48%    2.983      1 Template:兼容表体
-  9.39%    2.674      1 Template:兼容表配文
-  8.91%    2.537      1 Template:文前框
-  7.26%    2.067      1 Template:兼容表图
+100.00%   23.217      1 -total
+ 69.36%   16.104      1 Template:兼容表
+ 26.95%    6.257      1 Template:WIP
+ 16.98%    3.943      1 Template:兼容表体
+ 11.80%    2.740      4 Template:兼容表内容
+ 11.23%    2.608      1 Template:文前框
+  8.40%    1.950      1 Template:兼容表图
+  7.62%    1.770      1 Template:兼容表配文
 -->
-      <!-- Saved in parser cache with key hamuddaolihumanlinewikiwiki:pcache:idhash:220-0!canonical!zh!groups=* and timestamp 20231223043940 and revision id 803. Rendering was triggered because: unknown
+      <!-- Saved in parser cache with key hamuddaolihumanlinewikiwiki:pcache:idhash:220-0!canonical!zh!groups=* and timestamp 20240105035120 and revision id 803. Rendering was triggered because: unknown
  -->
      </div>
      <noscript>

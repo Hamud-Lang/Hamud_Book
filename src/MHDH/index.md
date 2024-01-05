@@ -103,12 +103,12 @@
       <!-- 
 NewPP limit report
 Parsed by mwtask141
-Cached time: 20231224114326
+Cached time: 20240105034003
 Cache expiry: 604800
 Reduced expiry: false
 Complications: [no‐toc‐conversion]
-CPU time usage: 0.091 seconds
-Real time usage: 0.161 seconds
+CPU time usage: 0.082 seconds
+Real time usage: 0.101 seconds
 Preprocessor visited node count: 1/1000000
 Post‐expand include size: 0/2097152 bytes
 Template argument size: 0/2097152 bytes
@@ -121,7 +121,7 @@ Unstrip post‐expand size: 0/5000000 bytes
 Transclusion expansion time report (%,ms,calls,template)
 100.00%    0.000      1 -total
 -->
-      <!-- Saved in parser cache with key hamuddaolihumanlinewikiwiki:pcache:idhash:239-0!canonical!zh!groups=* and timestamp 20231224114326 and revision id 822. Rendering was triggered because: unknown
+      <!-- Saved in parser cache with key hamuddaolihumanlinewikiwiki:pcache:idhash:239-0!canonical!zh!groups=* and timestamp 20240105034003 and revision id 822. Rendering was triggered because: unknown
  -->
      </div>
      <noscript>

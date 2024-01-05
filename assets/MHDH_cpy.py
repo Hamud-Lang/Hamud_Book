@@ -83,11 +83,11 @@ save_section_content('https://mhdh.pj568.eu.org/wiki/MHDH%E7%8E%B0%E5%AD%98%E5%9
 # HITL
 save_section_content('https://mhdh.pj568.eu.org/wiki/HITL%E4%B8%96%E7%95%8C%E7%BA%BF', path, domain, 'HITL')
 # 哈姆民族
-# save_section_content('https://mhdh.pj568.eu.org/wiki/%E5%93%88%E5%A7%86%E6%B0%91%E6%97%8F%E5%88%97%E8%A1%A8', path, domain)
+# save_section_content('https://mhdh.pj568.eu.org/wiki/%E5%93%88%E5%A7%86%E6%B0%91%E6%97%8F%E5%88%97%E8%A1%A8', path, domain, '')
 # 哈姆文化
 save_section_content('https://mhdh.pj568.eu.org/wiki/%E5%93%88%E5%A7%86%E6%96%87%E5%8C%96%E5%88%97%E8%A1%A8', path, domain, '')
 # 哈姆方言
-# save_section_content('https://mhdh.pj568.eu.org/wiki/%E5%93%88%E5%A7%86%E6%96%B9%E8%A8%80%E5%88%97%E8%A1%A8', path, domain)
+# save_section_content('https://mhdh.pj568.eu.org/wiki/%E5%93%88%E5%A7%86%E6%96%B9%E8%A8%80%E5%88%97%E8%A1%A8', path, domain, '')
 
 batch_remove_string_in_filename(path, ' - MHDH维基')
 

@@ -18,5 +18,4 @@ try{
     `);
 }
 catch(e){console.log(e);}
-translate.setUseVersion2();
 translate.execute();

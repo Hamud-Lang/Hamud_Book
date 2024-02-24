@@ -46,7 +46,7 @@
          <td style="width: 50px; padding: 2px 0px 2px 0.5em; text-align: center;">
           <span class="mw-default-size" typeof="mw:File">
            <a class="mw-file-description" href="//mhdh.pj568.eu.org/wiki/File:%E5%85%8B%E4%BC%8A%E4%BA%9A%E5%85%B0zzz.png">
-            <img decoding="async" height="100" src="//static.miraheze.org/hamuddaolihumanlinewikiwiki/5/51/%E5%85%8B%E4%BC%8A%E4%BA%9A%E5%85%B0zzz.png" width="100"/>
+            <img class="mw-file-element" decoding="async" height="100" src="//static.miraheze.org/hamuddaolihumanlinewikiwiki/5/51/%E5%85%8B%E4%BC%8A%E4%BA%9A%E5%85%B0zzz.png" width="100"/>
            </a>
           </span>
          </td>
@@ -78,13 +78,13 @@
        <caption>
         <span class="mw-default-size" typeof="mw:File">
          <a class="mw-file-description" href="//mhdh.pj568.eu.org/wiki/File:Hamud.png">
-          <img decoding="async" height="25" src="//static.miraheze.org/hamuddaolihumanlinewikiwiki/2/28/Hamud.png" width="25"/>
+          <img class="mw-file-element" decoding="async" height="25" src="//static.miraheze.org/hamuddaolihumanlinewikiwiki/2/28/Hamud.png" width="25"/>
          </a>
         </span>
         HITL世界线
         <span class="mw-default-size" typeof="mw:File">
          <a class="mw-file-description" href="//mhdh.pj568.eu.org/wiki/File:Hamud.png">
-          <img decoding="async" height="25" src="//static.miraheze.org/hamuddaolihumanlinewikiwiki/2/28/Hamud.png" width="25"/>
+          <img class="mw-file-element" decoding="async" height="25" src="//static.miraheze.org/hamuddaolihumanlinewikiwiki/2/28/Hamud.png" width="25"/>
          </a>
         </span>
        </caption>
@@ -97,8 +97,8 @@
         <tr>
          <th colspan="2">
           <span typeof="mw:Error mw:File">
-           <a class="new" href="//mhdh.pj568.eu.org/w/index.php?title=Special:%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6&amp;wpDestFile=Hitl%E4%B8%96%E7%95%8C%E7%BA%BF.png" title="File:Hitl世界线.png">
-            <span class="mw-broken-media" data-width="256">
+           <a class="new" href="//mhdh.pj568.eu.org/wiki/Special:%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6?wpDestFile=Hitl%E4%B8%96%E7%95%8C%E7%BA%BF.png" title="File:Hitl世界线.png">
+            <span class="mw-file-element mw-broken-media" data-width="256">
              File:Hitl世界线.png
             </span>
            </a>
@@ -122,12 +122,12 @@
           创造者
          </td>
          <td>
-          <a class="new" href="//mhdh.pj568.eu.org/w/index.php?title=%E5%B8%8C%E8%85%8A%E7%81%ABonerio&amp;action=edit&amp;redlink=1" title="希腊火onerio（页面不存在）">
+          <a class="new" href="//mhdh.pj568.eu.org/wiki/%E5%B8%8C%E8%85%8A%E7%81%ABonerio?action=edit&amp;redlink=1" title="希腊火onerio（页面不存在）">
            希腊火onerio
           </a>
           <span class="mw-default-size" typeof="mw:File">
            <a class="mw-file-description" href="//mhdh.pj568.eu.org/wiki/File:Xilahuo.png">
-            <img decoding="async" height="24" src="//static.miraheze.org/hamuddaolihumanlinewikiwiki/f/fa/Xilahuo.png" width="24"/>
+            <img class="mw-file-element" decoding="async" height="24" src="//static.miraheze.org/hamuddaolihumanlinewikiwiki/f/fa/Xilahuo.png" width="24"/>
            </a>
           </span>
          </td>
@@ -139,10 +139,10 @@
          <td>
           <span class="mw-default-size" typeof="mw:File">
            <a class="mw-file-description" href="//mhdh.pj568.eu.org/wiki/File:%E5%9C%B0%E7%90%83.png">
-            <img decoding="async" height="22" src="//static.miraheze.org/hamuddaolihumanlinewikiwiki/1/18/%E5%9C%B0%E7%90%83.png" width="24"/>
+            <img class="mw-file-element" decoding="async" height="22" src="//static.miraheze.org/hamuddaolihumanlinewikiwiki/1/18/%E5%9C%B0%E7%90%83.png" width="24"/>
            </a>
           </span>
-          <a class="new" href="//mhdh.pj568.eu.org/w/index.php?title=%E5%9C%B0%E7%90%83&amp;action=edit&amp;redlink=1" title="地球（页面不存在）">
+          <a class="new" href="//mhdh.pj568.eu.org/wiki/%E5%9C%B0%E7%90%83?action=edit&amp;redlink=1" title="地球（页面不存在）">
            地球
           </a>
          </td>
@@ -152,12 +152,12 @@
           智慧生物
          </td>
          <td>
-          <a class="new" href="//mhdh.pj568.eu.org/w/index.php?title=%E5%93%88%E5%A7%86%EF%BC%88hitl%E4%B8%96%E7%95%8C%E7%BA%BF%EF%BC%89&amp;action=edit&amp;redlink=1" title="哈姆（hitl世界线）（页面不存在）">
+          <a class="new" href="//mhdh.pj568.eu.org/wiki/%E5%93%88%E5%A7%86%EF%BC%88hitl%E4%B8%96%E7%95%8C%E7%BA%BF%EF%BC%89?action=edit&amp;redlink=1" title="哈姆（hitl世界线）（页面不存在）">
            哈姆
           </a>
           <span class="mw-default-size" typeof="mw:File">
            <a class="mw-file-description" href="//mhdh.pj568.eu.org/wiki/File:Hamud.png">
-            <img decoding="async" height="25" src="//static.miraheze.org/hamuddaolihumanlinewikiwiki/2/28/Hamud.png" width="25"/>
+            <img class="mw-file-element" decoding="async" height="25" src="//static.miraheze.org/hamuddaolihumanlinewikiwiki/2/28/Hamud.png" width="25"/>
            </a>
           </span>
           ，
@@ -166,7 +166,7 @@
           </a>
           <span class="mw-default-size" typeof="mw:File">
            <a class="mw-file-description" href="//mhdh.pj568.eu.org/wiki/File:%E4%BA%BA%E7%B1%BB.png">
-            <img decoding="async" height="24" src="//static.miraheze.org/hamuddaolihumanlinewikiwiki/3/32/%E4%BA%BA%E7%B1%BB.png" width="26"/>
+            <img class="mw-file-element" decoding="async" height="24" src="//static.miraheze.org/hamuddaolihumanlinewikiwiki/3/32/%E4%BA%BA%E7%B1%BB.png" width="26"/>
            </a>
           </span>
           （两种智慧生物存在时间不重合）
@@ -179,7 +179,7 @@
          <td>
           <span class="mw-default-size" typeof="mw:File">
            <a class="mw-file-description" href="//mhdh.pj568.eu.org/wiki/File:Hamud.png">
-            <img decoding="async" height="25" src="//static.miraheze.org/hamuddaolihumanlinewikiwiki/2/28/Hamud.png" width="25"/>
+            <img class="mw-file-element" decoding="async" height="25" src="//static.miraheze.org/hamuddaolihumanlinewikiwiki/2/28/Hamud.png" width="25"/>
            </a>
           </span>
           <a href="//mhdh.pj568.eu.org/wiki/%E5%93%88%E5%A7%86%E8%AF%AD" title="哈姆语">
@@ -187,13 +187,13 @@
           </a>
           ，
           <span class="mw-default-size" typeof="mw:Error mw:File">
-           <a class="new" href="//mhdh.pj568.eu.org/w/index.php?title=Special:%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6&amp;wpDestFile=%E5%93%88%E6%B1%89.png" title="File:哈汉.png">
-            <span class="mw-broken-media">
+           <a class="new" href="//mhdh.pj568.eu.org/wiki/Special:%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6?wpDestFile=%E5%93%88%E6%B1%89.png" title="File:哈汉.png">
+            <span class="mw-file-element mw-broken-media">
              File:哈汉.png
             </span>
            </a>
           </span>
-          <a class="new" href="//mhdh.pj568.eu.org/w/index.php?title=%E5%93%88%E6%B1%89%E8%AF%AD&amp;action=edit&amp;redlink=1" title="哈汉语（页面不存在）">
+          <a class="new" href="//mhdh.pj568.eu.org/wiki/%E5%93%88%E6%B1%89%E8%AF%AD?action=edit&amp;redlink=1" title="哈汉语（页面不存在）">
            哈汉语
           </a>
          </td>
@@ -205,13 +205,13 @@
       </p>
       <!-- 
 NewPP limit report
-Parsed by mwtask141
-Cached time: 20240105035120
+Parsed by mwtask181
+Cached time: 20240224124834
 Cache expiry: 604800
 Reduced expiry: false
-Complications: [no‐toc‐conversion]
-CPU time usage: 0.127 seconds
-Real time usage: 0.262 seconds
+Complications: []
+CPU time usage: 0.041 seconds
+Real time usage: 0.055 seconds
 Preprocessor visited node count: 200/1000000
 Post‐expand include size: 5154/2097152 bytes
 Template argument size: 3184/2097152 bytes
@@ -222,16 +222,16 @@ Unstrip post‐expand size: 0/5000000 bytes
 -->
       <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00%   23.217      1 -total
- 69.36%   16.104      1 Template:兼容表
- 26.95%    6.257      1 Template:WIP
- 16.98%    3.943      1 Template:兼容表体
- 11.80%    2.740      4 Template:兼容表内容
- 11.23%    2.608      1 Template:文前框
-  8.40%    1.950      1 Template:兼容表图
-  7.62%    1.770      1 Template:兼容表配文
+100.00%   21.882      1 -total
+ 68.35%   14.957      1 Template:兼容表
+ 28.66%    6.271      1 Template:WIP
+ 13.74%    3.007      4 Template:兼容表内容
+ 13.25%    2.899      1 Template:文前框
+  9.34%    2.043      1 Template:兼容表图
+  9.27%    2.028      1 Template:兼容表体
+  7.91%    1.731      1 Template:兼容表配文
 -->
-      <!-- Saved in parser cache with key hamuddaolihumanlinewikiwiki:pcache:idhash:220-0!canonical!zh!groups=* and timestamp 20240105035120 and revision id 803. Rendering was triggered because: unknown
+      <!-- Saved in parser cache with key hamuddaolihumanlinewikiwiki:pcache:idhash:220-0!canonical!zh!groups=* and timestamp 20240224124834 and revision id 803. Rendering was triggered because: unknown
  -->
      </div>
      <noscript>
@@ -240,8 +240,8 @@ Transclusion expansion time report (%,ms,calls,template)
     </div>
     <div class="printfooter">
      取自“
-     <a dir="ltr" href="https://mhdh.pj568.eu.org/w/index.php?title=HITL世界线&amp;oldid=803">
-      https://mhdh.pj568.eu.org/w/index.php?title=HITL世界线&amp;oldid=803
+     <a dir="ltr" href="https://mhdh.pj568.eu.org/wiki/HITL世界线?oldid=803">
+      https://mhdh.pj568.eu.org/wiki/HITL世界线?oldid=803
      </a>
      ”
     </div>
@@ -254,12 +254,12 @@ Transclusion expansion time report (%,ms,calls,template)
        ：​
        <ul>
         <li>
-         <a class="new" href="//mhdh.pj568.eu.org/w/index.php?title=Category:%E6%9C%AA%E5%AE%8C%E6%88%90&amp;action=edit&amp;redlink=1" title="Category:未完成（页面不存在）">
+         <a class="new" href="//mhdh.pj568.eu.org/wiki/Category:%E6%9C%AA%E5%AE%8C%E6%88%90?action=edit&amp;redlink=1" title="Category:未完成（页面不存在）">
           未完成
          </a>
         </li>
         <li>
-         <a class="new" href="//mhdh.pj568.eu.org/w/index.php?title=Category:%E5%90%AB%E6%9C%89%E5%8F%97%E6%8D%9F%E6%96%87%E4%BB%B6%E9%93%BE%E6%8E%A5%E7%9A%84%E9%A1%B5%E9%9D%A2&amp;action=edit&amp;redlink=1" title="Category:含有受损文件链接的页面（页面不存在）">
+         <a class="new" href="//mhdh.pj568.eu.org/wiki/Category:%E5%90%AB%E6%9C%89%E5%8F%97%E6%8D%9F%E6%96%87%E4%BB%B6%E9%93%BE%E6%8E%A5%E7%9A%84%E9%A1%B5%E9%9D%A2?action=edit&amp;redlink=1" title="Category:含有受损文件链接的页面（页面不存在）">
           含有受损文件链接的页面
          </a>
         </li>

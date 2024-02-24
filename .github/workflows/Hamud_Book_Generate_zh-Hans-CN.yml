@@ -22,7 +22,7 @@ jobs:
       - name: Setup mdBook
         uses: peaceiris/actions-mdbook@v1
         with:
-          mdbook-version: '0.4.29'
+          mdbook-version: '0.4.37'
           # mdbook-version: 'latest'
 
       - run: mdbook -V && mdbook build && mdbook test
@@ -61,12 +61,6 @@ jobs:
         uses: cicirello/generate-sitemap@v1
         with:
           base-url-path: https://hamud.pj568.eu.org/
-
-      - name: Output sitemap stats
-        run: |
-          echo "sitemap-path = ${{ steps.sitemap.outputs.sitemap-path }}"
-          echo "url-count = ${{ steps.sitemap.outputs.url-count }}"
-          echo "excluded-count = ${{ steps.sitemap.outputs.excluded-count }}"
 
       # Deploy
       - uses: JamesIves/github-pages-deploy-action@v4

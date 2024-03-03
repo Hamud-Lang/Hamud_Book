@@ -22,4 +22,4 @@
 - `Ma ragia hamud` 人的黏土房
   - （ `ragia` 黏状物修饰 `ma` 房子，`hamud` 人再修饰前面的整体）
 - `Ma min ragia hamud` 厕所
-（ `min` 将 `ma` 和 `ragia hamud` 分隔开，`ragia hamud` 作为一个整体，`hamud` 修饰 `ragia` ，含义是“`人的粪便`”，这个整体再修饰前面的 `ma` 房子，表示厕所）
+（ `min` 将 `ma` 和 `ragia hamud` 分隔开，`ragia hamud` 作为一个整体，`hamud` 修饰 `ragia` ，含义是“`人的排遗物`”，这个整体再修饰前面的 `ma` 房子，表示卫生间）

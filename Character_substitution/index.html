@@ -6,7 +6,7 @@
 	<meta name='description' content='The Hamud language is a constructed language that originated from internet memes, with its grammar based on Toki Pona and its vocabulary derived from Arabic. 哈姆语是一门起源于网络流行哽，语法基于道本语、词汇基于阿拉伯词源的人造语言。这是哈姆语官方网站。'>
 	<meta http-equiv='content-language' content='zh-Hans-CN'>
 	<link rel="stylesheet" href="../zh-Hans-CN/assets/loading.css">
-	<script src="../zh-Hans-CN/assets/loading.js"></script>
+	<script src="../zh-Hans-CN/assets/loading.js" type="text/javascript"></script>
 	<link rel="stylesheet" href="../css/translate.css">
 	<link rel="stylesheet" href="../css/override.css"/>
 	<script src="https://lib.baomitu.com/darkmode.js/1.5.7/darkmode-js.min.js"></script>
@@ -16,16 +16,19 @@
 		}
 		window.addEventListener('load', addDarkmodeWidget);
 	</script>
-	<script src="//res.zvo.cn/translate/translate.js"></script>
-	<script src="../zh-Hans-CN/assets/translate_lib.js"></script>
+	<script src="//res.zvo.cn/translate/translate.js" type="text/javascript"></script>
+	<script src="../zh-Hans-CN/assets/translate_lib.js" type="text/javascript"></script>
 	<title class="notTranslate">حابيحيا حامود گاومايگادماينايناواما يام - 哈姆符号转换工具</title>
 	<link rel="icon" href="../zh-Hans-CN/favicon.svg">
 	<link rel="stylesheet" href="../css/hack/dist/hack.css">
 	<link rel="stylesheet" href="../css/hack/dist/standard.css">
-	<script src="//res.zvo.cn/msg/msg.js"></script>
-	<script src="js/main.js"></script>
+	<script src="//res.zvo.cn/msg/msg.js" type="text/javascript"></script>
+	<script src="js/main.js" type="text/javascript"></script>
 	<script src="../js/include.js"></script>
-	<script src="../js/giscus.js"></script>
+	<script src="//lib.baomitu.com/pjax/0.2.8/pjax.min.js" type="text/javascript"></script>
+	<script src="../js/giscus.js" type="text/javascript"></script>
+	<script src="../js/SetPjax.js" type="text/javascript"></script>
+	<script src="../js/load_ani.js" type="text/javascript"></script>
 </head>
 <body class="standard">
 	<div id="hmd-loading">
@@ -68,7 +71,7 @@
 		</div>
 		<br/>
 		<div class="btn-group">
-			<button onclick="window.location.href='/';startLoading()" class="btn btn-ghost btn-success">回到主页</button>
+			<button onclick="window.location.href='/'" class="btn btn-ghost btn-success">回到主页</button>
 			<button onclick="javascript:history.back(-1);" class="btn btn-ghost btn-success">返回</button>
 		</div>
 
@@ -163,7 +166,7 @@
 		<div id="giscus-container"></div>
 		<br/>
 		<div class="btn-group">
-			<button onclick="window.location.href='/';startLoading()" class="btn btn-ghost btn-success">回到主页</button>
+			<button onclick="window.location.href='/'" class="btn btn-ghost btn-success">回到主页</button>
 			<button onclick="window.location.href='#'" class="btn btn-ghost btn-success">返回页顶</button>
 			<button onclick="javascript:history.back(-1);" class="btn btn-ghost btn-success">返回</button>
 		</div>
@@ -171,5 +174,8 @@
 		<include src="../footer.html"></include>
 	</div>
 	<script src="//lf6-cdn-tos.bytecdntp.com/cdn/expire-1-y/instant.page/5.1.0/instantpage.min.js"></script>
+	<div class="loading-bar">
+        <div class="progress"></div>
+    </div>
 </body>
 </html>

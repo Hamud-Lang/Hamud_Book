@@ -1,6 +1,7 @@
 name: zh-Hans-CN_CI
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - '**'

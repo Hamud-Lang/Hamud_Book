@@ -2,7 +2,6 @@ var pjax = new Pjax({
     selectors: [
         "head title",
         "head meta",
-        ".theme-popup",
         ".chapter",
         ".content",
         ".pjax-reload"

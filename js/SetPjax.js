@@ -8,6 +8,7 @@ var pjax = new Pjax({
 });
 
 function pjax_reload() {
+    SetupGiscus(getCurrentLanguage());
     includeHTML();
 }
 

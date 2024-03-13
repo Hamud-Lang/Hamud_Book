@@ -48,7 +48,7 @@ var SetupGiscus = function (giscus_lang) {
 	script.setAttribute("data-input-position", "top");
 	script.setAttribute("data-theme", "light_high_contrast");
 	script.setAttribute("data-lang", giscus_lang);
-	script.setAttribute("data-loading", "lazy");
+	// script.setAttribute("data-loading", "lazy");
 
 	script.crossOrigin = "anonymous";
 	script.async = true;

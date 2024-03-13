@@ -58,21 +58,21 @@
 		</form>
 
 		<div class="btn-group">
-			<button onclick="replaceChars()" class="btn btn-ghost btn-primary">拉丁字母 → <font class="notTranslate">哈拉伯</font>符号</button>
-			<button onclick="reverseonerioChars()" class="btn btn-ghost btn-primary"><font class="notTranslate">Onerio 式哈拉伯</font>符号 → 拉丁字母</button>
-			<button onclick="reversetriChars()" class="btn btn-ghost btn-default"><font class="notTranslate">Tri 式哈拉伯</font>符号 → 拉丁字母</button>
+			<button onclick="replaceChars()" class="btn btn-ghost btn-primary">拉丁字母 → <div class="notTranslate">哈拉伯</div>符号</a>
+			<button onclick="reverseonerioChars()" class="btn btn-ghost btn-primary"><div class="notTranslate">Onerio 式哈拉伯</div>符号 → 拉丁字母</a>
+			<button onclick="reversetriChars()" class="btn btn-ghost btn-default"><div class="notTranslate">Tri 式哈拉伯</div>符号 → 拉丁字母</a>
 		</div>
 		<br/>
 		<div class="btn-group">
-			<button onclick="copy('inputText')" class="btn btn-ghost btn-error">复制拉丁字母和符号</button>
-			<button onclick="copyContent('onerioOutput')" class="btn btn-ghost btn-error">复制 Onerio 式<font class="notTranslate">哈拉伯</font>符号</button>
-			<button onclick="copyContent('triOutput')" class="btn btn-ghost btn-error">复制 Tri 式<font class="notTranslate">哈拉伯</font>符号</button>
-			<button onclick="clearContent()" class="btn btn-ghost btn-error">清空</button>
+			<button onclick="copy('inputText')" class="btn btn-ghost btn-error">复制拉丁字母和符号</a>
+			<button onclick="copyContent('onerioOutput')" class="btn btn-ghost btn-error">复制 Onerio 式<div class="notTranslate">哈拉伯</div>符号</a>
+			<button onclick="copyContent('triOutput')" class="btn btn-ghost btn-error">复制 Tri 式<div class="notTranslate">哈拉伯</div>符号</a>
+			<button onclick="clearContent()" class="btn btn-ghost btn-error">清空</a>
 		</div>
 		<br/>
 		<div class="btn-group">
-			<button onclick="window.location.href='/'" class="btn btn-ghost btn-success">回到主页</button>
-			<button onclick="javascript:history.back(-1);" class="btn btn-ghost btn-success">返回</button>
+			<a href="/" class="btn btn-ghost btn-success">回到主页</a>
+			<button onclick="javascript:history.back(-1);" class="btn btn-ghost btn-success">返回</a>
 		</div>
 
 		<table class="notTranslate">
@@ -166,9 +166,9 @@
 		<div id="giscus-container"></div>
 		<br/>
 		<div class="btn-group">
-			<button onclick="window.location.href='/'" class="btn btn-ghost btn-success">回到主页</button>
-			<button onclick="window.location.href='#'" class="btn btn-ghost btn-success">返回页顶</button>
-			<button onclick="javascript:history.back(-1);" class="btn btn-ghost btn-success">返回</button>
+			<a href="/" class="btn btn-ghost btn-success">回到主页</a>
+			<a href="#" class="btn btn-ghost btn-success">返回页顶</a>
+			<button onclick="javascript:history.back(-1);" class="btn btn-ghost btn-success">返回</a>
 		</div>
 		<br/>
 		<include src="../footer.html"></include>

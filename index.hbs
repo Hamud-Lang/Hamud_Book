@@ -183,7 +183,7 @@
                             <i class="fa fa-home"></i>
                         </a>
                         {{#if print_enable}}
-                        <a href="{{ path_to_root }}print.html" title="打印本书" aria-label="Print this book">
+                        <a href="{{ path_to_root }}print.html" onclick="window.location.href='{{ path_to_root }}print.html'" title="打印本书" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
                         </a>
                         {{/if}}

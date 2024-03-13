@@ -1,6 +1,7 @@
 name: HomeBuildCI
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - '**'

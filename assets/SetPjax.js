@@ -4,6 +4,7 @@ var pjax = new Pjax({
         "head meta",
         "script[data-pjax]",
         ".chapter",
+        ".nav-chapters",
         "#search-wrapper",
         ".content",
         ".pjax-reload"

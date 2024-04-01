@@ -61,7 +61,7 @@ jobs:
         id: sitemap
         uses: cicirello/generate-sitemap@v1
         with:
-          base-url-path: https://hamud.pj568.eu.org/
+          base-url-path: https://hamud.pj568.sbs/
 
       # Deploy
       - uses: JamesIves/github-pages-deploy-action@v4
@@ -70,4 +70,4 @@ jobs:
           folder: . # The folder the action should deploy.
 
       - name: Ping Google
-        run: curl https://www.google.com/ping?sitemap=https://hamud.pj568.eu.org/sitemap.xml
+        run: curl https://www.google.com/ping?sitemap=https://hamud.pj568.sbs/sitemap.xml

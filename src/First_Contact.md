@@ -51,6 +51,6 @@ Hamud
 
 Character_substitution提供简便地从拉丁字母和哈拉伯符号转换的工具。
 
-* [点击访问](//Hamud.PJ568.eu.org/Character_substitution)
+* [点击访问](/Character_substitution)
 
 [更多关于Character_substitution的信息](Character_substitution.md)

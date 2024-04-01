@@ -17,4 +17,4 @@
   - [ ] 基于 `zh-Hans-CN` 分支修改；
   - [X] ~~自动机器翻译。~~
 
-> 若欲提供支持，请查阅[贡献文档](https://Hamud.PJ568.eu.org/zh-Hans-CN/Contribute/)以了解相关信息。
+> 若欲提供支持，请查阅[贡献文档](/zh-Hans-CN/Contribute/)以了解相关信息。

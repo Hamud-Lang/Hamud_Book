@@ -1,5 +1,5 @@
 <p align="center">
-    <img height="256" src='https://Hamud.PJ568.eu.org/zh-Hans-CN/favicon.svg'/>
+    <img height="256" src='https://Hamud.PJ568.sbs/zh-Hans-CN/favicon.svg'/>
 </p>
 
 # 新标准哈姆语（原文改稿）

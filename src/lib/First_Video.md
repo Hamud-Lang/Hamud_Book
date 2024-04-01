@@ -2,9 +2,9 @@
 
 ## 原视频
 
-<video controls height='100%' width='100%' src="//Repo-Hamud.PJ568.eu.org/video/First_Video.mp4"></video>
+<video controls height='100%' width='100%' src="//Repo-Hamud.PJ568.sbs/video/First_Video.mp4"></video>
 
-<a href="//Repo-Hamud.PJ568.eu.org/video/First_Video.mp4" download="【人造语言】我用《哈姆》创造了一种语言….mp4">下载视频</a>
+<a href="//Repo-Hamud.PJ568.sbs/video/First_Video.mp4" download="【人造语言】我用《哈姆》创造了一种语言….mp4">下载视频</a>
 
 - [原视频地址](//www.bilibili.com/video/BV1XK411D7yY)
 

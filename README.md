@@ -1,16 +1,16 @@
 <p align="center">
-    <img width="256" src='https://Hamud.PJ568.eu.org/zh-Hans-CN/favicon.svg'/>
+    <img width="256" src='https://Hamud.PJ568.sbs/zh-Hans-CN/favicon.svg'/>
 </p>
 
-> 🌏简体中文 | [繁體中文](//hamud.pj568.eu.org/zh-Hans-CN/About_Book.html?language=chinese_traditional) | [日本語](//hamud.pj568.eu.org/zh-Hans-CN/About_Book.html?language=japanese) | [한어](//hamud.pj568.eu.org/zh-Hans-CN/About_Book.html?language=korean) | [English](//hamud.pj568.eu.org/zh-Hans-CN/About_Book.html?language=english) | [Español](//hamud.pj568.eu.org/zh-Hans-CN/About_Book.html?language=spanish)
+> 🌏简体中文 | [繁體中文](//hamud.pj568.sbs/zh-Hans-CN/About_Book.html?language=chinese_traditional) | [日本語](//hamud.pj568.sbs/zh-Hans-CN/About_Book.html?language=japanese) | [한어](//hamud.pj568.sbs/zh-Hans-CN/About_Book.html?language=korean) | [English](//hamud.pj568.sbs/zh-Hans-CN/About_Book.html?language=english) | [Español](//hamud.pj568.sbs/zh-Hans-CN/About_Book.html?language=spanish)
 
 > 🗃️[Github](//github.com/Hamud-Lang/Hamud_Book) | [Gitee](//gitee.com/Hamud-Lang/Hamud_Book)
 
-# <img width="30" style="margin: -3px 5px;" src="https://Hamud.PJ568.eu.org/zh-Hans-CN/favicon.svg"/>哈姆语言之书
+# <img width="30" style="margin: -3px 5px;" src="https://Hamud.PJ568.sbs/zh-Hans-CN/favicon.svg"/>哈姆语言之书
 
 * 本项目旨在为哈姆语提供标准范本。为学习哈姆语的人提供参考资料和交流平台。
 * 假若您对本项目感到满意，请在您的指尖星空[绘制一颗新的星🌟](//github.com/Hamud-Lang/Hamud_Book)，指引我们继续砥砺前行。
-* [点击访问](//Hamud.PJ568.eu.org/index.html)
+* [点击访问](//Hamud.PJ568.sbs/index.html)
 
 ## 🪴项目活动
 
@@ -37,7 +37,7 @@
 
 欢迎每一位对本项目感兴趣的朋友贡献代码和内容。
 
-较为简单的提交贡献方法可查阅[贡献文档](//Hamud.PJ568.eu.org/zh-Hans-CN/Contribute/)以了解相关信息。
+较为简单的提交贡献方法可查阅[贡献文档](//Hamud.PJ568.sbs/zh-Hans-CN/Contribute/)以了解相关信息。
 
 在提交代码前请确保您了解 [mdbook](//rust-lang.github.io/mdBook/) 系统。
 

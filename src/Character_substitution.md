@@ -1,5 +1,5 @@
 <p align="center">
-    <img height="256" src='https://Hamud.PJ568.eu.org/zh-Hans-CN/favicon.svg'/>
+    <img height="256" src='https://Hamud.PJ568.sbs/zh-Hans-CN/favicon.svg'/>
 </p>
 
 > 🌏简体中文 | [繁體中文](?language=chinese_traditional) | [日本語](?language=japanese) | [한어](?language=korean) | [English](?language=english) | [Español](?language=spanish)
@@ -9,7 +9,7 @@
 # Character_substitution
 
 * 本项目提供简便地从拉丁字母和哈拉伯符号转换的工具。
-* [点击访问](//Hamud.PJ568.eu.org/Character_substitution)
+* [点击访问](//Hamud.PJ568.sbs/Character_substitution)
 
 ## 🪴项目活动
 

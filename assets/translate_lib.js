@@ -1,4 +1,5 @@
 try{
+    translate.service.use('client.edge');
     translate.listener.start();
     translate.language.setLocal('chinese_simplified');
     translate.setAutoDiscriminateLocalLanguage();
@@ -16,6 +17,6 @@ try{
         姆约=the Bible
         哈约=the Byble
     `);
+    translate.execute();
 }
-catch(e){console.log(e);}
-translate.execute();
+catch(e){console.log('翻译系统出错：' + e);}

@@ -1,5 +1,11 @@
-var loadingBar = document.querySelector(".loading-bar");
-var progress = document.querySelector(".loading-bar .progress");
+let loadingBar
+let progress
+function 初始化() {
+    loadingBar = document.querySelector(".loading-bar");
+    progress = document.querySelector(".loading-bar .progress");
+    if (!loadingBar && !progress) {console.error("无法获取 loadingBar 或 progress 元素。")}
+}
+
 var timer = null;
 
 // Pjax 开始时执行的函数
@@ -37,4 +43,6 @@ document.addEventListener("pjax:complete", function () {
   setTimeout(function () {
     progress.style.width = 0;
   }, 400);
-});
+})
+
+window.addEventListener('load', () => 初始化());

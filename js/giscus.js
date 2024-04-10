@@ -31,28 +31,29 @@ const getCurrentLanguage = function () {
 };
 
 var SetupGiscus = function (giscus_lang) {
-	const script = document.createElement("script");
-	script.type = "text/javascript";
-	script.src = "https://giscus.app/client.js";
-
-
-	script.setAttribute("data-repo", "Hamud-Lang/Hamud_Book");
-	script.setAttribute("data-repo-id", "R_kgDOKAX-uw");
-	script.setAttribute("data-category", "Announcements");
-	script.setAttribute("data-category-id", "DIC_kwDOKAX-u84CYRSk");
-
-	script.setAttribute("data-mapping", "title");
-	script.setAttribute("data-strict", "1");
-	script.setAttribute("data-reactions-enabled", "1");
-	script.setAttribute("data-emit-metadata", "0");
-	script.setAttribute("data-input-position", "top");
-	script.setAttribute("data-theme", "light_high_contrast");
-	script.setAttribute("data-lang", giscus_lang);
-	// script.setAttribute("data-loading", "lazy");
-
-	script.crossOrigin = "anonymous";
-	script.async = true;
 	if (document.getElementById("giscus-container") != null) {
+		const script = document.createElement("script");
+		script.type = "text/javascript";
+		script.src = "https://giscus.app/client.js";
+
+
+		script.setAttribute("data-repo", "Hamud-Lang/Hamud_Book");
+		script.setAttribute("data-repo-id", "R_kgDOKAX-uw");
+		script.setAttribute("data-category", "Announcements");
+		script.setAttribute("data-category-id", "DIC_kwDOKAX-u84CYRSk");
+
+		script.setAttribute("data-mapping", "title");
+		script.setAttribute("data-strict", "1");
+		script.setAttribute("data-reactions-enabled", "1");
+		script.setAttribute("data-emit-metadata", "0");
+		script.setAttribute("data-input-position", "top");
+		script.setAttribute("data-theme", "light_high_contrast");
+		script.setAttribute("data-lang", giscus_lang);
+		// script.setAttribute("data-loading", "lazy");
+
+		script.crossOrigin = "anonymous";
+		script.async = true;
+
 		document.getElementById("giscus-container").appendChild(script);
 	}
 };

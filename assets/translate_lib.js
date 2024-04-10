@@ -24,3 +24,7 @@ function initTranslate() {
 }
 
 window.addEventListener('load', initTranslate);
+
+translate.listener.renderTaskFinish = function(task){
+    SetupGiscus(getCurrentLanguage(), getCurrentTheme());
+}

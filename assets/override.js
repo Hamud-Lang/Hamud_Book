@@ -132,7 +132,7 @@ function 初始化() {
 
 // 触发器
 //// 网页加载完毕后触发
-window.addEventListener('load', () => 初始化());
+window.addEventListener('DOMContentLoaded', () => 初始化());
 //// 翻译执行完成后触发
 translate.listener.renderTaskFinish = function(_task){
 	SetupGiscus(getCurrentLanguage(), getCurrentTheme());

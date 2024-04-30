@@ -10,7 +10,7 @@
 
 例如：
 
-- 哈姆的食物：`basoye hamud`（ `hamud` 修饰 `basoye` ，`hamud` 在这里的意思是“哈姆的”）
+- 哈姆的食物：`habiso hamud`（ `hamud` 修饰 `habiso` ，`hamud` 在这里的意思是“哈姆的”）
 - 和哈姆一起做：`yarimasune yam hamud`（ `yam` 引导的修饰成分一起修饰动词 `yarimasune` ）
 
 但是当修饰成分过长时，有时可能会引起歧义，这时就需要一个词来避免修饰顺序引起的歧义。

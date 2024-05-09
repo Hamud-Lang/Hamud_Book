@@ -45,4 +45,4 @@ document.addEventListener("pjax:complete", function () {
   }, 400);
 })
 
-window.addEventListener('load', () => 初始化());
+window.addEventListener('DOMContentLoaded', () => 初始化());

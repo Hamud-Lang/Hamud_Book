@@ -1,10 +1,5 @@
 let loadingBar
 let progress
-function 初始化() {
-    loadingBar = document.querySelector(".loading-bar");
-    progress = document.querySelector(".loading-bar .progress");
-    if (!loadingBar && !progress) {console.error("无法获取 loadingBar 或 progress 元素。")}
-}
 
 var timer = null;
 
@@ -44,5 +39,3 @@ document.addEventListener("pjax:complete", function () {
     progress.style.width = 0;
   }, 400);
 })
-
-window.addEventListener('DOMContentLoaded', () => 初始化());

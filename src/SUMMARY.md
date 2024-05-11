@@ -95,6 +95,4 @@
 [任务清单](To_do.md)
 [关于哈姆语言之书](About_Book.md)
 [关于哈姆论坛](Community.md)
-[关于 Character_substitution](Character_substitution.md)
-[关于 MHDH 世界线](MHDH/index.md)
 [贡献者名单](Contributors/index.md)

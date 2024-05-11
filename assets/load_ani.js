@@ -1,6 +1,5 @@
-let loadingBar
-let progress
-
+var loadingBar = document.querySelector(".loading-bar");
+var progress = document.querySelector(".loading-bar .progress");
 var timer = null;
 
 // Pjax 开始时执行的函数
@@ -38,4 +37,4 @@ document.addEventListener("pjax:complete", function () {
   setTimeout(function () {
     progress.style.width = 0;
   }, 400);
-})
+});

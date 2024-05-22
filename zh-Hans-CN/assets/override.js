@@ -36,6 +36,33 @@
 			case "arabic":
 				giscus_lang = "ar";
 				break;
+			case "catalan":
+				giscus_lang = "ca";
+				break;
+			case "danish":
+				giscus_lang = "da";
+				break;
+			case "deutsch":
+				giscus_lang = "de";
+				break;
+			case "persian":
+				giscus_lang = "fa";
+				break;
+			case "greek":
+				giscus_lang = "gr";
+				break;
+			case "serbian":
+				giscus_lang = "hbs";
+				break;
+			case "hebrew":
+				giscus_lang = "he";
+				break;
+			case "hungarian":
+				giscus_lang = "hu";
+				break;
+			case "italian":
+				giscus_lang = "it";
+				break;
 			default:
 				giscus_lang = "zh-CN";
 				break;

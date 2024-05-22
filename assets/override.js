@@ -1,4 +1,4 @@
-(function() {
+(function () {
 	// giscus 评论系统
 	//// 若当前 mdbook 主题为 Light 或 Rust ，则将 giscus 主题设置为 light
 	const getCurrentTheme = function () {
@@ -72,14 +72,14 @@
 
 	// translate-js 翻译系统
 	function initTranslate() {
-		try{
+		try {
 			translate.service.use('client.edge');
 			translate.listener.start();
 			translate.language.setLocal('chinese_simplified');
 			translate.setAutoDiscriminateLocalLanguage();
 			translate.language.setUrlParamControl();
 			translate.ignore.class.push('notTranslate');
-			translate.nomenclature.append('chinese_simplified','english',`
+			translate.nomenclature.append('chinese_simplified', 'english', `
 				哈姆语言之书=Hamud Book
 				哈姆语=the language of Hamud
 				哈姆德=the Hamud
@@ -93,18 +93,38 @@
 			`);
 			translate.execute();
 		}
-		catch(e){
+		catch (e) {
 			console.log('翻译系统出错：' + e);
 		}
+	}
+
+
+	var loadingBar = document.querySelector(".loading-bar");
+	var progress = document.querySelector(".loading-bar .progress");
+	var timer = null;
+
+	function initAni() {
+		loadingBar = document.querySelector(".loading-bar");
+		progress = document.querySelector(".loading-bar .progress");
+	}
+
+	function endLoad() {
+		clearInterval(timer);
+		progress.style.width = "100%";
+		loadingBar.classList.remove("loading");
+
+		setTimeout(function () {
+			progress.style.width = 0;
+		}, 400);
 	}
 
 
 	// PJAX 集成
 	let pjax;
 	//// 初始化 PJAX
-	function initPjax(){
-		try{
-			const Pjax = window.Pjax || function() {};
+	function initPjax() {
+		try {
+			const Pjax = window.Pjax || function () { };
 			pjax = new Pjax({
 				selectors: [
 					"head title",
@@ -118,7 +138,7 @@
 				]
 			})
 		}
-		catch(e){
+		catch (e) {
 			console.log('PJAX 出错：' + e);
 		}
 	}
@@ -128,6 +148,7 @@
 	function initialize() {
 		initPjax();	 //// 初始化 PJAX
 		initTranslate();	//// 初始化页面翻译
+		initAni();    //// 初始化加载动画
 		SetupGiscus(getCurrentLanguage(), getCurrentTheme());   //// 初始化评论系统
 	}
 
@@ -136,11 +157,31 @@
 	//// 网页加载完毕后触发
 	window.addEventListener('DOMContentLoaded', () => initialize());
 	//// 翻译执行完成后触发
-	translate.listener.renderTaskFinish = function() {
+	translate.listener.renderTaskFinish = function () {
 		SetupGiscus(getCurrentLanguage(), getCurrentTheme());
 	}
+	//// Pjax 开始时执行的函数
+	document.addEventListener("pjax:send", function () {
+		var loadingBarWidth = 20;
+		var MAX_LOADING_WIDTH = 95;
+
+		loadingBar.classList.add("loading");
+		progress.style.width = loadingBarWidth + "%";
+
+		clearInterval(timer);
+		timer = setInterval(function () {
+			loadingBarWidth += 3;
+
+			if (loadingBarWidth > MAX_LOADING_WIDTH) {
+				loadingBarWidth = MAX_LOADING_WIDTH;
+			}
+
+			progress.style.width = loadingBarWidth + "%";
+		}, 500);
+	});
 	//// 监听 Pjax 完成后，重新加载上面的函数
 	document.addEventListener("pjax:complete", function () {
 		SetupGiscus(getCurrentLanguage(), getCurrentTheme());
+		endLoad();
 	})
 })();

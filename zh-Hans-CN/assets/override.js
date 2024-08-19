@@ -162,7 +162,8 @@
 					"#search-wrapper",
 					".content",
 					".pjax-reload"
-				]
+				],
+				cacheBust: false
 			})
 		}
 		catch (e) {

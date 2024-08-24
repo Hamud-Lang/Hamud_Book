@@ -187,7 +187,8 @@
                     '.container',
                     '[data-pjax]',
                     '.pjax-reload'
-                ]
+                ],
+                cacheBust: false
             })
         }
         catch (e) {

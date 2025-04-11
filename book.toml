@@ -1,7 +1,6 @@
 [book]
 authors = ["PJ568", "Hamud_Lang Community"]
 language = "zh"
-multilingual = true
 src = "src"
 title = "哈姆语言之书"
 description = "哈姆语言之书旨在为哈姆语言者提供标准范本。为学习哈姆语的人提供参考资料。"
